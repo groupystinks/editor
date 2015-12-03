@@ -14,6 +14,15 @@ function formatUrl(path) {
 }
 
 /*
+ *
+*/
+function formatGithubUrl(path) {
+  const adjustedPath = path[0] !== '/' ? '/' + path : path;
+
+  return config.dataUrl + adjustedPath;
+}
+
+/*
  * This silly underscore is here to avoid a mysterious "ReferenceError: ApiClient is not defined" error.
  * See Issue #14. https://github.com/erikras/react-redux-universal-hot-example/issues/14
  *
@@ -42,6 +51,33 @@ class _ApiClient {
   }
 }
 
-const ApiClient = _ApiClient;
+class _GithubApiClient {
+  constructor(req) {
+    methods.forEach((method) =>
+      this[method] = (path, { params, data } = {}) => new Promise((resolve, reject) => {
+        const request = superagent[method](formatGithubUrl(path));
 
-export default ApiClient;
+        if (params) {
+          request.query(params);
+        }
+
+        if (__SERVER__ && req.get('cookie')) {
+          request.set('cookie', req.get('cookie'));
+        }
+
+        if (data) {
+          request.send(data);
+        }
+
+        request.end((err, { body } = {}) => err ? reject(body || err) : resolve(body));
+      }));
+  }
+}
+
+const ApiClient = _ApiClient;
+const GithubApiClient = _GithubApiClient;
+
+export {
+  ApiClient,
+  GithubApiClient
+};

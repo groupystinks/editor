@@ -14,6 +14,7 @@ module.exports = Object.assign({
   port: process.env.PORT,
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
+  dataUrl: 'https://api.github.com/repos/groupystinks/skrik-view/contents/data',
   app: {
     title: 'edtior',
     description: '',
