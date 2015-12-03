@@ -1,0 +1,49 @@
+@import "../../theme/variables.scss";
+
+@keyframes spinKeepKeyframe {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes spinRemoveKeyframe {
+  0% {
+    transform: rotateZ(0deg);
+    border-color: rgba(0, 153, 0, 1);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+    border-color: rgba(0, 153, 0, 0);
+  }
+}
+
+
+.first {
+  width: 30px;
+  height: 40px;
+  margin: -10px -15px 0 10px;
+  border-left: 3px solid $irishGreen;
+  animation: spinKeepKeyframe 2s 1 linear;
+}
+
+.second {
+  width: 20px;
+  height: 30px;
+  margin: 5px;
+  border-left: 3px solid;
+  border-color: rgba(0, 153, 0, 0);
+  animation: spinRemoveKeyframe 2s 1 linear;
+}
+
+.third {
+  width: 10px;
+  height: 20px;
+  margin: 5px;
+  border-left: 3px solid;
+  border-color: rgba(0, 153, 0, 0);
+  animation: spinRemoveKeyframe 2s 1 linear;
+}

@@ -1,0 +1,21 @@
+@import "../../theme/variables.scss";
+
+.header {
+  padding-top: 20px;
+  display: flex;
+}
+
+.logo {
+  display: inherit;
+  color: $irishGreen;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-left: 12px;
+}
+
+.logoEng {
+  font-family: "Roboto", sans-serif;
+  color: $irishGreen;
+  margin-right: 12px;
+}
