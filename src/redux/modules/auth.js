@@ -1,12 +1,12 @@
-const LOAD = 'redux-example/auth/LOAD';
-const LOAD_SUCCESS = 'redux-example/auth/LOAD_SUCCESS';
-const LOAD_FAIL = 'redux-example/auth/LOAD_FAIL';
-const LOGIN = 'redux-example/auth/LOGIN';
-const LOGIN_SUCCESS = 'redux-example/auth/LOGIN_SUCCESS';
-const LOGIN_FAIL = 'redux-example/auth/LOGIN_FAIL';
-const LOGOUT = 'redux-example/auth/LOGOUT';
-const LOGOUT_SUCCESS = 'redux-example/auth/LOGOUT_SUCCESS';
-const LOGOUT_FAIL = 'redux-example/auth/LOGOUT_FAIL';
+const LOAD = 'auth/LOAD';
+const LOAD_SUCCESS = 'auth/LOAD_SUCCESS';
+const LOAD_FAIL = 'auth/LOAD_FAIL';
+const LOGIN = 'auth/LOGIN';
+const LOGIN_SUCCESS = 'auth/LOGIN_SUCCESS';
+const LOGIN_FAIL = 'auth/LOGIN_FAIL';
+const LOGOUT = 'auth/LOGOUT';
+const LOGOUT_SUCCESS = 'auth/LOGOUT_SUCCESS';
+const LOGOUT_FAIL = 'auth/LOGOUT_FAIL';
 
 const initialState = {
   loaded: false
@@ -80,7 +80,7 @@ export function isLoaded(globalState) {
 export function load() {
   return {
     types: [LOAD, LOAD_SUCCESS, LOAD_FAIL],
-    promise: (client) => client.get('/loadAuth')
+    promise: (client) => client.api.get('/loadAuth')
   };
 }
 
@@ -98,6 +98,6 @@ export function login(name) {
 export function logout() {
   return {
     types: [LOGOUT, LOGOUT_SUCCESS, LOGOUT_FAIL],
-    promise: (client) => client.get('/logout')
+    promise: (client) => client.api.get('/logout')
   };
 }

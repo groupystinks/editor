@@ -6,7 +6,7 @@ import compression from 'compression';
 import httpProxy from 'http-proxy';
 import path from 'path';
 import createStore from './redux/create';
-import {ApiClient} from './helpers/ApiClient';
+import {ApiClient, GithubApiClient} from './helpers/ApiClient';
 import Html from './helpers/Html';
 import PrettyError from 'pretty-error';
 import http from 'http';
@@ -57,9 +57,10 @@ app.use((req, res) => {
     // hot module replacement is enabled in the development env
     webpackIsomorphicTools.refresh();
   }
-  const client = new ApiClient(req);
+  const api = new ApiClient(req);
+  const githubApi = new GithubApiClient(req);
 
-  const store = createStore(reduxReactRouter, getRoutes, createHistory, client);
+  const store = createStore(reduxReactRouter, getRoutes, createHistory, {api, githubApi} );
 
   function hydrateOnClient() {
     res.send('<!doctype html>\n' +
