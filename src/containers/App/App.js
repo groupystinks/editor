@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { isLoaded as isInfoLoaded, load as loadInfo } from 'redux/modules/info';
 import { isLoaded as isAuthLoaded, load as loadAuth, logout } from 'redux/modules/auth';
+import { isGroupLoaded, loadGroup as loadGroup } from 'redux/modules/word';
 import { InfoBar } from 'components';
 import connectData from 'helpers/connectData';
 
@@ -13,6 +14,10 @@ function fetchData(getState, dispatch) {
   if (!isAuthLoaded(getState())) {
     promises.push(dispatch(loadAuth()));
   }
+  if (!isGroupLoaded(getState())) {
+    promises.push(dispatch(loadGroup()));
+  }
+
   return Promise.all(promises);
 }
 

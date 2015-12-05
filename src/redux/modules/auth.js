@@ -87,7 +87,7 @@ export function load() {
 export function login(name) {
   return {
     types: [LOGIN, LOGIN_SUCCESS, LOGIN_FAIL],
-    promise: (client) => client.post('/login', {
+    promise: (client) => client.api.post('/login', {
       data: {
         name: name
       }
