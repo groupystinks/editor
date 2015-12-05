@@ -34,7 +34,6 @@ export default (store) => {
     <Route path="/" component={App}>
       { /* Home (main) route */ }
       <IndexRoute component={Home}/>
-
       { /* Routes requiring login */ }
       <Route onEnter={requireLogin}>
         <Route path="chat" component={Chat}/>

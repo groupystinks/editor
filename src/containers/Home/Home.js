@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import { Header } from 'containers';
+import React, { Component, PropTypes } from 'react';
+import { Group, Header } from 'containers';
 
-class Home extends Component {
+export default class Home extends Component {
+  static propTypes = {
+    children: PropTypes.object,
+  }
   render() {
     return (
       <div>
         <Header />
+        <Group />
       </div>
     );
   }
 }
-
-export default Home;

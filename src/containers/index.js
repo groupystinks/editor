@@ -1,5 +1,6 @@
 export App from './App/App';
 export Chat from './Chat/Chat';
+export Group from './Group/Group';
 export Header from './Header/Header';
 export Home from './Home/Home';
 export Login from './Login/Login';

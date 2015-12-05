@@ -18,7 +18,7 @@ export default function word(state = initalState, action = {}) {
         ...state,
         groupLoading: false,
         groupLoaded: true,
-        data: action.result
+        groupData: action.result
       };
     case LOAD_GROUP_FAIL:
       return {
