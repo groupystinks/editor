@@ -3,6 +3,8 @@ import {LineClamp} from 'components';
 import radium from 'radium';
 import React, {Component, PropTypes, findDOMNode} from 'react';
 
+const isFirefox = __SERVER__ ? false : navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+
 const styles = {
   item: {
     root: {
@@ -81,7 +83,6 @@ class BlockListItem extends Component {
 
   render() {
     const pro = this.props.process;
-    const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
     return (
       <li
         key={pro.name}
