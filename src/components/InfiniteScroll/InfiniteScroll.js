@@ -2,12 +2,12 @@
  *  By https://github.com/guillaumervls/react-infinite-scroll
  */
 
-import React, {Component, PropTypes, findDOMNode} from 'react';
+import React, {Component, PropTypes} from 'react';
+import ReactDOM from 'react-dom';
 
 class InfiniteScroll extends Component {
   static propTypes = {
     onScroll: PropTypes.func.isRequired,
-    threshold: PropTypes.number.isRequired,
 
     children: PropTypes.node,
     isScrollContainer: PropTypes.bool,
@@ -16,8 +16,12 @@ class InfiniteScroll extends Component {
 
  static defaultProps = {
    isScrollContainer: false,
-   threshold: 250,
  };
+
+ constructor() {
+   super();
+   this._threshold = 250;
+ }
 
  componentDidMount() {
    this._attachListeners();
@@ -44,12 +48,12 @@ class InfiniteScroll extends Component {
  _lastHeight = 0;
 
  _update = () => {
-   const el = findDOMNode(this);
+   const el = ReactDOM.findDOMNode(this);
    const height = el.scrollHeight;
    const isPastThreshold = (el.scrollHeight -
      el.offsetHeight -
      el.scrollTop
-   ) < Number(this.props.threshold);
+   ) < Number(this._threshold);
 
    if ((!this._lastHeight || this._lastHeight < height) && isPastThreshold) {
      // call loadMore after _detachListeners to allow
@@ -58,7 +62,7 @@ class InfiniteScroll extends Component {
    }
  };
 
- render(): any {
+ render() {
    const style = this.props.isScrollContainer ? {overflow: 'auto'} : null;
    return (
      <div

@@ -1,5 +1,6 @@
 import clamp from './clamp';
-import React, {Component, PropTypes, findDOMNode} from 'react';
+import React, {Component, PropTypes} from 'react';
+import ReactDOM from 'react-dom';
 
 
 export default class LineClamp extends Component {
@@ -9,7 +10,7 @@ export default class LineClamp extends Component {
   };
 
   componentDidMount() {
-    clamp(findDOMNode(this.refs.content), {clamp: this.props.lines});
+    clamp(ReactDOM.findDOMNode(this.refs.content), {clamp: this.props.lines});
   }
 
   render(): any {

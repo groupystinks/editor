@@ -1,7 +1,8 @@
 import Colors from 'theme/ColorPlate';
 import {LineClamp} from 'components';
 import radium from 'radium';
-import React, {Component, PropTypes, findDOMNode} from 'react';
+import React, {Component, PropTypes} from 'react';
+import ReactDOM from 'react-dom';
 
 const isFirefox = __SERVER__ ? false : navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 
@@ -69,10 +70,10 @@ class BlockListItem extends Component {
 
   _scrollIntoView = () => {
     if (this.props.isSelected) {
-      if (findDOMNode(this).scrollIntoViewIfNeeded) {
-        findDOMNode(this).scrollIntoViewIfNeeded(false);
+      if (ReactDOM.findDOMNode(this).scrollIntoViewIfNeeded) {
+        ReactDOM.findDOMNode(this).scrollIntoViewIfNeeded(false);
       } else {
-        findDOMNode(this).scrollIntoView(false);
+        ReactDOM.findDOMNode(this).scrollIntoView(false);
       }
     }
   }

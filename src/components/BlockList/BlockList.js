@@ -1,15 +1,7 @@
 import React, {Component, PropTypes} from 'react';
-import radium from 'radium';
 import {BlockListItem} from 'components';
 
-const styles = {
-  list: {
-    root: {
-      cursor: 'pointer',
-      userSelect: 'none',
-    }
-  }
-};
+const styles = require('./BlockList.scss');
 
 class BlockList extends Component {
   static propTypes = {
@@ -24,7 +16,7 @@ class BlockList extends Component {
 
   render() {
     return (
-      <ul style={[styles.list.root, this.style]}>
+      <ul className={styles.list}>
         {this.props.processes.map((pro, index) => (
           <BlockListItem
             index={index}
@@ -39,4 +31,4 @@ class BlockList extends Component {
   }
 }
 
-export default radium(BlockList);
+export default BlockList;

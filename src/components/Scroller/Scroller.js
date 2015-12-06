@@ -9,10 +9,11 @@
 // Inspired by:
 // https://github.com/leoselig/jsFancyScroll/
 
-import React, {Component, PropTypes, findDOMNode} from 'react';
+import React, {Component, PropTypes} from 'react';
 import radium from 'radium';
 import {InfiniteScroll} from 'components';
 import Colors from 'theme/ColorPlate';
+import ReactDOM from 'react-dom';
 
 
 const takeColumnOut = radium.keyframes({
@@ -79,7 +80,6 @@ const styles = {
 class Scroller extends Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
-    threshold: PropTypes.number.isRequired,
     style: PropTypes.object,
   };
 
@@ -114,7 +114,7 @@ class Scroller extends Component {
   }
 
   _onScroll = () => {
-    const viewport = findDOMNode(this.refs.viewport);
+    const viewport = ReactDOM.findDOMNode(this.refs.viewport);
     this.setState({
       scrollTop: viewport.scrollTop,
       scrollHeight: viewport.scrollHeight,
@@ -143,7 +143,7 @@ class Scroller extends Component {
     if (this._isMouseDown) {
       const scale = this._getScale();
       const diff = event.pageY - this._lastPageY;
-      const viewport = findDOMNode(this.refs.viewport);
+      const viewport = ReactDOM.findDOMNode(this.refs.viewport);
       const newScrollTop = (viewport.scrollTop + diff / scale);
 
       viewport.scrollTop = Math.max(0, newScrollTop);
@@ -189,8 +189,7 @@ class Scroller extends Component {
         <InfiniteScroll
           onScroll={this._onScroll}
           ref="viewport"
-          style={styles.viewport}
-          threshold={this.props.threshold}>
+          style={styles.viewport}>
           <div style={styles.content}>
             {this.props.children}
           </div>
