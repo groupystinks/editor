@@ -5,24 +5,25 @@ const styles = require('./BlockList.scss');
 
 class BlockList extends Component {
   static propTypes = {
-    processes: PropTypes.array.isRequired,
-    onThreadSelected: PropTypes.func.isRequired,
-    selectedThreadTitle: PropTypes.string,
+    blocks: PropTypes.array.isRequired,
+    onBlockSelect: PropTypes.func.isRequired,
+    selectedBlockTitle: PropTypes.string,
   };
 
   _onThreadClick = (index, passage) => {
-    this.props.onThreadSelected(passage);
+    this.props.onBlockSelect(passage);
   };
 
   render() {
+    const {blocks, selectedBlockTitle} = this.props;
     return (
       <ul className={styles.list}>
-        {this.props.processes.map((pro, index) => (
+        {blocks.map((block, index) => (
           <BlockListItem
             index={index}
             key={index}
-            process={pro}
-            isSelected={pro.name === this.props.selectedThreadTitle}
+            block={block}
+            isSelected={block.name === selectedBlockTitle}
             onClick={this._onThreadClick}
           />
         ))}

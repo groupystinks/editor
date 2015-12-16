@@ -34,8 +34,9 @@ export default (store) => {
     <Route path="/" component={App}>
       { /* Home (main) route */ }
       <IndexRoute component={Home}/>
-      <Route path="thread/:threadID" component={Home} />
-          { /* <Route path="passage/:passageID" component={PassageView} /> */ }
+      <Route path="group/:groupID" component={Home}>
+        <Route path="thread/:threadID" component={Home} />
+      </Route>
       { /* Routes requiring login */ }
       <Route onEnter={requireLogin}>
         <Route path="chat" component={Chat}/>

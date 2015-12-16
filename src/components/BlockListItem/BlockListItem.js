@@ -55,7 +55,7 @@ const styles = {
 class BlockListItem extends Component {
   static propTypes = {
     index: PropTypes.number.isRequired,
-    process: PropTypes.object.isRequired,
+    block: PropTypes.object.isRequired,
     onClick: PropTypes.func.isRequired,
     isSelected: PropTypes.bool.isRequired,
   };
@@ -79,14 +79,14 @@ class BlockListItem extends Component {
   }
 
   _onClick = () => {
-    this.props.onClick(this.props.index, this.props.process);
+    this.props.onClick(this.props.index, this.props.block);
   };
 
   render() {
-    const pro = this.props.process;
+    const block = this.props.block;
     return (
       <li
-        key={pro.name}
+        key={block.name}
         onClick={this._onClick}
         style={styles.item.root}>
         <div style={[
@@ -95,12 +95,12 @@ class BlockListItem extends Component {
         ]}>
           {isFirefox ?
           (<span style={styles.item.snippet}>
-            {pro.name}{' '}
+            {block.name}{' '}
           </span>) : (
           <span style={styles.item.lineClampWrapper}>
             <LineClamp lines={2} style={styles.item.text}>
               <span style={styles.item.snippet}>
-                {pro.name}{' '}
+                {block.name}{' '}
               </span>
             </LineClamp>
           </span>)}
