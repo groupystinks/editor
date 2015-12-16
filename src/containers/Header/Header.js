@@ -1,6 +1,4 @@
 import React from 'react';
-
-// components
 import { Parallel } from 'components';
 
 const styles = require('./Header.scss');

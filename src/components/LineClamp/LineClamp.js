@@ -13,7 +13,7 @@ export default class LineClamp extends Component {
     clamp(ReactDOM.findDOMNode(this.refs.content), {clamp: this.props.lines});
   }
 
-  render(): any {
+  render() {
     return (
       <div ref="content">
         {this.props.children}
