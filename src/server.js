@@ -19,6 +19,7 @@ import {Provider} from 'react-redux';
 import qs from 'query-string';
 import getRoutes from './routes';
 import getStatusFromRoutes from './helpers/getStatusFromRoutes';
+import UserAgentWrapper from './helpers/userAgentWrapper';
 
 const pretty = new PrettyError();
 const app = new Express();
@@ -92,7 +93,9 @@ app.use((req, res) => {
       store.getState().router.then(() => {
         const component = (
           <Provider store={store} key="provider">
-            <ReduxRouter/>
+            <UserAgentWrapper radiumConfig={{userAgent: req.headers['user-agent']}}>
+              <ReduxRouter/>
+            </UserAgentWrapper>
           </Provider>
         );
 

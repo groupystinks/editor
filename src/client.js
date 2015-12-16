@@ -14,6 +14,7 @@ import {reduxReactRouter, ReduxRouter} from 'redux-router';
 
 import getRoutes from './routes';
 import makeRouteHooksSafe from './helpers/makeRouteHooksSafe';
+import UserAgentWrapper from './helpers/userAgentWrapper';
 
 const api = new ApiClient();
 const githubApi = new GithubApiClient();
@@ -46,7 +47,9 @@ const component = (
 
 ReactDOM.render(
   <Provider store={store} key="provider">
-    {component}
+    <UserAgentWrapper>
+      {component}
+    </UserAgentWrapper>
   </Provider>,
   dest
 );
