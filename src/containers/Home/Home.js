@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { Group, Header } from 'containers';
+import { Group } from 'containers';
 
 export default class Home extends Component {
   static propTypes = {
@@ -8,8 +8,8 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <Group />
+        <Group/>
+        {this.props.children}
       </div>
     );
   }

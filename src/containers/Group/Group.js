@@ -3,7 +3,6 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {pushState} from 'redux-router';
 import {loadThread} from 'redux/modules/word';
-import {Thread} from 'containers';
 import {Scroller, BlockList} from 'components';
 import {selectedGroupIDSelector} from 'utils/Selectors';
 
@@ -47,9 +46,6 @@ export default class Group extends Component {
           />
         </Scroller>
        ) : null}
-         <div className={styles.thread}>
-           <Thread/>
-         </div>
        </div>
     );
   }

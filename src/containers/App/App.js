@@ -4,6 +4,7 @@ import { isLoaded as isInfoLoaded, load as loadInfo } from 'redux/modules/info';
 import { isLoaded as isAuthLoaded, load as loadAuth, logout } from 'redux/modules/auth';
 import { isGroupLoaded, loadGroup as loadGroup } from 'redux/modules/word';
 import { InfoBar } from 'components';
+import { Header } from 'containers';
 import connectData from 'helpers/connectData';
 
 function fetchData(getState, dispatch) {
@@ -38,6 +39,7 @@ export default class App extends Component {
     const styles = require('./App.scss');
     return (
       <div className={styles.app}>
+        <Header/>
         <div>
           {this.props.children}
         </div>

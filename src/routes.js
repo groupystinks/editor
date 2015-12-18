@@ -6,7 +6,8 @@ import {
     Chat,
     Home,
     LoginSuccess,
-    NotFound
+    NotFound,
+    Thread
   } from 'containers';
 
 export default (store) => {
@@ -34,8 +35,8 @@ export default (store) => {
     <Route path="/" component={App}>
       { /* Home (main) route */ }
       <IndexRoute component={Home}/>
-      <Route path="group/:groupID" component={Home}>
-        <Route path="thread/:threadID" component={Home} />
+      <Route path="/" component={Home}>
+        <Route path="group/:groupID" component={Thread}/>
       </Route>
       { /* Routes requiring login */ }
       <Route onEnter={requireLogin}>
@@ -44,7 +45,7 @@ export default (store) => {
       </Route>
 
       { /* Catch all route */ }
-      <Route path="*" component={NotFound} status={404} />
+      <Route path="*" component={NotFound} status={404}/>
     </Route>
   );
 };
