@@ -6,9 +6,14 @@ const LOAD_THREAD = 'word/LOAD_THREAD';
 const LOAD_THREAD_SUCCESS = 'word/LOAD_THREAD_SUCCESS';
 const LOAD_THREAD_FAIL = 'word/LOAD_THREAD_FAIL';
 
+const LOAD_PASSAGE = 'word/LOAD_PASSAGE';
+const LOAD_PASSAGE_SUCCESS = 'word/LOAD_PASSAGE_SUCCESS';
+const LOAD_PASSAGE_FAIL = 'word/LOAD_PASSAGE_FAIL';
+
 const initalState = {
   groupLoaded: false,
   threadLoaded: false,
+  passageLoaded: false,
 };
 
 export default function word(state = initalState, action = {}) {
@@ -51,6 +56,25 @@ export default function word(state = initalState, action = {}) {
         threadLoaded: false,
         error: action.error
       };
+    case LOAD_PASSAGE:
+      return {
+        ...state,
+        passageLoading: true
+      };
+    case LOAD_PASSAGE_SUCCESS:
+      return {
+        ...state,
+        passageLoading: false,
+        passageLoaded: true,
+        passages: action.result
+      };
+    case LOAD_PASSAGE_FAIL:
+      return {
+        ...state,
+        passageLoading: false,
+        passageLoaded: false,
+        error: action.error
+      };
     default:
       return state;
   }
@@ -71,5 +95,17 @@ export function loadThread(groupName) {
   return {
     types: [LOAD_THREAD, LOAD_THREAD_SUCCESS, LOAD_THREAD_FAIL],
     promise: (client) => client.githubApi.get(groupName),
+  };
+}
+
+export function loadPassage(completeURL) {
+  return {
+    types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
+    promise: (client) => client.githubApi.get(completeURL, {
+      // this option is for
+      options: {
+        isCompleteURL: true
+      }
+    }),
   };
 }

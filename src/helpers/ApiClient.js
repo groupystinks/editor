@@ -16,10 +16,14 @@ function formatUrl(path) {
 /*
  *
 */
-function formatGithubUrl(path) {
-  const adjustedPath = path[0] !== '/' ? '/' + path : path;
+function formatGithubUrl(path, options) {
+  const isCompleteURL = options ? options.isCompleteURL : false;
+  if (!isCompleteURL) {
+    const adjustedPath = path[0] !== '/' ? '/' + path : path;
+    return config.dataUrl + adjustedPath;
+  }
 
-  return config.dataUrl + adjustedPath;
+  return path;
 }
 
 /*
@@ -31,8 +35,8 @@ function formatGithubUrl(path) {
 class _ApiClient {
   constructor(req) {
     methods.forEach((method) =>
-      this[method] = (path, { params, data } = {}) => new Promise((resolve, reject) => {
-        const request = superagent[method](formatUrl(path));
+      this[method] = (path, { params, data, options } = {}) => new Promise((resolve, reject) => {
+        const request = superagent[method](formatUrl(path, options));
 
         if (params) {
           request.query(params);
@@ -54,8 +58,9 @@ class _ApiClient {
 class _GithubApiClient {
   constructor(req) {
     methods.forEach((method) =>
-      this[method] = (path, { params, data } = {}) => new Promise((resolve, reject) => {
-        const request = superagent[method](formatGithubUrl(path));
+      // options is for
+      this[method] = (path, { params, data, options } = {}) => new Promise((resolve, reject) => {
+        const request = superagent[method](formatGithubUrl(path, options));
 
         if (params) {
           request.query(params);
@@ -69,7 +74,12 @@ class _GithubApiClient {
           request.send(data);
         }
 
-        request.end((err, { body } = {}) => err ? reject(body || err) : resolve(body));
+        request.end((err, { body, text } = {}) => {
+          // response is either body or text(for github raw file) part.
+          // text part should be removed when api change to firebase.
+          const response = body ? body : text;
+          return err ? reject(body || err) : resolve(response);
+        });
       }));
   }
 }

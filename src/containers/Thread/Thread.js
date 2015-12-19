@@ -3,10 +3,12 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {pushState} from 'redux-router';
 import {Scroller, BlockList} from 'components';
+import {loadPassage} from 'redux/modules/word';
 import {
+  groupsListSelector,
+  passageDownloadURLSelector,
   selectedGroupIDSelector,
   selectedThreadIDSelector,
-  groupsListSelector
 } from 'utils/Selectors';
 
 const styles = require('./Thread.scss');
@@ -15,24 +17,28 @@ const styles = require('./Thread.scss');
   state => ({
     groups: groupsListSelector(state),
     threads: state.word.threads,
+    passageDownloadURL: passageDownloadURLSelector(state),
     selectedGroup: selectedGroupIDSelector(state),
     selectedThread: selectedThreadIDSelector(state)
   }),
   dispatch => bindActionCreators({
-    pushState
+    loadPassage,
+    pushState,
   }, dispatch)
 )
 export default class ThreadView extends Component {
   static propTypes = {
     children: PropTypes.object,
+    loadPassage: PropTypes.func,
+    pushState: PropTypes.func,
     selectedThread: PropTypes.string,
     threads: PropTypes.array,
   }
 
   _onThreadSelect = (thread) => {
-    const {pushState, selectedGroup} = this.props; //eslint-disable-line
+    const {loadPassage, pushState, selectedGroup, passageDownloadURL} = this.props; //eslint-disable-line
     pushState(null, `/group/${selectedGroup}/thread/${thread.name}`);
-    // `/thread/${message.threadID}/message/${message.id}/`
+    loadPassage(passageDownloadURL);
   };
 
   render() {
@@ -48,6 +54,8 @@ export default class ThreadView extends Component {
           />
          </Scroller>
          ) : null}
+
+         {this.props.children}
       </div>
     );
   }

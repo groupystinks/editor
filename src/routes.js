@@ -7,6 +7,7 @@ import {
     Home,
     LoginSuccess,
     NotFound,
+    Passage,
     Thread
   } from 'containers';
 
@@ -36,7 +37,9 @@ export default (store) => {
       { /* Home (main) route */ }
       <IndexRoute component={Home}/>
       <Route path="/" component={Home}>
-        <Route path="group/:groupID" component={Thread}/>
+        <Route path="group/:groupID" component={Thread}>
+          <Route path="thread/:threadID" component={Passage}/>
+        </Route>
       </Route>
       { /* Routes requiring login */ }
       <Route onEnter={requireLogin}>

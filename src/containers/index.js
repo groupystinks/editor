@@ -5,5 +5,6 @@ export Header from './Header/Header';
 export Home from './Home/Home';
 export Login from './Login/Login';
 export LoginSuccess from './LoginSuccess/LoginSuccess';
+export Passage from './Passage/Passage';
 export Thread from './Thread/Thread';
 export NotFound from './NotFound/NotFound';
