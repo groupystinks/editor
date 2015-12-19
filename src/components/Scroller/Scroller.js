@@ -35,6 +35,7 @@ const styles = {
     flex: 1,
     height: '100%',
     flexGrow: 1,
+    minWidth: '200px',
     overflow: 'hidden',
     position: 'relative',
   },
@@ -174,7 +175,7 @@ class Scroller extends Component {
         onMouseLeave={this._onScrollerMouseLeave}
         style={[
           styles.scroller,
-          styles.displayNone
+          false && styles.displayNone /* display none disabled */
         ]}>
         <div
           onMouseDown={this._onScrollbarMouseDown}

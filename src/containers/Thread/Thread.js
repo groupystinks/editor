@@ -9,6 +9,8 @@ import {
   groupsListSelector
 } from 'utils/Selectors';
 
+const styles = require('./Thread.scss');
+
 @connect(
   state => ({
     groups: groupsListSelector(state),
@@ -36,7 +38,7 @@ export default class ThreadView extends Component {
   render() {
     const {threads, selectedThread} = this.props;
     return (
-      <div>
+      <div className={styles.thread}>
         {threads ? (
         <Scroller>
           <BlockList

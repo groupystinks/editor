@@ -6,8 +6,6 @@ import {loadThread} from 'redux/modules/word';
 import {Scroller, BlockList} from 'components';
 import {selectedGroupIDSelector} from 'utils/Selectors';
 
-const styles = require('./Group.scss');
-
 @connect(
   state => ({
     groups: state.word.groups,
@@ -36,17 +34,13 @@ export default class Group extends Component {
   render() {
     const {groups, selectedGroup} = this.props;
     return (
-      <div className={styles.group}>
-      {groups ? (
-        <Scroller>
-          <BlockList
-            blocks={groups}
-            onBlockSelect={this._onGroupSelected}
-            selectedBlockTitle={selectedGroup}
-          />
-        </Scroller>
-       ) : null}
-       </div>
+      <Scroller>
+        <BlockList
+          blocks={groups}
+          onBlockSelect={this._onGroupSelected}
+          selectedBlockTitle={selectedGroup}
+        />
+      </Scroller>
     );
   }
 }
