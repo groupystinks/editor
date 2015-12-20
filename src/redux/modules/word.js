@@ -102,7 +102,6 @@ export function loadPassage(completeURL) {
   return {
     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
     promise: (client) => client.githubApi.get(completeURL, {
-      // this option is for
       options: {
         isCompleteURL: true
       }

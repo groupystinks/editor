@@ -35,6 +35,7 @@ const styles = {
     flex: 1,
     height: '100%',
     flexGrow: 1,
+    maxWidth: '250px',
     minWidth: '200px',
     overflow: 'hidden',
     position: 'relative',

@@ -58,7 +58,6 @@ class _ApiClient {
 class _GithubApiClient {
   constructor(req) {
     methods.forEach((method) =>
-      // options is for
       this[method] = (path, { params, data, options } = {}) => new Promise((resolve, reject) => {
         const request = superagent[method](formatGithubUrl(path, options));
 
