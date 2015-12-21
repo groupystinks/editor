@@ -7,10 +7,8 @@ export const selectedGroupIDSelector = state => state.router.params.groupID;
 export const selectedThreadIDSelector = state => state.router.params.threadID;
 
 export const passageDownloadURLSelector = createSelector(
-  [
-    threadsListSelector,
-    selectedThreadIDSelector,
-  ],
+  threadsListSelector,
+  selectedThreadIDSelector,
   (threadsList = [], selectedThreadID) => {
     const downloadTarget = threadsList
       .filter((thread) => thread.name === selectedThreadID)

@@ -30,13 +30,15 @@ export default class ThreadView extends Component {
   static propTypes = {
     children: PropTypes.object,
     loadPassage: PropTypes.func,
+    passageDownloadURL: PropTypes.string,
     pushState: PropTypes.func,
     selectedThread: PropTypes.string,
     threads: PropTypes.array,
   }
 
   _onThreadSelect = (thread) => {
-    const {loadPassage, pushState, selectedGroup, passageDownloadURL} = this.props; //eslint-disable-line
+    const {loadPassage, pushState, selectedGroup} = this.props; //eslint-disable-line
+    const passageDownloadURL = thread.download_url;
     pushState(null, `/group/${selectedGroup}/thread/${thread.name}`);
     loadPassage(passageDownloadURL);
   };
