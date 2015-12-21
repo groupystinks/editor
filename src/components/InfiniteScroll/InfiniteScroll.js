@@ -3,15 +3,16 @@
  */
 
 import React, {Component, PropTypes} from 'react';
+import radium from 'radium';
 import ReactDOM from 'react-dom';
 
 class InfiniteScroll extends Component {
   static propTypes = {
-    onScroll: PropTypes.func.isRequired,
-
+    onScroll: PropTypes.func,
+    handleScroll: PropTypes.func,
     children: PropTypes.node,
     isScrollContainer: PropTypes.bool,
-    style: PropTypes.object,
+    style: PropTypes.object.isRequired,
   };
 
  static defaultProps = {
@@ -20,6 +21,7 @@ class InfiniteScroll extends Component {
 
  constructor() {
    super();
+   this._lastHeight = 0;
    this._threshold = 250;
  }
 
@@ -32,20 +34,22 @@ class InfiniteScroll extends Component {
  }
 
  _attachListeners() {
+   window.addEventListener('scroll', this._onScrollHandler);
    window.addEventListener('resize', this._update);
    this._update();
  }
 
  _detachListeners() {
+   window.removeEventListener('scroll', this._onScrollHandler);
    window.removeEventListener('resize', this._update);
  }
 
- _onScroll = (event: Event) => {
+ // onScroll event trigger with throtle, need better balance
+ // between performance and ux.
+ _onScrollHandler = (event) => {
    this.props.onScroll(event);
    this._update();
- };
-
- _lastHeight = 0;
+ }
 
  _update = () => {
    const el = ReactDOM.findDOMNode(this);
@@ -66,7 +70,6 @@ class InfiniteScroll extends Component {
    const style = this.props.isScrollContainer ? {overflow: 'auto'} : null;
    return (
      <div
-       onScroll={this._onScroll}
        style={[this.props.style, style]}>
        {this.props.children}
      </div>
@@ -74,4 +77,4 @@ class InfiniteScroll extends Component {
  }
 }
 
-export default InfiniteScroll;
+export default radium(InfiniteScroll);

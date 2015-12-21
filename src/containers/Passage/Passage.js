@@ -1,22 +1,23 @@
 import React, { Component, PropTypes } from 'react';
 import {connect} from 'react-redux';
+import {passageContentSelector} from 'utils/Selectors';
 
 const styles = require('./Passage.scss');
 
 @connect(
   state => ({
-    passages: state.word.passages,
+    passage: passageContentSelector(state),
   })
 )
 export default class Passage extends Component {
   static propTypes = {
-    passages: PropTypes.string,
+    passage: PropTypes.string,
   }
   render() {
-    const {passages} = this.props;
+    const {passage} = this.props;
     return (
       <div className={styles.passage}>
-        {passages}
+        {passage}
       </div>
     );
   }

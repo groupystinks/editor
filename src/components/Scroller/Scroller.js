@@ -10,6 +10,7 @@
 // https://github.com/leoselig/jsFancyScroll/
 
 import React, {Component, PropTypes} from 'react';
+import shallowCompare from 'react-addons-shallow-compare';
 import radium from 'radium';
 import {InfiniteScroll} from 'components';
 import Colors from 'theme/ColorPlate';
@@ -20,9 +21,7 @@ const takeColumnOut = radium.keyframes({
   '0%': {flexGrow: 1},
   '100%': {flexGrow: 0.00001}
 });
-
 const scrollBarWidth = '15px';
-
 const styles = {
   displayNone: {
     flexGrow: 0.00001,
@@ -33,8 +32,8 @@ const styles = {
   scroller: {
     borderRight: '1px solid ' + Colors.gray1,
     flex: 1,
-    height: '100%',
     flexGrow: 1,
+    height: '100%',
     maxWidth: '250px',
     minWidth: '200px',
     overflow: 'hidden',
@@ -87,6 +86,9 @@ class Scroller extends Component {
 
   constructor() {
     super();
+    this._isMouseDown = false;
+    this._lastPageY = 0;
+    this._previousUserSelect = '';
 
     this.state = {
       scrollTop: 0,
@@ -95,17 +97,30 @@ class Scroller extends Component {
     };
   }
 
-  _previousUserSelect = '';
-  _isMouseDown = false;
-  _lastPageY = 0;
+  componentDidMount() {
+    window.addEventListener('resize', this._onScroll);
+    this._onScroll();
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return shallowCompare(this, nextProps, nextState);
+  }
+
+  componentDidUpdate() {
+    this._onScroll();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this._onScroll);
+  }
 
   _attachBodyListeners = () => {
     document.addEventListener('mouseup', this._onDocumentMouseUp);
     document.addEventListener('mouseleave', this._onDocumentMouseUp);
     document.addEventListener('mousemove', this._onDocumentMouseMove);
     document.addEventListener('selectstart', this._onDocumentSelectStart);
-    this._previousUserSelect = (document.body.style: any).userSelect;
-    (document.body.style: any).userSelect = 'none';
+    this._previousUserSelect = (document.body.style).userSelect;
+    (document.body.style).userSelect = 'none';
   }
 
   _detachBodyListeners = () => {
@@ -130,19 +145,17 @@ class Scroller extends Component {
 
   _onScrollbarMouseDown = (event) => {
     this._attachBodyListeners();
-    this._isMouseDown = true;
     this._lastPageY = event.pageY;
     this.setState({isMouseDown: true});
   };
 
   _onDocumentMouseUp = () => {
     this._detachBodyListeners();
-    this._isMouseDown = false;
     this.setState({isMouseDown: false});
   };
 
   _onDocumentMouseMove = (event) => {
-    if (this._isMouseDown) {
+    if (this.state._isMouseDown) {
       const scale = this._getScale();
       const diff = event.pageY - this._lastPageY;
       const viewport = ReactDOM.findDOMNode(this.refs.viewport);

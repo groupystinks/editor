@@ -12,8 +12,11 @@ const LOAD_PASSAGE_FAIL = 'word/LOAD_PASSAGE_FAIL';
 
 const initalState = {
   groupLoaded: false,
-  threadLoaded: false,
   passageLoaded: false,
+  threadLoaded: false,
+  groups: [],
+  passages: {},
+  threads: [],
 };
 
 export default function word(state = initalState, action = {}) {
@@ -66,7 +69,9 @@ export default function word(state = initalState, action = {}) {
         ...state,
         passageLoading: false,
         passageLoaded: true,
-        passages: action.result
+        passages: {
+          content: action.result
+        }
       };
     case LOAD_PASSAGE_FAIL:
       return {
