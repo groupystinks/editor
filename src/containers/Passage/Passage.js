@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import ReactMarkdown from 'react-markdown';
 import {connect} from 'react-redux';
 import {passageContentSelector} from 'utils/Selectors';
 
@@ -17,7 +18,7 @@ export default class Passage extends Component {
     const {passage} = this.props;
     return (
       <div className={styles.passage}>
-        {passage}
+        <ReactMarkdown source={passage}/>
       </div>
     );
   }
