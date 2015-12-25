@@ -89,6 +89,10 @@ export function isGroupLoaded(globalState) {
   return globalState.word && globalState.word.groupLoaded;
 }
 
+export function isThreadLoaded(globalState) {
+  return globalState.word && globalState.word.threadLoaded;
+}
+
 export function loadGroup() {
   return {
     types: [LOAD_GROUP, LOAD_GROUP_SUCCESS, LOAD_GROUP_FAIL],

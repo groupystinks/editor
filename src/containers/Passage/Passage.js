@@ -18,7 +18,9 @@ export default class Passage extends Component {
     const {passage} = this.props;
     return (
       <div className={styles.passage}>
+        {passage ?
         <ReactMarkdown source={passage}/>
+        : null}
       </div>
     );
   }

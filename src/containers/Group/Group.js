@@ -9,6 +9,8 @@ import {selectedGroupIDSelector} from 'utils/Selectors';
 @connect(
   state => ({
     groups: state.word.groups,
+    threadLoaded: state.word.threadLoaded,
+    router: state.router,
     selectedGroup: selectedGroupIDSelector(state)
   }),
   dispatch => bindActionCreators({
@@ -21,10 +23,18 @@ export default class Group extends Component {
     children: PropTypes.object,
     loadThread: PropTypes.func,
     groups: PropTypes.array,
+    threadLoaded: PropTypes.bool,
+    router: PropTypes.object,
     selectedGroup: PropTypes.string,
     pushState: PropTypes.func
   }
 
+  componentDidMount() {
+    const {loadThread, threadLoaded, router} = this.props; //eslint-disable-line
+    if (router && router.params.groupID && !threadLoaded) {
+      loadThread(router.params.groupID);
+    }
+  }
   _onGroupSelected = (group) => {
     const {loadThread, pushState} = this.props; //eslint-disable-line
     pushState(null, `/group/${group.name}`);

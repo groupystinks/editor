@@ -2,7 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { isLoaded as isInfoLoaded, load as loadInfo } from 'redux/modules/info';
 import { isLoaded as isAuthLoaded, load as loadAuth, logout } from 'redux/modules/auth';
-import { isGroupLoaded, loadGroup as loadGroup } from 'redux/modules/word';
+import {
+  isGroupLoaded,
+  loadGroup as loadGroup,
+} from 'redux/modules/word';
 import { InfoBar } from 'components';
 import { Header } from 'containers';
 import connectData from 'helpers/connectData';
