@@ -3,7 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {pushState} from 'redux-router';
 import {Scroller, BlockList} from 'components';
-import {loadPassage} from 'redux/modules/word';
+import {initPassage, loadPassage} from 'redux/modules/word';
 import {
   groupsListSelector,
   passageDownloadURLSelector,
@@ -18,10 +18,13 @@ const styles = require('./Thread.scss');
     groups: groupsListSelector(state),
     threads: state.word.threads,
     passageDownloadURL: passageDownloadURLSelector(state),
+    passageLoaded: state.word.passageLoaded,
+    router: state.router,
     selectedGroup: selectedGroupIDSelector(state),
     selectedThread: selectedThreadIDSelector(state)
   }),
   dispatch => bindActionCreators({
+    initPassage,
     loadPassage,
     pushState,
   }, dispatch)
@@ -29,11 +32,21 @@ const styles = require('./Thread.scss');
 export default class ThreadView extends Component {
   static propTypes = {
     children: PropTypes.object,
+    initPassage: PropTypes.func,
     loadPassage: PropTypes.func,
     passageDownloadURL: PropTypes.string,
+    passageLoaded: PropTypes.bool,
     pushState: PropTypes.func,
+    router: PropTypes.object,
     selectedThread: PropTypes.string,
     threads: PropTypes.array,
+  }
+
+  componentDidMount() {
+    const {initPassage, passageLoaded, router} = this.props; //eslint-disable-line
+    if (router && router.params.threadID && !passageLoaded) {
+      initPassage(router.params);
+    }
   }
 
   _onThreadSelect = (thread) => {

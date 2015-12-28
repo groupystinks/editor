@@ -117,3 +117,17 @@ export function loadPassage(completeURL) {
     }),
   };
 }
+
+export function initPassage(ids) {
+  // for github
+  const completeURL = 'https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/'
+    + ids.groupID + '/' + ids.threadID;
+  return {
+    types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
+    promise: (client) => client.githubApi.get(completeURL, {
+      options: {
+        isCompleteURL: true
+      }
+    }),
+  };
+}
