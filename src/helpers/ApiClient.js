@@ -1,4 +1,5 @@
 import superagent from 'superagent';
+import Firebase from 'firebase';
 import config from '../config';
 
 const methods = ['get', 'post', 'put', 'patch', 'del'];
@@ -83,10 +84,36 @@ class _GithubApiClient {
   }
 }
 
+class _FirebaseApiClient {
+  constructor() {
+    methods.forEach((method) =>
+      this[method] = (children, {data} = {}) => new Promise((resolve, reject) => {
+        const ref = new Firebase(`${config.firebaseUrl}/${children}`);
+        switch (method) {
+          case 'get':
+            ref.on('value', (snapshot) => {
+              resolve(snapshot.val());
+            }, (error) => {
+              reject(error.code);
+            });
+
+            return true;
+          case 'post':
+            ref.set(data);
+            return true;
+          default:
+            return true;
+        }
+      }));
+  }
+}
+
 const ApiClient = _ApiClient;
 const GithubApiClient = _GithubApiClient;
+const FirebaseApiClient = _FirebaseApiClient;
 
 export {
   ApiClient,
+  FirebaseApiClient,
   GithubApiClient
 };

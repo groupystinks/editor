@@ -4,7 +4,7 @@ import { isLoaded as isInfoLoaded, load as loadInfo } from 'redux/modules/info';
 import { isLoaded as isAuthLoaded, load as loadAuth, logout } from 'redux/modules/auth';
 import {
   isGroupLoaded,
-  loadGroup as loadGroup,
+  loadGroup
 } from 'redux/modules/word';
 import { InfoBar } from 'components';
 import { Header } from 'containers';

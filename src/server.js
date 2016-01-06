@@ -6,7 +6,7 @@ import compression from 'compression';
 import httpProxy from 'http-proxy';
 import path from 'path';
 import createStore from './redux/create';
-import {ApiClient, GithubApiClient} from './helpers/ApiClient';
+import {ApiClient, FirebaseApiClient, GithubApiClient} from './helpers/ApiClient';
 import Html from './helpers/Html';
 import PrettyError from 'pretty-error';
 import http from 'http';
@@ -60,8 +60,9 @@ app.use((req, res) => {
   }
   const api = new ApiClient(req);
   const githubApi = new GithubApiClient(req);
+  const firebaseApi = new FirebaseApiClient();
 
-  const store = createStore(reduxReactRouter, getRoutes, createHistory, {api, githubApi} );
+  const store = createStore(reduxReactRouter, getRoutes, createHistory, {api, githubApi, firebaseApi} );
 
   function hydrateOnClient() {
     res.send('<!doctype html>\n' +

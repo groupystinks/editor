@@ -15,6 +15,7 @@ module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
   dataUrl: 'https://api.github.com/repos/groupystinks/skrik-view/contents/data',
+  firebaseUrl: 'https://fiery-torch-9452.firebaseio.com',
   app: {
     title: 'edtior',
     description: '',

@@ -93,10 +93,18 @@ export function isThreadLoaded(globalState) {
   return globalState.word && globalState.word.threadLoaded;
 }
 
+/* githubapi deprecated, now use firebaseApi*/
+// export function loadGroup() {
+//   return {
+//     types: [LOAD_GROUP, LOAD_GROUP_SUCCESS, LOAD_GROUP_FAIL],
+//     promise: (client) => client.githubApi.get(''),
+//   };
+// }
+
 export function loadGroup() {
   return {
     types: [LOAD_GROUP, LOAD_GROUP_SUCCESS, LOAD_GROUP_FAIL],
-    promise: (client) => client.githubApi.get(''),
+    promise: (client) => client.firebaseApi.get('groups'),
   };
 }
 

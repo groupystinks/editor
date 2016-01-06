@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 import createHistory from 'history/lib/createBrowserHistory';
 import useScroll from 'scroll-behavior/lib/useStandardScroll';
 import createStore from './redux/create';
-import {ApiClient, GithubApiClient} from './helpers/ApiClient';
+import {ApiClient, FirebaseApiClient, GithubApiClient} from './helpers/ApiClient';
 // import io from 'socket.io-client';
 import {Provider} from 'react-redux';
 import {reduxReactRouter, ReduxRouter} from 'redux-router';
@@ -18,13 +18,14 @@ import UserAgentWrapper from './helpers/userAgentWrapper';
 
 const api = new ApiClient();
 const githubApi = new GithubApiClient();
+const firebaseApi = new FirebaseApiClient();
 
 // Three different types of scroll behavior available.
 // Documented here: https://github.com/rackt/scroll-behavior
 const scrollablehistory = useScroll(createHistory);
 
 const dest = document.getElementById('content');
-const store = createStore(reduxReactRouter, makeRouteHooksSafe(getRoutes), scrollablehistory, {api, githubApi}, window.__data);
+const store = createStore(reduxReactRouter, makeRouteHooksSafe(getRoutes), scrollablehistory, {api, githubApi, firebaseApi}, window.__data);
 
 // function initSocket() {
 //   const socket = io('', {path: '/api/ws', transports: ['polling']});
