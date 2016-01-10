@@ -19,7 +19,11 @@ export default class Passage extends Component {
     return (
       <div className={styles.passage}>
         {passage ?
-        <ReactMarkdown source={passage}/>
+        <div className={styles.contentContainer}>
+          <div className={styles.contentMarked}>
+            <ReactMarkdown source={passage}/>
+          </div>
+        </div>
         : null}
       </div>
     );

@@ -4,320 +4,344 @@
     {
       "name": "sample",
       "path": "data/sample",
-      "threads": [
-          {
-            "name": "0Q2I3gX5Tg4WOieP",
-            "path": "data/sample/0Q2I3gX5Tg4WOieP",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0Q2I3gX5Tg4WOieP",
-            "type": "file"
-          },
-          {
-            "name": "0wrd1R72JLN1tMu6",
-            "path": "data/sample/0wrd1R72JLN1tMu6",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0wrd1R72JLN1tMu6",
-            "type": "file"
-          },
-          {
-            "name": "24CuyRO30ixInBw1",
-            "path": "data/sample/24CuyRO30ixInBw1",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/24CuyRO30ixInBw1",
-            "type": "file"
-          },
-          {
-            "name": "3TLNGlYTAP52T5Iz",
-            "path": "data/sample/3TLNGlYTAP52T5Iz",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/3TLNGlYTAP52T5Iz",
-            "type": "file"
-          },
-          {
-            "name": "46yT2MAEYMeW30iI",
-            "path": "data/sample/46yT2MAEYMeW30iI",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/46yT2MAEYMeW30iI",
-            "type": "file"
-          },
-          {
-            "name": "7nNSfSCkxDpmj3xO",
-            "path": "data/sample/7nNSfSCkxDpmj3xO",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/7nNSfSCkxDpmj3xO",
-            "type": "file"
-          },
-          {
-            "name": "9EEg3QhSG3x4LK0Y",
-            "path": "data/sample/9EEg3QhSG3x4LK0Y",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/9EEg3QhSG3x4LK0Y",
-            "type": "file"
-          },
-          {
-            "name": "C2tF8CODPCbtFrnb",
-            "path": "data/sample/C2tF8CODPCbtFrnb",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/C2tF8CODPCbtFrnb",
-            "type": "file"
-          },
-          {
-            "name": "Dl3O3aGxQXl77nHW",
-            "path": "data/sample/Dl3O3aGxQXl77nHW",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Dl3O3aGxQXl77nHW",
-            "type": "file"
-          },
-          {
-            "name": "FWUnS6vgL5C6yx2S",
-            "path": "data/sample/FWUnS6vgL5C6yx2S",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/FWUnS6vgL5C6yx2S",
-            "type": "file"
-          },
-          {
-            "name": "H7fc0hWGiL2HYJKc",
-            "path": "data/sample/H7fc0hWGiL2HYJKc",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/H7fc0hWGiL2HYJKc",
-            "type": "file"
-          },
-          {
-            "name": "I8VikHZ5Bv9JGlea",
-            "path": "data/sample/I8VikHZ5Bv9JGlea",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/I8VikHZ5Bv9JGlea",
-            "type": "file"
-          },
-          {
-            "name": "INFO.md",
-            "path": "data/sample/INFO.md",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/INFO.md",
-            "type": "file"
-          },
-          {
-            "name": "KIihCpaRUk5mzktw",
-            "path": "data/sample/KIihCpaRUk5mzktw",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KIihCpaRUk5mzktw",
-            "type": "file"
-          },
-          {
-            "name": "KT1SNweprU5y3O4G",
-            "path": "data/sample/KT1SNweprU5y3O4G",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KT1SNweprU5y3O4G",
-            "type": "file"
-          },
-          {
-            "name": "LOf9ZDLuEPw8nIHD",
-            "path": "data/sample/LOf9ZDLuEPw8nIHD",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LOf9ZDLuEPw8nIHD",
-            "type": "file"
-          },
-          {
-            "name": "LwqrJaBO51feiXYh",
-            "path": "data/sample/LwqrJaBO51feiXYh",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LwqrJaBO51feiXYh",
-            "type": "file"
-          },
-          {
-            "name": "NwbvyBwpMtRij1pf",
-            "path": "data/sample/NwbvyBwpMtRij1pf",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/NwbvyBwpMtRij1pf",
-            "type": "file"
-          },
-          {
-            "name": "OIYXtbcSHG2iJxR0",
-            "path": "data/sample/OIYXtbcSHG2iJxR0",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/OIYXtbcSHG2iJxR0",
-            "type": "file"
-          },
-          {
-            "name": "PUBytjrS3jKIH8wM",
-            "path": "data/sample/PUBytjrS3jKIH8wM",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/PUBytjrS3jKIH8wM",
-            "type": "file"
-          },
-          {
-            "name": "QxuvjuO2gtYD1zib",
-            "path": "data/sample/QxuvjuO2gtYD1zib",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/QxuvjuO2gtYD1zib",
-            "type": "file"
-          },
-          {
-            "name": "YLMhnQelvmfdkG2W",
-            "path": "data/sample/YLMhnQelvmfdkG2W",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/YLMhnQelvmfdkG2W",
-            "type": "file"
-          },
-          {
-            "name": "Z6P9x78ytn4gO13w",
-            "path": "data/sample/Z6P9x78ytn4gO13w",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Z6P9x78ytn4gO13w",
-            "type": "file"
-          },
-          {
-            "name": "ax24aa5RmytuPuz2",
-            "path": "data/sample/ax24aa5RmytuPuz2",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/ax24aa5RmytuPuz2",
-            "type": "file"
-          },
-          {
-            "name": "bKCkzUuSKB0mImwb",
-            "path": "data/sample/bKCkzUuSKB0mImwb",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/bKCkzUuSKB0mImwb",
-            "type": "file"
-          },
-          {
-            "name": "d0AhNPGtcRKXLO6M",
-            "path": "data/sample/d0AhNPGtcRKXLO6M",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/d0AhNPGtcRKXLO6M",
-            "type": "file"
-          },
-          {
-            "name": "eB6Wu86R2WzT9Ea1",
-            "path": "data/sample/eB6Wu86R2WzT9Ea1",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/eB6Wu86R2WzT9Ea1",
-            "type": "file"
-          },
-          {
-            "name": "g0ncWWFhT3gUuDHL",
-            "path": "data/sample/g0ncWWFhT3gUuDHL",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/g0ncWWFhT3gUuDHL",
-            "type": "file"
-          },
-          {
-            "name": "hdREp29L3DFzVoAU",
-            "path": "data/sample/hdREp29L3DFzVoAU",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdREp29L3DFzVoAU",
-            "type": "file"
-          },
-          {
-            "name": "hdRKKNXyOwO8yUT6",
-            "path": "data/sample/hdRKKNXyOwO8yUT6",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdRKKNXyOwO8yUT6",
-            "type": "file"
-          },
-          {
-            "name": "iPJRmVO7wDGPzYco",
-            "path": "data/sample/iPJRmVO7wDGPzYco",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/iPJRmVO7wDGPzYco",
-            "type": "file"
-          },
-          {
-            "name": "j5vxwejnsQ75ffrg",
-            "path": "data/sample/j5vxwejnsQ75ffrg",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j5vxwejnsQ75ffrg",
-            "type": "file"
-          },
-          {
-            "name": "j8Mh0tx1WmyBtiGJ",
-            "path": "data/sample/j8Mh0tx1WmyBtiGJ",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j8Mh0tx1WmyBtiGJ",
-            "type": "file"
-          },
-          {
-            "name": "l07KgXDcJTjKhxuC",
-            "path": "data/sample/l07KgXDcJTjKhxuC",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l07KgXDcJTjKhxuC",
-            "type": "file"
-          },
-          {
-            "name": "l4JhCf11uLmxR2mK",
-            "path": "data/sample/l4JhCf11uLmxR2mK",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l4JhCf11uLmxR2mK",
-            "type": "file"
-          },
-          {
-            "name": "m5yiYFYRhPPj0S9H",
-            "path": "data/sample/m5yiYFYRhPPj0S9H",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m5yiYFYRhPPj0S9H",
-            "type": "file"
-          },
-          {
-            "name": "m61h4eECINjii8p7",
-            "path": "data/sample/m61h4eECINjii8p7",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m61h4eECINjii8p7",
-            "type": "file"
-          },
-          {
-            "name": "mIurVol8npeQDIE6",
-            "path": "data/sample/mIurVol8npeQDIE6",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/mIurVol8npeQDIE6",
-            "type": "file"
-          },
-          {
-            "name": "n0MHPXz6uGvHgvyK",
-            "path": "data/sample/n0MHPXz6uGvHgvyK",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n0MHPXz6uGvHgvyK",
-            "type": "file"
-          },
-          {
-            "name": "n92YQzXTjRVo9i3l",
-            "path": "data/sample/n92YQzXTjRVo9i3l",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n92YQzXTjRVo9i3l",
-            "type": "file"
-          },
-          {
-            "name": "nHZhCmID7y9IwlaP",
-            "path": "data/sample/nHZhCmID7y9IwlaP",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/nHZhCmID7y9IwlaP",
-            "type": "file"
-          },
-          {
-            "name": "oZ5H87ZahHO535Uu",
-            "path": "data/sample/oZ5H87ZahHO535Uu",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oZ5H87ZahHO535Uu",
-            "type": "file"
-          },
-          {
-            "name": "oeG49Yxe8z6NiePQ",
-            "path": "data/sample/oeG49Yxe8z6NiePQ",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oeG49Yxe8z6NiePQ",
-            "type": "file"
-          },
-          {
-            "name": "pk4yWQbmXtKUz4Q1",
-            "path": "data/sample/pk4yWQbmXtKUz4Q1",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/pk4yWQbmXtKUz4Q1",
-            "type": "file"
-          },
-          {
-            "name": "rmmVTuj3o675otuS",
-            "path": "data/sample/rmmVTuj3o675otuS",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/rmmVTuj3o675otuS",
-            "type": "file"
-          },
-          {
-            "name": "s6ZBRDrxiLSFhQ9v",
-            "path": "data/sample/s6ZBRDrxiLSFhQ9v",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/s6ZBRDrxiLSFhQ9v",
-            "type": "file"
-          },
-          {
-            "name": "vnuR2q1xb2p7rtZT",
-            "path": "data/sample/vnuR2q1xb2p7rtZT",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/vnuR2q1xb2p7rtZT",
-            "type": "file"
-          },
-          {
-            "name": "wGbTU9Cm5M9IibPH",
-            "path": "data/sample/wGbTU9Cm5M9IibPH",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/wGbTU9Cm5M9IibPH",
-            "type": "file"
-          },
-          {
-            "name": "xwX6M7oo0y1M1Q3v",
-            "path": "data/sample/xwX6M7oo0y1M1Q3v",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/xwX6M7oo0y1M1Q3v",
-            "type": "file"
-          },
-          {
-            "name": "z2pGW7gM3bbTm0rn",
-            "path": "data/sample/z2pGW7gM3bbTm0rn",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/z2pGW7gM3bbTm0rn",
-            "type": "file"
-          },
-          {
-            "name": "zaXZ2voCzSgTy82I",
-            "path": "data/sample/zaXZ2voCzSgTy82I",
-            "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/zaXZ2voCzSgTy82I",
-            "type": "file"
-          }
-        ]
+      "type": "dir"
     },
     {
       "name": "在北京",
       "path": "data/在北京",
-      "type": "dir",
-      "threads": [
+      "type": "dir"
+    },
+    {
+      "name": "堅強",
+      "path": "data/堅強",
+      "type": "dir"
+    },
+    {
+      "name": "轉季",
+      "path": "data/轉季",
+      "type": "dir"
+    },
+    {
+      "name": "退伍後",
+      "path": "data/退伍後",
+      "type": "dir"
+    }
+  ],
+  "threads": {
+    "sample": {
+      "groupName": "sample",
+      "threadList": [
+        {
+          "name": "0Q2I3gX5Tg4WOieP",
+          "path": "data/sample/0Q2I3gX5Tg4WOieP",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0Q2I3gX5Tg4WOieP",
+          "type": "file"
+        },
+        {
+          "name": "0wrd1R72JLN1tMu6",
+          "path": "data/sample/0wrd1R72JLN1tMu6",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0wrd1R72JLN1tMu6",
+          "type": "file"
+        },
+        {
+          "name": "24CuyRO30ixInBw1",
+          "path": "data/sample/24CuyRO30ixInBw1",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/24CuyRO30ixInBw1",
+          "type": "file"
+        },
+        {
+          "name": "3TLNGlYTAP52T5Iz",
+          "path": "data/sample/3TLNGlYTAP52T5Iz",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/3TLNGlYTAP52T5Iz",
+          "type": "file"
+        },
+        {
+          "name": "46yT2MAEYMeW30iI",
+          "path": "data/sample/46yT2MAEYMeW30iI",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/46yT2MAEYMeW30iI",
+          "type": "file"
+        },
+        {
+          "name": "7nNSfSCkxDpmj3xO",
+          "path": "data/sample/7nNSfSCkxDpmj3xO",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/7nNSfSCkxDpmj3xO",
+          "type": "file"
+        },
+        {
+          "name": "9EEg3QhSG3x4LK0Y",
+          "path": "data/sample/9EEg3QhSG3x4LK0Y",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/9EEg3QhSG3x4LK0Y",
+          "type": "file"
+        },
+        {
+          "name": "C2tF8CODPCbtFrnb",
+          "path": "data/sample/C2tF8CODPCbtFrnb",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/C2tF8CODPCbtFrnb",
+          "type": "file"
+        },
+        {
+          "name": "Dl3O3aGxQXl77nHW",
+          "path": "data/sample/Dl3O3aGxQXl77nHW",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Dl3O3aGxQXl77nHW",
+          "type": "file"
+        },
+        {
+          "name": "FWUnS6vgL5C6yx2S",
+          "path": "data/sample/FWUnS6vgL5C6yx2S",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/FWUnS6vgL5C6yx2S",
+          "type": "file"
+        },
+        {
+          "name": "H7fc0hWGiL2HYJKc",
+          "path": "data/sample/H7fc0hWGiL2HYJKc",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/H7fc0hWGiL2HYJKc",
+          "type": "file"
+        },
+        {
+          "name": "I8VikHZ5Bv9JGlea",
+          "path": "data/sample/I8VikHZ5Bv9JGlea",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/I8VikHZ5Bv9JGlea",
+          "type": "file"
+        },
+        {
+          "name": "INFO.md",
+          "path": "data/sample/INFO.md",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/INFO.md",
+          "type": "file"
+        },
+        {
+          "name": "KIihCpaRUk5mzktw",
+          "path": "data/sample/KIihCpaRUk5mzktw",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KIihCpaRUk5mzktw",
+          "type": "file"
+        },
+        {
+          "name": "KT1SNweprU5y3O4G",
+          "path": "data/sample/KT1SNweprU5y3O4G",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KT1SNweprU5y3O4G",
+          "type": "file"
+        },
+        {
+          "name": "LOf9ZDLuEPw8nIHD",
+          "path": "data/sample/LOf9ZDLuEPw8nIHD",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LOf9ZDLuEPw8nIHD",
+          "type": "file"
+        },
+        {
+          "name": "LwqrJaBO51feiXYh",
+          "path": "data/sample/LwqrJaBO51feiXYh",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LwqrJaBO51feiXYh",
+          "type": "file"
+        },
+        {
+          "name": "NwbvyBwpMtRij1pf",
+          "path": "data/sample/NwbvyBwpMtRij1pf",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/NwbvyBwpMtRij1pf",
+          "type": "file"
+        },
+        {
+          "name": "OIYXtbcSHG2iJxR0",
+          "path": "data/sample/OIYXtbcSHG2iJxR0",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/OIYXtbcSHG2iJxR0",
+          "type": "file"
+        },
+        {
+          "name": "PUBytjrS3jKIH8wM",
+          "path": "data/sample/PUBytjrS3jKIH8wM",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/PUBytjrS3jKIH8wM",
+          "type": "file"
+        },
+        {
+          "name": "QxuvjuO2gtYD1zib",
+          "path": "data/sample/QxuvjuO2gtYD1zib",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/QxuvjuO2gtYD1zib",
+          "type": "file"
+        },
+        {
+          "name": "YLMhnQelvmfdkG2W",
+          "path": "data/sample/YLMhnQelvmfdkG2W",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/YLMhnQelvmfdkG2W",
+          "type": "file"
+        },
+        {
+          "name": "Z6P9x78ytn4gO13w",
+          "path": "data/sample/Z6P9x78ytn4gO13w",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Z6P9x78ytn4gO13w",
+          "type": "file"
+        },
+        {
+          "name": "ax24aa5RmytuPuz2",
+          "path": "data/sample/ax24aa5RmytuPuz2",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/ax24aa5RmytuPuz2",
+          "type": "file"
+        },
+        {
+          "name": "bKCkzUuSKB0mImwb",
+          "path": "data/sample/bKCkzUuSKB0mImwb",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/bKCkzUuSKB0mImwb",
+          "type": "file"
+        },
+        {
+          "name": "d0AhNPGtcRKXLO6M",
+          "path": "data/sample/d0AhNPGtcRKXLO6M",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/d0AhNPGtcRKXLO6M",
+          "type": "file"
+        },
+        {
+          "name": "eB6Wu86R2WzT9Ea1",
+          "path": "data/sample/eB6Wu86R2WzT9Ea1",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/eB6Wu86R2WzT9Ea1",
+          "type": "file"
+        },
+        {
+          "name": "g0ncWWFhT3gUuDHL",
+          "path": "data/sample/g0ncWWFhT3gUuDHL",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/g0ncWWFhT3gUuDHL",
+          "type": "file"
+        },
+        {
+          "name": "hdREp29L3DFzVoAU",
+          "path": "data/sample/hdREp29L3DFzVoAU",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdREp29L3DFzVoAU",
+          "type": "file"
+        },
+        {
+          "name": "hdRKKNXyOwO8yUT6",
+          "path": "data/sample/hdRKKNXyOwO8yUT6",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdRKKNXyOwO8yUT6",
+          "type": "file"
+        },
+        {
+          "name": "iPJRmVO7wDGPzYco",
+          "path": "data/sample/iPJRmVO7wDGPzYco",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/iPJRmVO7wDGPzYco",
+          "type": "file"
+        },
+        {
+          "name": "j5vxwejnsQ75ffrg",
+          "path": "data/sample/j5vxwejnsQ75ffrg",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j5vxwejnsQ75ffrg",
+          "type": "file"
+        },
+        {
+          "name": "j8Mh0tx1WmyBtiGJ",
+          "path": "data/sample/j8Mh0tx1WmyBtiGJ",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j8Mh0tx1WmyBtiGJ",
+          "type": "file"
+        },
+        {
+          "name": "l07KgXDcJTjKhxuC",
+          "path": "data/sample/l07KgXDcJTjKhxuC",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l07KgXDcJTjKhxuC",
+          "type": "file"
+        },
+        {
+          "name": "l4JhCf11uLmxR2mK",
+          "path": "data/sample/l4JhCf11uLmxR2mK",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l4JhCf11uLmxR2mK",
+          "type": "file"
+        },
+        {
+          "name": "m5yiYFYRhPPj0S9H",
+          "path": "data/sample/m5yiYFYRhPPj0S9H",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m5yiYFYRhPPj0S9H",
+          "type": "file"
+        },
+        {
+          "name": "m61h4eECINjii8p7",
+          "path": "data/sample/m61h4eECINjii8p7",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m61h4eECINjii8p7",
+          "type": "file"
+        },
+        {
+          "name": "mIurVol8npeQDIE6",
+          "path": "data/sample/mIurVol8npeQDIE6",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/mIurVol8npeQDIE6",
+          "type": "file"
+        },
+        {
+          "name": "n0MHPXz6uGvHgvyK",
+          "path": "data/sample/n0MHPXz6uGvHgvyK",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n0MHPXz6uGvHgvyK",
+          "type": "file"
+        },
+        {
+          "name": "n92YQzXTjRVo9i3l",
+          "path": "data/sample/n92YQzXTjRVo9i3l",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n92YQzXTjRVo9i3l",
+          "type": "file"
+        },
+        {
+          "name": "nHZhCmID7y9IwlaP",
+          "path": "data/sample/nHZhCmID7y9IwlaP",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/nHZhCmID7y9IwlaP",
+          "type": "file"
+        },
+        {
+          "name": "oZ5H87ZahHO535Uu",
+          "path": "data/sample/oZ5H87ZahHO535Uu",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oZ5H87ZahHO535Uu",
+          "type": "file"
+        },
+        {
+          "name": "oeG49Yxe8z6NiePQ",
+          "path": "data/sample/oeG49Yxe8z6NiePQ",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oeG49Yxe8z6NiePQ",
+          "type": "file"
+        },
+        {
+          "name": "pk4yWQbmXtKUz4Q1",
+          "path": "data/sample/pk4yWQbmXtKUz4Q1",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/pk4yWQbmXtKUz4Q1",
+          "type": "file"
+        },
+        {
+          "name": "rmmVTuj3o675otuS",
+          "path": "data/sample/rmmVTuj3o675otuS",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/rmmVTuj3o675otuS",
+          "type": "file"
+        },
+        {
+          "name": "s6ZBRDrxiLSFhQ9v",
+          "path": "data/sample/s6ZBRDrxiLSFhQ9v",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/s6ZBRDrxiLSFhQ9v",
+          "type": "file"
+        },
+        {
+          "name": "vnuR2q1xb2p7rtZT",
+          "path": "data/sample/vnuR2q1xb2p7rtZT",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/vnuR2q1xb2p7rtZT",
+          "type": "file"
+        },
+        {
+          "name": "wGbTU9Cm5M9IibPH",
+          "path": "data/sample/wGbTU9Cm5M9IibPH",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/wGbTU9Cm5M9IibPH",
+          "type": "file"
+        },
+        {
+          "name": "xwX6M7oo0y1M1Q3v",
+          "path": "data/sample/xwX6M7oo0y1M1Q3v",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/xwX6M7oo0y1M1Q3v",
+          "type": "file"
+        },
+        {
+          "name": "z2pGW7gM3bbTm0rn",
+          "path": "data/sample/z2pGW7gM3bbTm0rn",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/z2pGW7gM3bbTm0rn",
+          "type": "file"
+        },
+        {
+          "name": "zaXZ2voCzSgTy82I",
+          "path": "data/sample/zaXZ2voCzSgTy82I",
+          "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/zaXZ2voCzSgTy82I",
+          "type": "file"
+        }
+      ]
+    },
+    "在北京": {
+      "groupName": "在北京",
+      "threadList": [
         {
           "name": "0MjVXq8sh5h7D3zX",
           "path": "data/在北京/0MjVXq8sh5h7D3zX",
@@ -338,11 +362,9 @@
         }
       ]
     },
-    {
-      "name": "堅強",
-      "path": "data/堅強",
-      "type": "dir",
-      "threads": [
+    "堅強": {
+      "groupName": "堅強",
+      "threadList": [
         {
           "name": "0GcZh2JHm4MgD4W5",
           "path": "data/堅強/0GcZh2JHm4MgD4W5",
@@ -363,11 +385,9 @@
         }
       ]
     },
-    {
-      "name": "轉季",
-      "path": "data/轉季",
-      "type": "dir",
-      "threads": [
+    "轉季": {
+      "groupName": "轉季",
+      "threadList": [
         {
           "name": "0DFcM2xou65vQhiK",
           "path": "data/轉季/0DFcM2xou65vQhiK",
@@ -388,11 +408,9 @@
         }
       ]
     },
-    {
-      "name": "退伍後",
-      "path": "data/退伍後",
-      "type": "dir",
-      "threads": [
+    "退伍後": {
+      "groupName": "退伍後",
+      "threadList": [
         {
           "name": "07rIUW9AdeIs9oSo",
           "path": "data/退伍後/07rIUW9AdeIs9oSo",
@@ -413,5 +431,5 @@
         }
       ]
     }
-  ]
+  }
 }

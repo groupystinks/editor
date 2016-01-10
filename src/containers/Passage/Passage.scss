@@ -1,3 +1,14 @@
 .passage {
+  height: 100%;
   flex: 5;
+  margin: 4px 12px 12px 12px;
+}
+
+.contentContainer {
+  display: flex;
+  height: 100%;
+}
+
+.contentMarked {
+  overflow: auto;
 }

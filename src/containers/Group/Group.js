@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {pushState} from 'redux-router';
-import {loadThreadRe} from 'redux/modules/word';
+import {loadThread} from 'redux/modules/word';
 import {Scroller, BlockList} from 'components';
 import {
   selectedGroupIDSelector
@@ -16,7 +16,7 @@ import {
     selectedGroup: selectedGroupIDSelector(state)
   }),
   dispatch => bindActionCreators({
-    loadThreadRe,
+    loadThread,
     pushState
   }, dispatch)
 )
@@ -32,12 +32,13 @@ export default class Group extends Component {
   }
 
   componentDidMount() {
-    const {loadThreadRe, threadLoaded, router} = this.props; //eslint-disable-line
+    const {loadThread, threadLoaded, router} = this.props; //eslint-disable-line
     if (router && router.params.groupID && !threadLoaded) {
-      loadThreadRe(this._extractGroupIndex(router.params.groupID));
+      loadThread(router.params.groupID);
     }
   }
 
+  // deprecated
   _extractGroupIndex = (selectedGroupID) => {
     const {groups} = this.props;
     const selectedGroupIndex = groups
@@ -50,10 +51,10 @@ export default class Group extends Component {
   }
 
   _onGroupSelected = (group) => {
-    const {loadThreadRe, pushState} = this.props; //eslint-disable-line
+    const {loadThread, pushState} = this.props; //eslint-disable-line
     pushState(null, `/group/${group.name}`);
-    loadThreadRe(group.index);
-  };
+    loadThread(group.name);
+  }
 
   render() {
     const {groups, selectedGroup} = this.props;
