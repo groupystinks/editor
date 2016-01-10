@@ -62,7 +62,7 @@ app.use((req, res) => {
   const githubApi = new GithubApiClient(req);
   const firebaseApi = new FirebaseApiClient();
 
-  const store = createStore(reduxReactRouter, getRoutes, createHistory, {api, githubApi, firebaseApi} );
+  const store = createStore(reduxReactRouter, getRoutes, createHistory, {api, githubApi, firebaseApi});
 
   function hydrateOnClient() {
     res.send('<!doctype html>\n' +

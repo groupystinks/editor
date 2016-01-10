@@ -14,9 +14,6 @@ function formatUrl(path) {
   return '/api' + adjustedPath;
 }
 
-/*
- *
-*/
 function formatGithubUrl(path, options) {
   const isCompleteURL = options ? options.isCompleteURL : false;
   if (!isCompleteURL) {
@@ -96,11 +93,10 @@ class _FirebaseApiClient {
             }, (error) => {
               reject(error.code);
             });
-
-            return true;
+            break;
           case 'post':
             ref.set(data);
-            return true;
+            break;
           default:
             return true;
         }

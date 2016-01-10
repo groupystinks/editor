@@ -108,10 +108,19 @@ export function loadGroup() {
   };
 }
 
-export function loadThread(groupName) {
+/* githubapi deprecated, now use firebaseApi*/
+// export function loadThread(groupName) {
+//   return {
+//     types: [LOAD_THREAD, LOAD_THREAD_SUCCESS, LOAD_THREAD_FAIL],
+//     promise: (client) => client.githubApi.get(groupName),
+//   };
+// }
+
+export function loadThreadRe(groupIndex) {
+  console.log('called', 'groups/' + groupIndex + '/threads');
   return {
     types: [LOAD_THREAD, LOAD_THREAD_SUCCESS, LOAD_THREAD_FAIL],
-    promise: (client) => client.githubApi.get(groupName),
+    promise: (client) => client.firebaseApi.get('groups/' + groupIndex + '/threads'),
   };
 }
 
