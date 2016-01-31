@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import ReactMarkdown from 'react-markdown';
+import {ContentEditable} from 'components';
 import {connect} from 'react-redux';
 import {passageContentSelector} from 'utils/Selectors';
 
@@ -14,6 +14,9 @@ export default class Passage extends Component {
   static propTypes = {
     passage: PropTypes.string,
   }
+  onChangeHandler = () => {
+    // this.setState({passage})
+  }
   render() {
     const {passage} = this.props;
     return (
@@ -21,7 +24,10 @@ export default class Passage extends Component {
         {passage ?
         <div className={styles.contentContainer}>
           <div className={styles.contentMarked}>
-            <ReactMarkdown source={passage}/>
+            <ContentEditable
+              content={passage}
+              changeHandler={this.onChangeHandler}
+              isEditable={true}/>
           </div>
         </div>
         : null}
