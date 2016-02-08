@@ -47,7 +47,6 @@ module.exports = function (config) {
         extensions: ['', '.json', '.js']
       },
       plugins: [
-        new webpack.IgnorePlugin(/\.json$/),
         new webpack.NoErrorsPlugin(),
         new webpack.DefinePlugin({
           __CLIENT__: true,

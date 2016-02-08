@@ -5,12 +5,6 @@
 
 import React from 'react';
 
-const allTypes = [
-  'Html', 'HtmlBlock', 'Text', 'Paragraph', 'Header', 'Softbreak', 'Hardbreak',
-  'Link', 'Image', 'Emph', 'Code', 'CodeBlock', 'BlockQuote', 'List', 'Item',
-  'Strong', 'HorizontalRule', 'Document'
-];
-
 function tag(node, tagname, props, children) {
   node.react = {
     props,
@@ -30,9 +24,9 @@ function isGrandChildOfList(node) {
 
 function addAsChild(node, child) {
   let parent = node;
-  while (!parent.react) {
+  do {
     parent = parent.parent;
-  }
+  } while (!parent.react);
 
   parent.react.children.push(child);
 }
@@ -43,7 +37,7 @@ function createReactElement(typename, props, children) {
   return element;
 }
 
-function renderNode(block) {
+function renderNodes(block) {
   const walker = block.walker();
   const softBreak = React.createElement('br');
 
@@ -76,9 +70,7 @@ function renderNode(block) {
 
     // when reenter parent from a child
     if (leaving) {
-      // `allowedTypes` is an array containing the allowed types
-      const nodeIsAllowed = this.allowedTypes.indexOf(node.type) !== -1;
-      if (node !== doc && nodeIsAllowed) {
+      if (node !== doc) {
         addAsChild(node, createReactElement(
           node.react.tag,
           node.react.props,
@@ -101,7 +93,7 @@ function renderNode(block) {
       case 'Paragraph':
         tag(node, 'p', attrs);
         break;
-      case 'Header':
+      case 'Heading':
         tag(node, 'h' + node.level, attrs);
         break;
       case 'Softbreak':
@@ -168,4 +160,14 @@ function renderNode(block) {
         throw new Error('Unknown node type "' + node.type + '"');
     }
   }
+
+  return doc.react.children;
 }
+
+function ReactRenderer() {
+  return {
+    render: renderNodes
+  };
+}
+
+export default ReactRenderer;
