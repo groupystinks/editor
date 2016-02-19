@@ -43,7 +43,7 @@ export default class Group extends Component {
     const {groups} = this.props;
     const selectedGroupIndex = groups
       .map((group, index) => {
-        if (group.name === selectedGroupID) {
+        if (group.id === selectedGroupID) {
           return index;
         }})
       .join('');
@@ -52,8 +52,8 @@ export default class Group extends Component {
 
   _onGroupSelected = (group) => {
     const {loadThread, pushState} = this.props; //eslint-disable-line
-    pushState(null, `/group/${group.name}`);
-    loadThread(group.name);
+    pushState(null, `/group/${group.id}`);
+    loadThread(group.id);
   }
 
   render() {

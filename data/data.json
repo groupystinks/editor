@@ -1,435 +1,577 @@
 {
-  "groups":
-  [
+  "groups": [
     {
+      "id": "sample_DRcj9uUyGqLt",
       "name": "sample",
       "path": "data/sample",
       "type": "dir"
     },
     {
+      "id": "在北京_HwB5cFIM5ZJX",
       "name": "在北京",
       "path": "data/在北京",
       "type": "dir"
     },
     {
+      "id": "堅強_I33U6KdXv05T",
       "name": "堅強",
       "path": "data/堅強",
       "type": "dir"
     },
     {
+      "id": "轉季_W5jpiCDqDz2X",
       "name": "轉季",
       "path": "data/轉季",
       "type": "dir"
     },
     {
+      "id": "退伍後_PeaBMt5vDyS7",
       "name": "退伍後",
       "path": "data/退伍後",
       "type": "dir"
     }
   ],
   "threads": {
-    "sample": {
+    "sample_DRcj9uUyGqLt": {
       "groupName": "sample",
       "threadList": [
         {
           "name": "0Q2I3gX5Tg4WOieP",
           "path": "data/sample/0Q2I3gX5Tg4WOieP",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0Q2I3gX5Tg4WOieP",
-          "type": "file"
+          "type": "file",
+          "id": "0Q2I3gX5Tg4WOieP"
         },
         {
           "name": "0wrd1R72JLN1tMu6",
           "path": "data/sample/0wrd1R72JLN1tMu6",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/0wrd1R72JLN1tMu6",
-          "type": "file"
+          "type": "file",
+          "id": "0wrd1R72JLN1tMu6"
         },
         {
           "name": "24CuyRO30ixInBw1",
           "path": "data/sample/24CuyRO30ixInBw1",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/24CuyRO30ixInBw1",
-          "type": "file"
+          "type": "file",
+          "id": "24CuyRO30ixInBw1"
         },
         {
           "name": "3TLNGlYTAP52T5Iz",
           "path": "data/sample/3TLNGlYTAP52T5Iz",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/3TLNGlYTAP52T5Iz",
-          "type": "file"
+          "type": "file",
+          "id": "3TLNGlYTAP52T5Iz"
         },
         {
           "name": "46yT2MAEYMeW30iI",
           "path": "data/sample/46yT2MAEYMeW30iI",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/46yT2MAEYMeW30iI",
-          "type": "file"
+          "type": "file",
+          "id": "46yT2MAEYMeW30iI"
         },
         {
           "name": "7nNSfSCkxDpmj3xO",
           "path": "data/sample/7nNSfSCkxDpmj3xO",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/7nNSfSCkxDpmj3xO",
-          "type": "file"
+          "type": "file",
+          "id": "7nNSfSCkxDpmj3xO"
         },
         {
           "name": "9EEg3QhSG3x4LK0Y",
           "path": "data/sample/9EEg3QhSG3x4LK0Y",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/9EEg3QhSG3x4LK0Y",
-          "type": "file"
+          "type": "file",
+          "id": "9EEg3QhSG3x4LK0Y"
         },
         {
           "name": "C2tF8CODPCbtFrnb",
           "path": "data/sample/C2tF8CODPCbtFrnb",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/C2tF8CODPCbtFrnb",
-          "type": "file"
+          "type": "file",
+          "id": "C2tF8CODPCbtFrnb"
         },
         {
           "name": "Dl3O3aGxQXl77nHW",
           "path": "data/sample/Dl3O3aGxQXl77nHW",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Dl3O3aGxQXl77nHW",
-          "type": "file"
+          "type": "file",
+          "id": "Dl3O3aGxQXl77nHW"
         },
         {
           "name": "FWUnS6vgL5C6yx2S",
           "path": "data/sample/FWUnS6vgL5C6yx2S",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/FWUnS6vgL5C6yx2S",
-          "type": "file"
+          "type": "file",
+          "id": "FWUnS6vgL5C6yx2S"
         },
         {
           "name": "H7fc0hWGiL2HYJKc",
           "path": "data/sample/H7fc0hWGiL2HYJKc",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/H7fc0hWGiL2HYJKc",
-          "type": "file"
+          "type": "file",
+          "id": "H7fc0hWGiL2HYJKc"
         },
         {
           "name": "I8VikHZ5Bv9JGlea",
           "path": "data/sample/I8VikHZ5Bv9JGlea",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/I8VikHZ5Bv9JGlea",
-          "type": "file"
+          "type": "file",
+          "id": "I8VikHZ5Bv9JGlea"
         },
         {
-          "name": "INFO.md",
+          "name": "INFO",
           "path": "data/sample/INFO.md",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/INFO.md",
-          "type": "file"
+          "type": "file",
+          "id": "INFO"
         },
         {
           "name": "KIihCpaRUk5mzktw",
           "path": "data/sample/KIihCpaRUk5mzktw",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KIihCpaRUk5mzktw",
-          "type": "file"
+          "type": "file",
+          "id": "KIihCpaRUk5mzktw"
         },
         {
           "name": "KT1SNweprU5y3O4G",
           "path": "data/sample/KT1SNweprU5y3O4G",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/KT1SNweprU5y3O4G",
-          "type": "file"
+          "type": "file",
+          "id": "KT1SNweprU5y3O4G"
         },
         {
           "name": "LOf9ZDLuEPw8nIHD",
           "path": "data/sample/LOf9ZDLuEPw8nIHD",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LOf9ZDLuEPw8nIHD",
-          "type": "file"
+          "type": "file",
+          "id": "LOf9ZDLuEPw8nIHD"
         },
         {
           "name": "LwqrJaBO51feiXYh",
           "path": "data/sample/LwqrJaBO51feiXYh",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/LwqrJaBO51feiXYh",
-          "type": "file"
+          "type": "file",
+          "id": "LwqrJaBO51feiXYh"
         },
         {
           "name": "NwbvyBwpMtRij1pf",
           "path": "data/sample/NwbvyBwpMtRij1pf",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/NwbvyBwpMtRij1pf",
-          "type": "file"
+          "type": "file",
+          "id": "NwbvyBwpMtRij1pf"
         },
         {
           "name": "OIYXtbcSHG2iJxR0",
           "path": "data/sample/OIYXtbcSHG2iJxR0",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/OIYXtbcSHG2iJxR0",
-          "type": "file"
+          "type": "file",
+          "id": "OIYXtbcSHG2iJxR0"
         },
         {
           "name": "PUBytjrS3jKIH8wM",
           "path": "data/sample/PUBytjrS3jKIH8wM",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/PUBytjrS3jKIH8wM",
-          "type": "file"
+          "type": "file",
+          "id": "PUBytjrS3jKIH8wM"
         },
         {
           "name": "QxuvjuO2gtYD1zib",
           "path": "data/sample/QxuvjuO2gtYD1zib",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/QxuvjuO2gtYD1zib",
-          "type": "file"
+          "type": "file",
+          "id": "QxuvjuO2gtYD1zib"
         },
         {
           "name": "YLMhnQelvmfdkG2W",
           "path": "data/sample/YLMhnQelvmfdkG2W",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/YLMhnQelvmfdkG2W",
-          "type": "file"
+          "type": "file",
+          "id": "YLMhnQelvmfdkG2W"
         },
         {
           "name": "Z6P9x78ytn4gO13w",
           "path": "data/sample/Z6P9x78ytn4gO13w",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/Z6P9x78ytn4gO13w",
-          "type": "file"
+          "type": "file",
+          "id": "Z6P9x78ytn4gO13w"
         },
         {
           "name": "ax24aa5RmytuPuz2",
           "path": "data/sample/ax24aa5RmytuPuz2",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/ax24aa5RmytuPuz2",
-          "type": "file"
+          "type": "file",
+          "id": "ax24aa5RmytuPuz2"
         },
         {
           "name": "bKCkzUuSKB0mImwb",
           "path": "data/sample/bKCkzUuSKB0mImwb",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/bKCkzUuSKB0mImwb",
-          "type": "file"
+          "type": "file",
+          "id": "bKCkzUuSKB0mImwb"
         },
         {
           "name": "d0AhNPGtcRKXLO6M",
           "path": "data/sample/d0AhNPGtcRKXLO6M",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/d0AhNPGtcRKXLO6M",
-          "type": "file"
+          "type": "file",
+          "id": "d0AhNPGtcRKXLO6M"
         },
         {
           "name": "eB6Wu86R2WzT9Ea1",
           "path": "data/sample/eB6Wu86R2WzT9Ea1",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/eB6Wu86R2WzT9Ea1",
-          "type": "file"
+          "type": "file",
+          "id": "eB6Wu86R2WzT9Ea1"
         },
         {
           "name": "g0ncWWFhT3gUuDHL",
           "path": "data/sample/g0ncWWFhT3gUuDHL",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/g0ncWWFhT3gUuDHL",
-          "type": "file"
+          "type": "file",
+          "id": "g0ncWWFhT3gUuDHL"
         },
         {
           "name": "hdREp29L3DFzVoAU",
           "path": "data/sample/hdREp29L3DFzVoAU",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdREp29L3DFzVoAU",
-          "type": "file"
+          "type": "file",
+          "id": "hdREp29L3DFzVoAU"
         },
         {
           "name": "hdRKKNXyOwO8yUT6",
           "path": "data/sample/hdRKKNXyOwO8yUT6",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/hdRKKNXyOwO8yUT6",
-          "type": "file"
+          "type": "file",
+          "id": "hdRKKNXyOwO8yUT6"
         },
         {
           "name": "iPJRmVO7wDGPzYco",
           "path": "data/sample/iPJRmVO7wDGPzYco",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/iPJRmVO7wDGPzYco",
-          "type": "file"
+          "type": "file",
+          "id": "iPJRmVO7wDGPzYco"
         },
         {
           "name": "j5vxwejnsQ75ffrg",
           "path": "data/sample/j5vxwejnsQ75ffrg",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j5vxwejnsQ75ffrg",
-          "type": "file"
+          "type": "file",
+          "id": "j5vxwejnsQ75ffrg"
         },
         {
           "name": "j8Mh0tx1WmyBtiGJ",
           "path": "data/sample/j8Mh0tx1WmyBtiGJ",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/j8Mh0tx1WmyBtiGJ",
-          "type": "file"
+          "type": "file",
+          "id": "j8Mh0tx1WmyBtiGJ"
         },
         {
           "name": "l07KgXDcJTjKhxuC",
           "path": "data/sample/l07KgXDcJTjKhxuC",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l07KgXDcJTjKhxuC",
-          "type": "file"
+          "type": "file",
+          "id": "l07KgXDcJTjKhxuC"
         },
         {
           "name": "l4JhCf11uLmxR2mK",
           "path": "data/sample/l4JhCf11uLmxR2mK",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/l4JhCf11uLmxR2mK",
-          "type": "file"
+          "type": "file",
+          "id": "l4JhCf11uLmxR2mK"
         },
         {
           "name": "m5yiYFYRhPPj0S9H",
           "path": "data/sample/m5yiYFYRhPPj0S9H",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m5yiYFYRhPPj0S9H",
-          "type": "file"
+          "type": "file",
+          "id": "m5yiYFYRhPPj0S9H"
         },
         {
           "name": "m61h4eECINjii8p7",
           "path": "data/sample/m61h4eECINjii8p7",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/m61h4eECINjii8p7",
-          "type": "file"
+          "type": "file",
+          "id": "m61h4eECINjii8p7"
         },
         {
           "name": "mIurVol8npeQDIE6",
           "path": "data/sample/mIurVol8npeQDIE6",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/mIurVol8npeQDIE6",
-          "type": "file"
+          "type": "file",
+          "id": "mIurVol8npeQDIE6"
         },
         {
           "name": "n0MHPXz6uGvHgvyK",
           "path": "data/sample/n0MHPXz6uGvHgvyK",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n0MHPXz6uGvHgvyK",
-          "type": "file"
+          "type": "file",
+          "id": "n0MHPXz6uGvHgvyK"
         },
         {
           "name": "n92YQzXTjRVo9i3l",
           "path": "data/sample/n92YQzXTjRVo9i3l",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/n92YQzXTjRVo9i3l",
-          "type": "file"
+          "type": "file",
+          "id": "n92YQzXTjRVo9i3l"
         },
         {
           "name": "nHZhCmID7y9IwlaP",
           "path": "data/sample/nHZhCmID7y9IwlaP",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/nHZhCmID7y9IwlaP",
-          "type": "file"
+          "type": "file",
+          "id": "nHZhCmID7y9IwlaP"
         },
         {
           "name": "oZ5H87ZahHO535Uu",
           "path": "data/sample/oZ5H87ZahHO535Uu",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oZ5H87ZahHO535Uu",
-          "type": "file"
+          "type": "file",
+          "id": "oZ5H87ZahHO535Uu"
         },
         {
           "name": "oeG49Yxe8z6NiePQ",
           "path": "data/sample/oeG49Yxe8z6NiePQ",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/oeG49Yxe8z6NiePQ",
-          "type": "file"
+          "type": "file",
+          "id": "oeG49Yxe8z6NiePQ"
         },
         {
           "name": "pk4yWQbmXtKUz4Q1",
           "path": "data/sample/pk4yWQbmXtKUz4Q1",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/pk4yWQbmXtKUz4Q1",
-          "type": "file"
+          "type": "file",
+          "id": "pk4yWQbmXtKUz4Q1"
         },
         {
           "name": "rmmVTuj3o675otuS",
           "path": "data/sample/rmmVTuj3o675otuS",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/rmmVTuj3o675otuS",
-          "type": "file"
+          "type": "file",
+          "id": "rmmVTuj3o675otuS"
         },
         {
           "name": "s6ZBRDrxiLSFhQ9v",
           "path": "data/sample/s6ZBRDrxiLSFhQ9v",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/s6ZBRDrxiLSFhQ9v",
-          "type": "file"
+          "type": "file",
+          "id": "s6ZBRDrxiLSFhQ9v"
         },
         {
           "name": "vnuR2q1xb2p7rtZT",
           "path": "data/sample/vnuR2q1xb2p7rtZT",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/vnuR2q1xb2p7rtZT",
-          "type": "file"
+          "type": "file",
+          "id": "vnuR2q1xb2p7rtZT"
         },
         {
           "name": "wGbTU9Cm5M9IibPH",
           "path": "data/sample/wGbTU9Cm5M9IibPH",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/wGbTU9Cm5M9IibPH",
-          "type": "file"
+          "type": "file",
+          "id": "wGbTU9Cm5M9IibPH"
         },
         {
           "name": "xwX6M7oo0y1M1Q3v",
           "path": "data/sample/xwX6M7oo0y1M1Q3v",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/xwX6M7oo0y1M1Q3v",
-          "type": "file"
+          "type": "file",
+          "id": "xwX6M7oo0y1M1Q3v"
         },
         {
           "name": "z2pGW7gM3bbTm0rn",
           "path": "data/sample/z2pGW7gM3bbTm0rn",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/z2pGW7gM3bbTm0rn",
-          "type": "file"
+          "type": "file",
+          "id": "z2pGW7gM3bbTm0rn"
         },
         {
           "name": "zaXZ2voCzSgTy82I",
           "path": "data/sample/zaXZ2voCzSgTy82I",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/sample/zaXZ2voCzSgTy82I",
-          "type": "file"
+          "type": "file",
+          "id": "zaXZ2voCzSgTy82I"
         }
       ]
     },
-    "在北京": {
+    "在北京_HwB5cFIM5ZJX": {
       "groupName": "在北京",
       "threadList": [
         {
           "name": "0MjVXq8sh5h7D3zX",
           "path": "data/在北京/0MjVXq8sh5h7D3zX",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%9C%A8%E5%8C%97%E4%BA%AC/0MjVXq8sh5h7D3zX",
-          "type": "file"
+          "type": "file",
+          "id": "0MjVXq8sh5h7D3zX"
         },
         {
           "name": "1msOib6gcU2SBu6m",
           "path": "data/在北京/1msOib6gcU2SBu6m",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%9C%A8%E5%8C%97%E4%BA%AC/1msOib6gcU2SBu6m",
-          "type": "file"
+          "type": "file",
+          "id": "1msOib6gcU2SBu6m"
         },
         {
-          "name": "INFO.md",
+          "name": "INFO",
           "path": "data/在北京/INFO.md",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%9C%A8%E5%8C%97%E4%BA%AC/INFO.md",
-          "type": "file"
+          "type": "file",
+          "id": "INFO"
         }
       ]
     },
-    "堅強": {
+    "堅強_I33U6KdXv05T": {
       "groupName": "堅強",
       "threadList": [
         {
           "name": "0GcZh2JHm4MgD4W5",
           "path": "data/堅強/0GcZh2JHm4MgD4W5",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%A0%85%E5%BC%B7/0GcZh2JHm4MgD4W5",
-          "type": "file"
+          "type": "file",
+          "id": "0GcZh2JHm4MgD4W5"
         },
         {
           "name": "1i00MpOBeSVEbx3m",
           "path": "data/堅強/1i00MpOBeSVEbx3m",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%A0%85%E5%BC%B7/1i00MpOBeSVEbx3m",
-          "type": "file"
+          "type": "file",
+          "id": "1i00MpOBeSVEbx3m"
         },
         {
-          "name": "INFO.md",
+          "name": "INFO",
           "path": "data/堅強/INFO.md",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E5%A0%85%E5%BC%B7/INFO.md",
-          "type": "file"
+          "type": "file",
+          "id": "INFO"
         }
       ]
     },
-    "轉季": {
+    "轉季_W5jpiCDqDz2X": {
       "groupName": "轉季",
       "threadList": [
         {
           "name": "0DFcM2xou65vQhiK",
           "path": "data/轉季/0DFcM2xou65vQhiK",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E8%BD%89%E5%AD%A3/0DFcM2xou65vQhiK",
-          "type": "file"
+          "type": "file",
+          "id": "0DFcM2xou65vQhiK"
         },
         {
           "name": "1K7zTl57xE6Uj66P",
           "path": "data/轉季/1K7zTl57xE6Uj66P",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E8%BD%89%E5%AD%A3/1K7zTl57xE6Uj66P",
-          "type": "file"
+          "type": "file",
+          "id": "1K7zTl57xE6Uj66P"
         },
         {
-          "name": "INFO.md",
+          "name": "INFO",
           "path": "data/轉季/INFO.md",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E8%BD%89%E5%AD%A3/INFO.md",
-          "type": "file"
+          "type": "file",
+          "id": "INFO"
         }
       ]
     },
-    "退伍後": {
+    "退伍後_PeaBMt5vDyS7": {
       "groupName": "退伍後",
       "threadList": [
         {
           "name": "07rIUW9AdeIs9oSo",
           "path": "data/退伍後/07rIUW9AdeIs9oSo",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E9%80%80%E4%BC%8D%E5%BE%8C/07rIUW9AdeIs9oSo",
-          "type": "file"
+          "type": "file",
+          "id": "07rIUW9AdeIs9oSo"
         },
         {
           "name": "18GctnidP0eU9tDZ",
           "path": "data/退伍後/18GctnidP0eU9tDZ",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E9%80%80%E4%BC%8D%E5%BE%8C/18GctnidP0eU9tDZ",
-          "type": "file"
+          "type": "file",
+          "id": "18GctnidP0eU9tDZ"
         },
         {
-          "name": "INFO.md",
+          "name": "INFO",
           "path": "data/退伍後/INFO.md",
           "download_url": "https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/%E9%80%80%E4%BC%8D%E5%BE%8C/INFO.md",
-          "type": "file"
+          "type": "file",
+          "id": "INFO"
         }
       ]
+    }
+  },
+  "passages": {
+    "sample_DRcj9uUyGqLt": {
+      "s6ZBRDrxiLSFhQ9v": "this is sample",
+      "24CuyRO30ixInBw1": "this is sample",
+      "hdREp29L3DFzVoAU": "this is sample",
+      "g0ncWWFhT3gUuDHL": "this is sample",
+      "FWUnS6vgL5C6yx2S": "this is sample",
+      "pk4yWQbmXtKUz4Q1": "this is sample",
+      "KIihCpaRUk5mzktw": "this is sample",
+      "9EEg3QhSG3x4LK0Y": "this is sample",
+      "j5vxwejnsQ75ffrg": "this is sample",
+      "I8VikHZ5Bv9JGlea": "this is sample",
+      "0wrd1R72JLN1tMu6": "this is sample",
+      "iPJRmVO7wDGPzYco": "this is sample",
+      "n0MHPXz6uGvHgvyK": "this is sample",
+      "d0AhNPGtcRKXLO6M": "this is sample",
+      "Z6P9x78ytn4gO13w": "this is sample",
+      "l4JhCf11uLmxR2mK": "this is sample",
+      "wGbTU9Cm5M9IibPH": "this is sample",
+      "vnuR2q1xb2p7rtZT": "this is sample",
+      "eB6Wu86R2WzT9Ea1": "this is sample",
+      "QxuvjuO2gtYD1zib": "this is sample",
+      "C2tF8CODPCbtFrnb": "this is sample",
+      "Dl3O3aGxQXl77nHW": "this is sample",
+      "mIurVol8npeQDIE6": "this is sample",
+      "n92YQzXTjRVo9i3l": "this is sample",
+      "m5yiYFYRhPPj0S9H": "this is sample",
+      "ax24aa5RmytuPuz2": "this is sample",
+      "bKCkzUuSKB0mImwb": "this is sample",
+      "INFO": "# sample\n\nTitle: sample\n\nAuthor: Lai Chia-Sheng\n\nAuthor Ch: 賴佳聖\n\nRelease Date: July, 2015\n\nEdition: 1\n\nLanguage: English\n",
+      "rmmVTuj3o675otuS": "this is sample",
+      "xwX6M7oo0y1M1Q3v": "this is sample",
+      "oeG49Yxe8z6NiePQ": "this is sample",
+      "j8Mh0tx1WmyBtiGJ": "this is sample",
+      "zaXZ2voCzSgTy82I": "this is sample",
+      "hdRKKNXyOwO8yUT6": "this is sample",
+      "nHZhCmID7y9IwlaP": "this is sample",
+      "NwbvyBwpMtRij1pf": "this is sample",
+      "oZ5H87ZahHO535Uu": "this is sample",
+      "LwqrJaBO51feiXYh": "this is sample",
+      "7nNSfSCkxDpmj3xO": "this is sample",
+      "0Q2I3gX5Tg4WOieP": "this is sample",
+      "PUBytjrS3jKIH8wM": "this is sample",
+      "3TLNGlYTAP52T5Iz": "this is sample",
+      "H7fc0hWGiL2HYJKc": "this is sample",
+      "z2pGW7gM3bbTm0rn": "this is sample",
+      "YLMhnQelvmfdkG2W": "this is sample",
+      "l07KgXDcJTjKhxuC": "this is sample",
+      "m61h4eECINjii8p7": "this is sample",
+      "OIYXtbcSHG2iJxR0": "this is sample",
+      "KT1SNweprU5y3O4G": "this is sample",
+      "LOf9ZDLuEPw8nIHD": "this is sample",
+      "46yT2MAEYMeW30iI": "this is sample"
+    },
+    "堅強_I33U6KdXv05T": {
+      "0GcZh2JHm4MgD4W5": "# 堅強\n## 賴佳聖\n",
+      "1i00MpOBeSVEbx3m": "## 堅強\n\n###  (初稿)\n\n現在四點鐘，智勇端正的舉起左手嚴肅得瞄了懷上的錶，不知道外面天色怎樣了，辦公室沒有透明的對外窗因為有空調把風送進來，在奸巧不過的管理部門把處理公司最無聊繁瑣工作的部門擺在這，望去哪都是白熾的日光燈管，發呆要看著台式的燈具擺設只讓智勇覺得昏暗陳腐，不像它散發的那啵啵亮的光芒一般明朗。\n\n今天的日子很特別，阿展回來邀了個飯局請的都是舊識，當兵的老朋友上次的酒宴後一別就是十個年頭而且這次的聚會一個都不少，端看著電腦屏幕智勇看到那班人熱鬧的你來我去將酒如水飲，掃空一手又一手無盡的痛快，這次大家都願意重新聚首，是因為阿展吧，是他說過的那次喝到不醒人事後他要去大陸而短時間不再回台灣後他們把杯舉得老高甚老臭屁仔還站起來扯著嗓子說把它乾了大家應聲和著把它乾了舉起杯中金黃透亮的苦吞得一乾二淨。\n\n阿展今年該四十了，他也是，可還窩著在這連遠景都看不到的辦公間，頂著部門主管的頭銜他還得到經理室挨罵受氣時才看得到台中市不成規矩的散落在眼底，經理唸著他怎麼搞得事情辦成這個樣，同樣的嘴臉伴著責備細如蚊蠅拍翅般不痛不癢又心煩，像女人一樣嘮叨，他想；但京展可不同，他可是拼出番事業才回來的，智勇還記得他比手畫腳的對自己告訴什麼是未來、什麼是展望，聽著很像也有一小片的火被阿展催促著燃燒，但時間久了也不知是熄滅還是忘卻，直到今天他才意識到曾經的他這樣燃燒著也告訴京展：你就去大陸闖個天下！自己則暗暗囑咐要在公司裡成個氣候爬到上位。\n\n都過去了！眼前還擺著沒弄完的工作，以前的他可能會拼著跟經理比晚下班把它解決，可今天是特別的日子，他說什麼也該提早在五點前離開，阿展是他的兄弟：他們是從小玩在一塊兒的，同一所國中又入伍後又分發到同一個單位服役，熬了個二年退役，阿展比他早些退伍，離開的那天拍著他的肩膀說:你退伍的那天，我在外面等你。提早離開公司的壓力隨著兄弟這詞連結阿展使他寬心不少，多年來他已經訓練成早到與晚退的好員工，記得有一天他兒子小智在學校犯高燒還跟電話中的妻子爭論誰該告假去照顧小智，他不喜歡跟經理說這些，那種恥於開口的自己和心裡莫名的譴責都讓他懼怕，但今天他輕鬆寫意即使部門最近狀況不佳和手邊的工作還沒處理完畢，因為他那位好狗運的兄弟蘇京展終於結束了十年的艱辛創業要回來集合大家喝翻在星期五的台中市。\n\n出了辦公大樓十一月的中港路上穿心的夕陽挾著涼風襲來，他把防風的外套向胸口拉緊了些而笑著看了一會兒路上的川流不息，喧鬧與呼嘯中感覺身後的樓好輕好輕，親友每次知道他工作的地方總笑著無知的臉說道:\n\n”那環境不錯阿，那棟很漂亮。”\n\n他總以微笑回應是阿那棟蓋得很好，而假日全家出遊經過它時，妻子總是指著對孩子展示說:你看，那是把拔工作的地方。總是笑而不語該說些什麼但沒說大概也沒什麼好說的，但在無言中他感到成就感在那麼宏偉的樓裡工作同時在裡頭所有的掙扎都在他人無知的敬畏中消失的毫無影蹤，那樓這樣的巨大，自己聳立在城市的中心。\n\n快意的智勇走著手插進口袋玩弄剛買菸剩下的十塊銅板，不久前還能找回二十甚至三十塊銅板的，漲得真兇―爾後連硬幣都不會剩下了，這樣吃人的物價饞食著他走得也沒那麼暢快了，低著頭他在美村中港的街口點著了菸呷著轉進了美村路，越過SOGO得陰影光線從建築的末端撲了過來，他半開著眼望向加了光環的美村大步邁開在柏油路上的機車道，旋著腦袋的煙氣而眨著眼路上的光景閃耀而虛幻―一明一暗，在震動，在鼓燥他的渴：下班後能在喧鬧的飯館，內廚房吭啷匡啷的響著上菜，能點超過份量的菜和飲下啤酒時涮過油膩的嘴還殘留下麥香，就是要吃得好些在他能力所及的餐館能吃的豐盛。他越走向著館子的方向越是急，趕著赴宴，時而望下手腕的錶，他從來沒去過那館子，雖然離他工作的地方很近，京展找的說是台灣的顧客介紹，專門燒川菜的小館。\n\n咻――咻――咻――\n\n三聲引擎的叫響在極接近他左手的側邊劃聲呼過，他望了望早已蛇行到遠處的機車心頭臭幹幾句猴死囝仔不成子回神才知道自己已經在美村公益路口，而入夜的街口搖曳著散亂卻搶眼的廣告燈飾，街上的酒氣吸引他的注意原來是三角窗麻油雞店，店口騎樓的大廚揮動鍋鏟炒著在聚寶鍋上翻騰的雞肉，燻著酥麻的米酒與整街香得麻油灌進味蕾召喚著空腹轆轆，身邊越漸強得轟轟鳴響在他耳際不停的轟―咻―轟―咻，風掃過街直貫心頭覺得冷而又拉上防風外衣往胸口，他開始厭煩得走著應該從公司直接搭車過去的，或許阿展會早到畢竟他是主辦又十年沒見的朋友了，智勇加緊步行的速度深怕酒宴已經開始而熱鬧的大家可能在談論著他和等等一定要先為了他的遲到罰個三杯才能坐下。\n\n在公益華美街口他鬆了口氣轉進河邊的街上，前方不遠處掛著華美川菜的招牌亮著鮮紅的光，ㄧ望過去外頭沒人他心想唉呀真的遲到了但很興奮的大步前去。智勇跨過門檻進了店內門簷上的大紅流蘇搔著他的腦袋，店內都是些辣紅色的裝飾而火紅的空氣正燒著騰騰的四川香料味，櫃檯服務的女人開著唇紅念道：\n\n「先生，您幾位？」\n\n「我找人，蘇先生的訂位。」\n\n「不好意思，蘇先生還沒到喔，您要先進去嗎？」\n\n「不用了，我等他們。」\n\n他穿過流蘇步出門外試著點菸但風吹得花火像跳舞而後熄滅，又嘗試點燃再熄再熄好不容易才把那團火光點著，他餓了但又無法開飯只吸食著菸心裡一陣空好像這幾年的日子一樣，撇開不符期待的薪水不說這其他方面也全葬送了，從前會期待週末能帶著妻子和剛出生的孩子由他當駕駛開到東部的海岸，孩子看到海撐著大眼嘴巴捲成一個圓像是要發聲出喔咿〜的童音，就沿著海玩樂整天的時日全包覆在海浪潮湧的一放ㄧ收，滿足的看著在媽媽懷抱中入睡的小兒嘴角還掛著甜甜的水滴。都過去的走了去了沒了！只剩下眼前那片海。\n\n「吔！卓仔。」智勇拋了菸大叫，卓仔愣愣的從東張西望中會過神來。\n\n「吔！阿勇。」\n\n看著卓仔腫脹的肚子挺來並向他揮手智勇趕緊笑著走了幾步靠近卓仔把他的肩膀給搭上，卓仔笑的眼都瞇上那圓滾的臉幾年後並沒有什麼改變，他從卓仔時而生疏的眼神知道自己可能變了，老了或是滄桑但認為應該是時間把熟人拉成陌生，他特意在下班前化妝間裡整理了一下確定自己看似精神飽滿，梳理完畢後也真感到自己為了今天的工作而充實。卓仔說他跟老婆提到晚上不回去吃了，她也說她今晚不煮了要帶著兒子女兒去吃鐵板牛肉還要點四份把他的那份一併分完，智勇聽著也笑得咧開嘴並望向路口的過車，頭燈在那交叉的十字口中劃過，熄滅、又劃過，兩位ㄧ高一矮的人影從閃爍的燈光交織中走了出來。\n\n阿輝踱著硬底的皮鞋喀喀敲著金屬片與身邊的高者平行走著，阿輝神氣的笑著跟蘇京展對談歪著一邊高的頭時而揮舞或呷著要燒盡的煙屁股，寬鬆的西裝外套裡面襯著粗糙的白織襯衫，廉價但臉上的老態讓他的穿著稱頭不少。蘇京展戴著吊眼袋的黑邊眼鏡盯著華美街上的艷紅招牌溫厚的聽著阿輝細碎的談他一天的業務旅程，阿展身上的皮衣陪他從北京趕回台灣，雖然台中沒這樣冷，但穿得習慣也就繼續披著，皮衣裡頭配著米色的Polo衫，棕色單調但衣服細緻的質地讓他看上去沉穩而富貴。他注意到在紅招牌底下聊天的兩人其中智勇正咧笑著望向這裡，他回以溫熱的微笑而從北京到台中由冷酷至涼爽甚至走了好多年才得已從異鄉飛回原鄉的難以描述的悸動就笑在他臉上。\n\n大伙在店外聊了起來京展誠摯的和卓仔智勇握過手並拍上智勇的肩說好久不見，卓仔忙著把菸遞上瞇著喜氣帶魚尾的笑眼說呷菸喔，四個人都取了菸叼上而卓仔智勇取出打火機分別把阿輝京展和自己的都點上，燃著菸都深吸了一口後暢快的開始笑鬧幾個人熟知的笑話而重新拾起老時光的默契，幾分鐘前初見的生疏都破碎轉為對一會兒晚宴的期待，了結了一根菸的時間大伙決定不等臭屁仔而相互推送著進入餐館，經理大笑得迎來迎接四人。\n\n「二樓請，二樓請。」經理指出樓梯的方向說道，阿展推了三人先走自己跟林經理說了幾句後便跟了上去。\n\n「十年阿，想不到阿展還記得起我們這群，下午在高鐵接他，不過才剛下飛機就上了火車回來台中。」阿輝邊說著邊拉扯著西裝外套脫去。\n\n「這事情隔了也真久，倒是我老婆還記得京展，結婚時還靠了阿展和你們幾個東借西求才弄了幾台禮車省點租金，當時真是窮阿。」卓仔雙手笨重的擱在桌上，時而選弄碟子裡的花生，拿了幾顆往嘴裡丟讓忙著嚼著。\n\n遠處傳來經理的笑聲跟隨著蘇京展在前頭抓了ㄧ瓶墨藍朝他們走來，智勇稍瞟了酒瓶上的招牌而慶幸自己沒順道帶瓶威士忌來，便笑著說，\n\n「唉京展，這位子你的。」說完拍拍兩下身旁的布織坐墊。\n\n「蘇老闆今天很隆重，特別帶了這瓶好酒。」\n\n經理熟悉的拉開酒瓶上的封套，嘴裡滔滔不絕把場子熱著。\n\n「菜也要好吃搭上好酒才能稱絕美。」阿輝插上經理的話說。\n\n「阿哈哈，哈哈，這當然阿，我們館子就這小規模，但來的都是大客戶，老闆們今天都是貴賓，菜色ㄧ定包您滿意。」\n\n啵―的一聲瓶上的木栓蓋被拿下接著眾人聽著墨藍裡咕嚕咕嚕迴響，流出的在玻璃杯中靜靜躺臥，ㄧ杯，兩杯，三杯，四杯都被送到四位貴賓手裡，\n\n「各位稍後，菜等等就上。」\n\n蘇京展率先舉起了酒杯停在桌子正中央的燈光下，杯中的深沉開始搖曳起來。\n\n「我們敬重逢。」\n\n敬重逢智勇與其他人附和道一口喝盡。\n\n「咳，這酒讚的。京展，什麼時候再回中國？」\n\n「沒個準，我老婆這次回來打算在台灣好好玩玩順便陪我媽，要耗上一段時間。倒是你，智勇，聽說你兒子生拉，滿月沒去真不好意思，幾歲了？」\n\n「呵，不小了，十歲，你走沒多久就蹦出來。」\n\n「阿展，我小女兒也在你去大陸後蹦了出來，看來你滿月的債又多欠上ㄧ筆囉，阿哈哈…」卓仔說著又把四個空杯添上。\n\n「ㄧ定補，ㄧ定補齊。」\n\n「算不到我這份了，省起來吧。」\n\n「阿輝，你跟你老婆兩個人可快活了，像我這樣忙工作，又結了婚，弄不好又有個小孩，今晚要出來她還說：小孩怎麼辦。當然是她去接阿，十年不見的老友聚會，她媽的真不識相。」\n\n智勇說完後大伙靜了一下，卓仔指著智勇後方說菜來了小心燙，智勇笑了笑後悔剛才的衝動，自己的話並沒有引起大家的共鳴，他本來是想把阿輝膝下無子的事給圓了才大罵對老婆的不滿，她總是要兒子學鋼琴妄想兒子會有一天優雅的演奏成個琴師；還得學畫！從來也就不明白弄得滿手繽紛而帶ㄧ股臘味的兒子，畫出來的作品有何天份，一直以來都是女人的幻想，還得由他來概括承受付錢接送，現在全成了他的責任或是義務被視為理所當然。他隨手扒了幾口飯配著鍋巴蝦，便舉起酒杯。\n\n「我們敬京展事業有成。」\n\n「哪裡的話，還不就處理ㄧ些狗屁爐灶的事來賺錢，今天就不聊這個吧。」京展說著並回敬他們。\n\n「這臭屁仔也真是的，菜都來了還不見人影，等等ㄧ定又一堆理由。」阿輝邊吃隨口唸道。\n\n「之前他遲到要罰酒，智勇吧，逼著他喝，他整整唬了幾十分鐘阿勇還拗不過他喝，最後只能大家笑笑而作罷，哈哈。」\n\n「你們知道他那次說什麼嗎，他說開車到一半，突然電話響起一個大客戶說決定要簽約，現在就要，臭屁仔說，是、是，確定現在就要？我還有個…然後大客戶就說過了現在未來就很難說了，應該很多人現在有空。臭屁仔差點沒在車上跳起來說：馬上就到。」\n\n「呵。」「阿哈哈。」「你還真相信他喔。」\n\n智勇搖搖頭表示當然不相信後阿輝才鬆了口氣。\n\n張經理說得沒錯，上下共兩樓的小館，不到七點人就灑滿了喧鬧著吃菜喝酒，被先生來小姐去的服務生還沒來得及下樓端菜，又被叫住了客人要點菜點畢後又覆誦菜名，真忙了的不行就站定在廚子上菜的窗口玩笑幾句再開工；而顧客是喝醉茫了還是真老主顧熟悉地盤了，大聲嚷嚷的像是在比誰響亮誰的事業就大，這桌拍著桌子笑得開了，隔個走道就全桌起立吆喝KanPai，裡頭要不西裝俐落，不然就輕著高爾夫的休閒裝，真有幾分大人物的氣派。\n\n服務生領著ㄧ位老風流，頭的兩側削的精光無髮只剩突出的頭側骨，其餘的黑髮全往後梳定成一塊井然有序的畦陌，接近二樓的中段時服務生示意後走了，在七號桌幾位熟悉的臉孔但陌生的朋友正貌似認真的在聽其中ㄧ位說話，他笑起他的嘴走過去並抓著西裝口袋裡的東西。\n\n「吔，臭屁仔，坐坐坐坐。」卓仔敲點著身旁的位子說道。\n\n「來來來，各位請笑納。」臭屁仔掏出名片分送給四人。\n\n「陳經理，穿得這樣趴哩趴哩最近改幹時尚業阿。」阿輝。\n\n「還是搞老本行啊，你看我裝成這樣不像是比十年前還年輕，我越活越青春阿，阿輝。」\n\n「我看不止年輕十歲，現在抓回去教召別人還以為你剛入伍。」\n\n「來來先吃菜墊墊胃，等等再跟你算遲到的帳。」\n\n「不跟你說你都不知道，今天…」\n\n「快吃吧，又加點菜了，等等就來。」\n\n「記得剛上成功嶺，快一個禮拜沒有跟人聊過天，第一個找我說話的是臭屁仔，問我懇親誰要來接，但到後來都是再講他的女朋友要來接，還給我看她的照片說他們的故事。」\n\n「那照片我看過，故事也聽過。」\n\n「我們都見識過吧。」\n\n「大概有七八個人吧，當時，說要在退伍後好好的喝ㄧ喝，同梯的嘛，結果來的就我們五個。」\n\n「那天臭屁仔有來我倒是蠻意外的。」\n\n「他不只有來，還喝得茫茫都站不穩，哈哈。」\n\n「八月天在成功嶺，每天要上山頭的野地，還得全副武裝，行軍時愛國忠黨的口號軍歌喊個沒完。這下好了，在大陸做生意搞了也十年，該怎麼說，昨是今非嗎？」\n\n「我們接的國民義務不就是國民黨留下的爛攤子嗎，信了國家就犯了京展得昨是今非，不信了的像我，又能做些什麼？」\n\n「我是沒想那麼多，二年嘛，欠國家的，牙齒咬著大家一起苦笑個兩年也就完了。」\n\n「我在外島的時候，衛哨發現有疑似大陸的漂流漁船，上面下令射擊，要開槍時幾個阿兵哥們都耳語那只是條破空船，接著就開槍，我們把它當靶在射，消耗子彈，後來撈上岸，死了四個，漁民。」\n\n「哪個軍對不死人，自己人都會死了，還況是敵國。」\n\n「戒嚴嘛，不開行嗎？一天要晚在防諜防的是什麼，緊張什麼，就是這個樣嘛。換作是現在，就得馬上就起來還提供食宿醫療也說不定。」\n\n「不同代不同命啊，像我兒子，不用當兵就不說了，得補習的要才藝的都讓他去學，說是自由發揮適性成長，也是得花大把銀子去栽培，以前人怎麼負擔得起，沒送去當養子還給你基本教育已經很不錯了。」\n\n「像我父親在他那個時代，幹個底層公務員還得時時被外省人刁難，沒血統又不是黨員，咬著牙領那微薄的薪水不就為ㄧ個家。」\n\n「確實阿，時代差異，公司裡的年輕人說不幹就不幹，別說入門了，才做工ㄧ個月就跟我說沒興趣提辭職，連皮毛都沒碰到還講興趣不興趣。」\n\n「每個看起來都年輕有為，做起事來都事與願違。」\n\n「也別跟我們老爸的那個時代比了，哪有的比，連比起我們都是天差地遠，讀的學歷跟高樓一樣，但工作能力跟積木差不多，ㄧ碰就倒。」\n\n「來啦！乾這一杯，敬我們一路走來，把家庭照顧得好，雖然不ㄧ定讓父母驕傲，但至少不讓他們丟臉，不ㄧ定供養的他們富貴，但至少一個大家子都衣食無缺。」\n\n「乾啦！我們在敬京展，雖然是創業的大老闆，但回台灣第一個想到的就是我們。」\n\n「不是說不談這個了嘛，來來，給阿輝斟杯酒，謝罪ㄧ下。倒滿嘛，倒滿！」\n\n「都喝都喝，都還沒為京展接風，千里迢迢的值也不止ㄧ杯酒，都喝我們都喝。」\n\n「我也一塊乾上，這酒配上川菜真不簡單…。其實離開了台灣這麼久，不是沒有想過要回來，每次都讓我媽來往兩岸，也都過意不去，更是想到剛出社會賺了點錢可以時常跟大家像今天這樣，那多好，想想真有恍如隔世的感覺，在那的生活又是另一個世界了。當地的客戶玩什麼我就玩什麼，友人說哪的房子好就拼死也弄點錢砸下給買了，那裡好像也有一點家的感覺，台灣除了剩點舊識和記憶之外，都在離開之後完全空白了，偶爾跟人聊起自己是台灣來的，都是愣愣的微笑。想回來嗎？想阿，生意不順或是覺得自己真得有點成就時就熱著心想回來，但想到在部隊和剛出社會的日子讓我卻步，是啦堅強一點都可以熬過來，你們不也是這樣過嗎，還有那麼多人搞得離婚家破沒錢養小孩，而我們今天在這小四川還都是走過來的革命情感。但我就是想到過去的苦日子沒錢沒女人在自己的家鄉還被當狗衣樣使喚，還有我寧願相信有意義的為國服務挺起腰桿子入伍服役，看看，有人裝病的裝病，被派去幹涼缺去幹，入伍前一天還剃了個大光頭告訴女朋友我得去保家衛國，但我比誰都清楚我是怎麼離開的。想到這原本燃起的一點回鄉的情愫都萬念俱灰，我只想都賺錢，多把幾間小廠給吞了，多找些女人，要不然還能做什麼，總比回台灣好。唉，我可能醉了，這酒好，這酒好。」\n\n桌上靜了下來，川菜館持續鬧著，但剩下的客人都是酒客，盡叫酒不再點菜，智勇默默的把杯中深沉的棕鬱給吞下，透過那層棕穿越杯底他還看見桌上四人依舊靜默。這真是好酒，喝這款好的酒今天應該要開心作結的，或許等等還有晚上的活動，或許…　他拍了拍臭屁仔要他把酒瓶遞過來，智勇幫大夥加了酒又遞回原主都說了聲謝謝後桌上又聊了起來，他閒說著幾句又想著要提議今晚的後續但電話嘩啦嘩啦的響了起來，急忙抓了手機但看到來電者後悻悻然的呢喃說我接個電話走到樓梯間把它接通，鈴聲止息後傳來一個更尖銳的女人聲音。\n\n「王智勇，小孩不用接，現在家也不用回了是不是？還要我打給你，當你的司機還要拜託你給載是不是？快回來了，幾點，到哪接你？」\n\n「十一點半，在華美公益路口。」\n\n「還要到十一點半，你有沒有搞錯？我十一點就去。」\n\n說完就掛斷，他看了看錶已經十點鐘，本想著要說自己搭車回去，但知道她一定回說你錢太多是不是？他無從辯解更不想反駁她；他漫走著要回到用餐的桌上，打算多喝幾杯反正今晚也沒戲了，況且說完電話後平常最不舒適的那條筋又開始抽痛著，再喝吧，再喝罷。\n\n帳單送來了智勇看著其他四人你來我去的拿了單子要結，他覺得滑稽而以前大夥餐聚時各付各的還顯的理性許多，大概是出了十幾年社會的改變而他也注意到阿輝臭屁仔並不是真想結帳，他少年時總認為搶付帳單根本是鬧劇但現在知道為了某些人情世故決不能讓京展付這一筆，而京展最後一笑也不再堅持。\n\n喝著臭屁仔帶來的另一瓶烈酒話題又重新回到當兵的時光，臭屁仔模仿新訓的天兵刺槍時該轉180度卻怎麼旋都只有90度，卓仔在旁當班長訓斥他幹什麼東西給我分解動作，智勇笑得連連拍桌彷彿餐館內只有他們懂得這笑話，談笑之間又把酒多喝了邊聊再乾杯敬得是重回往日時光。\n\n電話又響了智勇沒那條神經再去搭理，茫茫中再震響幾次索性把它給關了。大夥喝的聊了興致一來堅持要京展去唱歌說得讓他重溫故鄉的味道，就這樣勾肩搭背像好哥兒們ㄧ般吆喝著往店門口出去，櫃台小姐疲倦的笑說：「謝謝光臨。」\n\n＂我有一支槍，扛在肩膀上\n\n　子彈上了膛，刺刀閃寒光\n\n　我有一支槍，扛在肩膀上\n\n　國家把它交給我，重責大任不敢忘＂\n\n卓仔的手機響了，說不到幾句後就遞給智勇告訴他是大嫂打來的，他拿了接上。\n\n「唉，老婆，妳不用來接我了，我自己坐車回去，謝謝，謝謝，不用麻煩了，謝謝。」\n\n「我在公益華美街口等你，現在給我上車。」說完掛斷。\n\n智勇跟四人示意說要先去跟妻子知會ㄧ聲，並叫他們先請櫃檯叫車，隨後便朝街口走去。智勇東搖西擺的晃到街口河邊的停車敲了敲副駕駛座的玻璃，妻子搖下車窗沒句好話衝著他指責，他嘗試解釋那些朋友是如何患難之交和京展十年才回來這次並謝謝妻子的勞心勞力的來載他，但她靜靜聽過後好像還是不懂又在車裡叫囂要他給滾進車裡，他犯了怒氣悶著聲嘆息並說他不想跟她說了拍拍車頂叫她先回去逕自走開，妻子下車追上並雙手拉住他再勸回家罷，回家了爸爸。智勇被拖住映室走了幾步看到店門口的四人正在計程車旁等候，抽的菸正時而興旺的燃燒。他覺得有些羞恥，背後的妻子又漸利銳的喊叫，\n\n「回家了啦！」\n\n「妳聽不懂人話嘛。」\n\n智勇回過身開掌朝她出聲的那張嘴揮去，就摑在凍的冰涼的臉龐上，握住他的雙手鬆開了。他蹣跚的往轎車走去，只留下妻子在原地嚶嚶啜泣，重覆的說：\n\n「我嫁錯人了，我嫁錯人了。」\n\nDec 2013 台中\n",
+      "INFO": "# 退伍後\n\nCopyright © 2015 賴佳聖 All rights reserved.\n\nTitle: 堅強\n\nAuthor: Lai Chia-Sheng\n\nauthorChinese: 賴佳聖\n\nRelease Date: July, 2015\n\nEdition: 1\n\nLanguage: Chinese\n"
+    },
+    "在北京_HwB5cFIM5ZJX": {
+      "INFO": "# 在北京\n\nCopyright © 2015 賴佳聖 All rights reserved.\n\nTitle: 轉季\n\nAuthor: Lai Chia-Sheng\n\nAuthor Ch: 賴佳聖\n\nRelease Date: July, 2015\n\nEdition: 1\n\nLanguage: Chinese\n",
+      "0MjVXq8sh5h7D3zX": "# 在北京\n## 賴佳聖\n",
+      "1msOib6gcU2SBu6m": "## 在北京\n\n### （初版）\n\n從臺北啓程，五個小時就要上北京，購買的廉價機票得轉機，只好在赤鱲角機場周旋時間，環繞商店走的累了就坐又走，手上人民幣跟標價港幣總也對不着邊，就跟專櫃說用Debit Card吧，好像卡的低等間接導致她結帳的不俐落，算了，就是買瓶雪樹，剩下來的錢也只夠勉強維持到旅程結束，餘下的時間不過是跟着機場內來來去去的人瞎走、瞎忙，她大概看的人多了也清楚誰緩誰急也就慢，可不過是顧客卡的高低等她在意什麼，忍不住要想，不過是收銀員罷了，他就是要想，輕蔑的瞟了她優雅的慢動作包裝那瓶白透的雪樹，緩慢的壓植下放至紙盒，他專注的望著，彷彿知悉她的一切，眼神要看穿那小而愚笨的腦袋，臨走前還流利的拋下：”Have a nice day.“”Hava a nice day, too.“她也說，後邊的顧客隨即補上。\n\n東四北大街上兩三成夥的路客在人行道上瑟縮的窩窩走，幾個年青小夥聊到激動處開始手舞足蹈，冷風隨即颼颼的鑽上身，不一會兒就靜默下來；可風停了也就繼續蠢動，爲這城內大幅的冷冽中，微微幽幽的還帶點生氣。街邊乒乓滋哩的炒炸聲，白煙散漫在大街上四竄，曉群縮在青綠外套底下，緩走在寒夜中，搜尋可能的晚餐。C小店，裡邊叼菸的人呲牙咧嘴笑着，吞飲金黃後把玻璃酒杯按在桌上，這才叫作館子，可讓他感到飢餓，徹底的餓要把食物都望裡塞。說要了菜單服務員嘴上說好但拖了會兒才拿個本來，抓着筆與紙條在旁張望。\n\n「鍋邊肉、辣炒紫茄子，兩瓶燕京。」\n\n「好勒。」\n\n叼了菸點過，脫去Gortex青綠大衣，曉群才覺得自己不再是個觀光客，而後那些在店內的眼睛才重新聚焦在各自的桌上。油辣的香翻滾在嘴中打擂臺，吃得高興了又多卸層心房又多吆喝幾瓶燕京，前邊併桌的客人多叫了幾樣菜說是要慶祝又給多弄了幾瓶，嚇——嚇——嚇——的喝，至於慶祝什麼他聽得沒懂，但總不重要。吃個粗飽，並要喝得微醺且必須飯後甜點再要解放液體，稍早下機時那女海關，眼神帶鉤的瞟了他一眼，再看過護照後還貓眼的目光望著，最後重重的蓋下那章：『中國邊檢，北京』。\n\n今夜想要圓滿的結束，或許回去的路上找？還是青年旅店今晚守夜的那個小妞？買個宵夜給她？她說過想去臺灣看看的，可以開了今天的雪樹喝着聊臺灣他的故鄉，來到這可以撿些便宜，沒什麼不好也不容他人置喙。曉群隨即抓上外套出街，子夜過了北京異常的冷，空氣還帶點煤焦味，走着凍得不行，方才的溫暖像是場虛幻。\n\n「回來啦，咋沒帶我的宵夜？」她主動問了。\n\n我···我···\n\n「逗你呢，哈哈，晚安。」她又補道，曉群要了杯啤酒往上樓的木梯踏去，叩叩-咔滋——叩叩-咔滋···，叩叩咔滋他到了房前，試了幾次上了磁鎖的門，終於咔個聲開啓。上了床仰躺著，他看見她窩在狹小的櫃檯，望着他上樓，單眼皮下的素黑珠子悠悠地看啊看，他想她進他房間的樣子，而臺灣，她眼底下的臺灣倒底是什麼。啤酒喝過半杯，也就沉沉恍恍，冰涼的金黃液體正在暖氣的催促下在玻璃杯上出汗，再多喝些也就睡去。夢中她的樣子，任憑他腦液翻滾擠壓想象，灑向空間中的都是解放，噴得夢境都是，那隱藏的、生活的、不可告人的，也渾然不知的沉睡慾望，\n\n「妳喜歡臺灣人嗎？」\n\n她沉默，她說喜歡，她告訴自己好我要之後，沒有矜持只有一股狂熱只有他，沒有故鄉沒有北京沒有中國；什麼時候，她說要去臺灣，玩個幾天她就走，或許他也不肯讓她走了。\n\n好自在的群哥哥與櫃檯妹妹在夢中腦袋瓜裡的七乘以二十四的空間中或快或慢像布幔彼此纏繞，如打成泥的蔬菜堅果，液體承載着顆粒、顆粒黏答答的巴着液體，就感受那瞬間的存在。\n\n嗅到房內啤酒的酸臭，醒了，他迷濛間掇起手機，噢——00：30，one new message,\n\n\"Xiao qun, am boarding, about six hours flight, gonna arrive Beijing at 6am, will meet you at hostel! qq（群群）, xx（曉曉） gonna come and get u.\"\n\n美好的早晨，房間裏的腐朽味，老城與酸啤酒，三個月，這是他們的魔術數字，他去或楊曉來，通常是臺灣或新加坡見，這次在北京，之後回她的故鄉，不久前他在中國和臺灣這稱呼上吃了虧，可他堅決不改口，他想他說的是事實，也不怕大聲疾呼。至於跟楊曉的感情，又是另外一回事，感情上還可以和和稀泥，政治上兩邊該壁壘分明、曖昧不得了。冬季窗外的銀杏樹錯縱着石板瓦片，灰色的屋頂望出去盡是層層連綿的灰階，平躺着透過上眼角顛反仰望出去，目光濛濛，像是與早晨並肩甦醒，享受那光芒帶來的無限希望。\n\n楊曉呢，該到北京了吧，昨晚守夜的櫃臺妹還顧着，叩滋咔滋他走著那斜陡木梯，皮靴還得小心才能穩穩踏實在每一層上，她聽到他下樓的聲音望過來，看來她筋疲力竭，只無意識的與曉群道早，昨晚的媚眼已成了的疲憊黑眼。\n\n「早餐在交誼廳呢，自己用啊，等等會有熱牛奶，阿婆正弄着呢。」\n\n「好，謝謝。」\n\n交誼廳裡的舊布沙發一股坐定後整個人都陷在裡頭，她要來啦、要來了，xx xx xx，與她、在胡同裡、漫漫行走、就快意談天，累了就說她餓極了，隨意挑間館子筆畫個幾道菜就點上，都是好吃的，填飽了肚子兩人又笑鬧的往街上行去，在偌大街邊他爲她點菸自己也燒上火，享受這吸食的片刻安靜。\n\n辛寺胡同內的自行車急催着車鈴，噹噹咆哮着把原先窄的狹路塞得更擁擠，一輛福斯休旅汽車像是爬進摸乳巷烏龜，被胡同催促着走，副駕駛座走出個睡眼惺忪掛着粗黑大鏡框的青年，在福斯的W前若有其事的比手畫腳，車是胡同裡的大事，路過人還得左閃右躲，拖行一車白菜的騎者閃躲後還碎念幾聲，W前的少年領着大福斯總也停穩定置於巷弄間，佔去了半條街的景緻。\n\n楊曉蹬下車，身着粉紅軟質襯衫，胡同間的風魚貫川流吹得她飄逸，踏在地面以上的是流線運動鞋與窄的而顯得苗條的黑褲，輕盈的往旅店走去，您好，需要什麼？找個房客，叫鄭曉群————後邊跟進店內的是一位套着連身蘇聯式深色大衣，大衣立肩上純淨白粉的俊俏臉，但知識份子的雙眼讓他顯得有些份量，客氣的與櫃臺妹致意————房客，叫鄭曉群，查查阿，等等啊蛤。\n\n「臺灣人？」「是。」「他在交誼廳，吃早餐呢。妳是他的？」「朋友。」「好的請進吧。」\n\n出了旅店，楊燁爲倆口開了車門，剛指揮的少年在車內打盹，沉沉的引擎聲抽動幾下，終於發起來，少年又下車，振奮精神指揮，直到它停定在東四十二條街口，少年才進了車門。楊燁的學弟，燁拍了下少年的肩膀當作開場，介紹他給後座的楊曉和鄭曉群。\n\n「吶，北京菸。」燁從黑大衣中掏出包白盒。四人都給點上火，大衆奔馳在東北四大街上，往張自忠路去，一車的煙氣出了窗口即散逸風中，風不時掠進車內，伴着聊話有一搭沒一搭，沉默時可聽見它倏響着。\n\n「曉群啊，住臺灣哪？」楊燁熄菸，示意的頭向後座擺動，讓曉群看着他的側臉，車依然行駛在大街上。\n\n「臺中。臺灣的中部，所以叫臺中，挺直白的。」\n\n「哈哈，這我知道。楊曉，去過嗎？」\n\n「去過了。」\n\n「阿，曉群，這車在這叫大衆，臺灣怎麼說。」「福斯。」「還有種車咱這叫奔馳，臺灣叫賓士，是吧，啊哈哈。」「我倒覺得奔馳很好，有氣勢。」\n\n曉群把菸給拋出車外，燁瞄了眼照後鏡即把車窗緩緩提上，咿咿扭扭的機械電音挾着些許灌進車內的風，在嘎聲後全無聲息，窗外什剎海冷清靜謐，只剩兩岸的中國式酒吧靜靜坐落，外觀留著或歐或美的血液，昨夜的酒意都沒了。\n\n「這什剎海周邊酒吧可多着，離你們今住的地方挺近，可以過來走走。」楊燁說。\n\n這不是中國，在中國的血脈中注入阿里不達的低俗血液，花枝招展的只爲了吸引，換上洋血可是重現洋人的故鄉爲他們解鄉愁，還是讓中國人暫得忘卻腳下這遍土地，以洋之名，享受他們的快活。不管了，不管了，說怎樣想如何就這樣罷！\n\n「但基本上這帶酒吧我們也不來，貴！」楊燁說。\n\n車駛過什剎海後奔馳在地安門西大街上，xx與qq不時交換些耳語，時而無聲的竊笑，燁問倆口等去哪走，回說天安門故宮先逛着吧；燁得回家補眠，昨晚一夜沒睡就到機場載楊曉，等會兒不陪他們了，但晚上吃個飯，他做東。彎上新街口南大街後外邊回到平凡的北京樣，都是一磚一瓦的灰，今早的陽光特強，曬得石泥牆快成了金，整片金黃有個白熾的焦點，如眼，凝視着燒包子炊白煙的晨點店、打傘擋陽的行人、整街呼嘯的過車。\n\n「正覺胡同。」楊燁學弟指向路牌說道。\n\n「就停這，我跟他們去，你在這顧會兒。」\n\n「行。」\n\n三人成行往民宿走去，拖行的行李與石板路摩擦出低吟的底噪，楊氏倆人走着笑了在聊過往的回憶，窄巷內熙熙攘攘，時而得左右閃避，眼看就要撞上了還得岔開成兩路走，話得接續的說，就是笑開也得讓出個空給人過，與他分享這片刻的歡笑。兩只大紅燈籠吊掛在檐以下，門也紅的鮮，算是胡同內的地標，該是這裏。\n\n歡迎歡迎訂了房是吧請稍等身份證護照請謝謝。\n\n「我用護照，身份證放在新加坡但找不着。」楊曉邊拿證件邊說道。\n\n「再辦張吧。」燁提道。\n\n「對咯，先用護照。曉羣，你的護照給我，一起check。」\n\n「這是臺胞證。」qq說。\n\n櫃檯把兩人證件收了去。\n\n「對！用不着護照嘛。」楊燁說着臉扭捏成俏皮的滑稽樣，像是曉答錯題基本常識。\n\n櫃檯把身份證明都印上後，結了共六百元曉群遲疑一會兒決定要付，可楊曉擋住他要遞錢的手說：「我來吧。」你來也好，你來也好，他把鈔票折了個半放回錢包中，她在笨重的錢包中揀了揀張數，掏出六張似笑非笑的毛主席，那笑淹沒了三人，靜靜的看着那送出的紅的喜氣的毛。\n\n「走吧！」「走！」「走！」「走我帶您去房間。」\n\n大姨爽朗的帶笑迎他們到客房，吩咐幾聲暖氣如何使用後便走了。\n\n「我也先回去了，過會兒吃晚飯再好好聊。」楊燁說。\n\n好好好好不成問題喝上幾杯再聊，都是一家人後還得多瞭解，但不說政治不說臺灣大陸的曖昧，儘管哥是搞歷史的，未來也將聽候國家差遣，哪位置需要就去哪，但一家人後就沒有政治問題。\n\n那有什麼關係學歷史鑑往開來，未來還得靠這北大清大的菁英扛國家的大擔，胸襟寬點別說什麼國家不國家，還一邊一國，甚至明着來臺灣獨立！那有什麼意思，現在世界村誰不知道經濟是最要緊的。活下去吧！活着要緊。\n\n門被楊燁帶上，鄭曉群輕撫過楊曉的臉頰吻了她，他想繼續下去，她大力嘬吻後搭上他的肩說出去走走吧，好餓啊。她緊握他的手，說去故宮？他說再要去天安門，或長城也好，只要與xx一起，在北京，怎麼往哪走就是哪也不在意；她說是的沒錯，他是她的另一個家，如今站上故鄉，身邊多了個他，特別有感觸，因爲記憶中總隻身回來，再要孤零零望新加坡飛去。xx說一個人在異鄉沒那麼容易，哥說在中國雖不明確的哪裡好，但總歸生活自在，家總是好。但是什麼逼着她出走，說也不明白，可能xx想要的不僅止於在故鄉生活那份自在而已。\n\n曉群知道，也想跟xx一樣，她是他崇拜的偶像，至少某幾個面向，是讓他愛楊曉的，但他被鎖在孤島上，早已沒了知覺，偶然有機會與她出遊離開臺灣透氣，或許得以解放，才擠出一絲喘息的空間，去希望、去相信還有機會能像她一般逃離故鄉，在異地重新開始。\n\n冬季北京冷，風刮上像冰刃削過肌膚寒的讓打哆嗦，伴隨着黑，鋪天蓋地的黑，尤其在陰影處，尤其飢餓的晃着在大街上，只能由人潮感受一絲生機、熱鬧的市販求點慰藉，但總覺這飢渴會無從得到飽食，走着在寒夜大街禁不住冷，都往王府井大街邊的百貨商城躲，燦爛炫彩的裝飾構築不了對富裕的幻想，只剩自卑，飢餓的自卑，還想要更多的窮困。他們從王府井搭上地鐵一號要往天安門的尾端急駛去，方才漫步遊覽的天安門、故宮和那一大片開闊的廣場，都靜靜躺在地鐵線之上，而底下車內qq隨行進中的電車起伏而晃動，肚子蠕蠕着咕嚕，到了西單他們必須往四號線轉去。「再聊聊妳哥吧，」曉群說，「挺可愛的應該女朋友不少。」\n\n「他從不缺女友啊。」楊曉說。\n\n北京清華大學研究所，學得是歷史，嚮往政治方面的工作，有服務人民、追隨黨的堅定意志，身段如水、如羽般柔軟，但拿起主意又如鑄鐵般果決，堅信正確的道路不僅要走，還得快、還得穩，也得腳踏實地。\n\n「我想也是。」鄭曉群說。\n\n由西直門換上十三號線他們往三環的方向前去，qq暗算如果可能的話想要儘快結束等等的用餐，他飢餓，但最好是能和她兩人獨處吃下肚子的也較容易消化，總比起多人聚餐好。可楊燁是她同齡的至親，也是非常周到的地主，儘管一夜沒怎麼睡早上還駕車接送他們，眼神熠熠，絲毫無厭倦不耐煩，車停定後總是一個箭步就也替後座的他們拉好了門，確定好無來車，才率性的笑迎着給讓下車，qq也非刻意要麻煩別人，但楊燁總是快，神情也不矯情的自若。\n\n「到了，下車吧。」楊曉溫柔着聲音且拉了他下手腕說。\n\n站前道路雙向四條線躺在那，趕出站望了望四周，楊燁還沒到，他們點菸舒了幾口，五道口前方人行道站着的要不就等人，不就被人等，再就是販賣些零碎雜物的隱身在背景裡，外頭凍得人都往站口內躲去，只留下那些在背景裡的；喫了幾口菸後就拋下他們也匆匆的窩回五道口站，看會兒來去行人，有些面貌善良的經過掃描的機器嗶——嗶！作響，安檢翻了下瞄瞄也就讓行；在西長安街上天安門西側，曉群與楊曉輕快的拉手步行，前方人擁成一團，走近後勉強可見一列列的在排隊安檢，排他們前頭的黑臉被擋住問話，另個着深色制服的接過他鏽黃的包直往裡翻，黑臉雙手鬆弛的敞開像沒了威風的稻草人，任由機器什麼都好在他兩腋窩間划來比去，嗶——嗶！口袋有啥？就是個打火機嘛，這也不行？不行？不行！\n\n嘟嗶，嘟嗶～嘟嗶···嘟嗶！嘟。\n\n「喂，哥呀，在哪呢？」\n\n「你們B出口往左走吧，在十字路口這呢。」\n\n成府路上人行車流熱鬧的在寒夜中給了溫度，楊燁從東邊走來，還披着今早的蘇聯毛大衣，身軀全然遮蔽，只露出白的淨透的臉頰，很熟悉的，向朋友、更像家人的親膩呼喚。\n\n「走！咱們吃火鍋。」\n\n金哥留了個大落腮鬍鬚，癡癡在火鍋店的候位區守着，楊燁進館子嘿過一聲後便介紹起來，這位金哥，我剛進大學時的輔導員，而這位是x，那位是q。\n\n「老金常去臺灣，是臺灣通，今晚你倆好好聊聊。」楊燁說，指的是曉群。\n\n四人都點上火抽起菸，舒口氣煙騰在空氣中很快就逸散，說話的節奏也加快起來，都將彼此的學校生平兜上，好成個見面印象，再相互丟些識相的笑話把場子笑開————楊燁在碩班，金哥攻博，曉群退伍後還未找到工作，楊曉待了家大公司在做能源顧問。大夥又笑哄在候位區，說的是金哥很愛臺妹————城裏的想出去，城外的要攻陷進來，他就不是愛大陸女人的真實，她就不是愛臺灣男人的溫柔，金哥愛臺妹的嬌嗲，楊燁周旋在他祖國的女人群裏————候位區56號！\n\n「就咱們，走吧！」\n\n一圈的佐料醬料堆成小山丘，人圍着走東挑西揀，有時邊聊着就渾然不知自己加了什麼，或許也不怎麼重要，湊合着吃，不喜歡辣的就吃鴛鴦白，不吃肉的就捏住鼻子吃鍋邊素，那肉的腥也成了嘴裏的香。曉群與金問起他去過哪些地方在臺灣，聽來熟悉的地名從金口中不假思索的說出。\n\n「還去參加過核四的遊行，不，該說去觀察。」金。\n\n「覺得如何？很熱鬧吧！」群。\n\n「熱情是熱情，但我感受不到理性的追求，根據我去現場的體會，在那只有強烈意識形態的操作。」金。\n\n是···曉群唯諾後沉默，無意識的挾取青蔥、芥末還有那壺發紅的四川辣料。\n\n「這···遊行嘛···本來就是激情···當然沒有思考可言。」\n\n結結結結···巴；沒思考，群衆之一，盲目的激情，以後呢？毫無建樹；姓鄭；非一流大學畢業；大陸女友，可是楊燁他堂妹。\n\n「來！金，你坐這，曉群，你跟楊曉坐。」金與群拿了佐料回來，燁連忙起身指揮他們座位。\n\n菜鏗啷上桌，辣涼拌、捲成圈的牛肉盤、堆成丘的蔬果盤、動物的污穢臟器牛豬鴨肚腸滷味盤都躺在桌間推車及桌上，滾滾的燙，燒炙股辛辣味，酥麻在嘴邊神經間挑動，燕京來了三瓶玻璃，楊燁連忙倒酒邊笑着說等等就qq與金金喝罷，晚點還坐夜車去南京，四人都拿起杯相互輕碰乾杯，喝完就算是開飯。\n\n「楊曉，這次北京待機天？」「就兩天吧。」「這樣短，還想我從南京回來再帶你們繞繞呢，早知道你們來我也不去南京了。那你們之後回瀋陽？」「是的。」「那你可得好好教曉群幾句瀋陽話囉。」\n\n「金···金哥，那你怎麼看核四？」曉群向坐他正對面的金問。「我感覺遊行表達意見固然是好，但意識形態的操作就走偏了；而我看臺灣這些運動的共同特質，就是有表面、沒內涵，禁不起挑戰，一受到挑戰就回頭鼓動群衆。」\n\n那···遊行抗議的本質就像是流星撞入大氣那樣火熱，充滿能量但不知所以的燃燒。可如此自燃的行爲也不傷害他人，如此卑微的光火也得撲滅？\n\n「對，是···是這樣沒錯。但這也是抗議示威的本質：理性極小話，看到的只是跟大旗，人群就一湧而上。」\n\n「反過頭來看現實，臺灣能沒有核四嗎？你學得是工程你最清楚不過。」金哥和藹的看着曉群，把專業的頭銜讓給他。\n\n曉群不置可否，或說了可不清不楚，比不上一個異地人熟悉。他贊成遊行，自由與意識與相同理念的人可結夥上街頭在公有的土地上盡情吶喊，都是好的，可自由之後呢？他徑自幹了杯燕京，楊燁見他的酒杯空了馬上又把金醇的啤酒倒滿，金哥舉杯邀曉群，倆兒都吞了進去。\n\n「本想今天不談政治，你倆兒快吃吧，我和我妹都吃一輪了。」楊燁說，金與群的討論他只靜默聽着，時而忙加點酒倒酒，一雙圓眼就咕嚕的滾在兩人之間。\n\n「我這妹從小我倆就玩在一塊兒。」\n\n「是打架吧，而且都是我贏！」\n\n「是，呵呵，是。但在高中阿，她選了條跟我完全不同的路，往國外去，國內雖也很好生活自在些，不過說實在的，我這妹現在掙得錢，往後我不知多久才能掙到。」\n\n「咋這樣比較呢，國內物價便宜些。」楊曉反駁道。\n\n「是阿。不過話說回來，很高興看妳這次帶了曉群回來，大家往後都是一家人。」\n\n「乾杯，乾杯，乾杯！」曉群失神的將酒杯舉起與其他三人的輕碰算是乾杯，可雙眼呆滯在那騰騰翻涌的鴛鴦火鍋。\n\n「啞啊！」曉群放下酒杯，悶哼一聲，並隨即接道，「停不停建當然不是群衆說了算，那也不是政府悶着頭就可以做，遊行也好抗議也罷，都是種發聲，讓非掌權的聲音得以訴之於大衆，你也可以稱這叫言論自由。」\n\n「話說大陸也有言論自由，是吧，燁？」金看了眼身旁的他。「你若自個兒愛怎麼說就怎麼說，共產黨基本上也不管。但不能結黨，也就是吆喝着別人跟你一同說，在這原則底下還是可以的。」金。\n\n「我的意思是···是那些相對非主流的聲音，在臺灣，你可以透過各種方式···呃，集結力量；但若不能結黨，那就不會有力量，也就是沒能有機會翻身成爲主流。」群。\n\n「對咯。」楊曉說。\n\n「共產黨目前基本上抓大放小，芝麻事兒不管，但大方向、大原則還得給掌握起來；反觀臺灣，大小事兒都上街頭、鬧媒體，經濟上的前途都給賠下去了。」金。\n\n火鍋店內嘈雜，聊天說地喧鬧，空盤服務員收了空盤就匆匆離去，就高談闊論也沒人理會，再多喝幾杯像是什麼都可以談，什麼主張都能訴說。都不管了歷史早該被埋葬送入泥土之下，還能怎樣，大聲嚷嚷也讓嚎叫，苦痛的讓你發神經在人群中賣傻，管你賣不賣的出去總之不管抓大放小而小則任其獨白，你還說沒有自由？閉口你仰望巨大的紅旗飄揚，你要笑它陪你笑個沒完，飛舞的布幔上露出同等的雀躍；你哭泣，但它還是笑，問你吃飽了沒，說飽了但不開心，它回說會讓你吃得更飽，直到你不再哭泣。\n\n臺灣···我···臺灣···我···\n\n「你說的是個病徵，但不過是走向民主的陣痛期，臺灣民主還太年輕了。」曉群說。\n\n曉群避開了金哥專注聆聽的眼神，緩慢間續說完後又徑自吞了杯已經不涼快的啤酒，楊燁又伸長着瓶頸，將酒杯填滿。\n\n「就我觀察，臺灣不適合民主，你說說看臺灣經濟起飛是哪個人執政的時期。」金。\n\n「蔣經國。」曉群苦笑着說，嘴中咀嚼無味的牛肉。\n\n「就是。民主！要民主還得抓着、遛着，大方向錯了就必須導到正確的軌道上。」金。\n\n自由給了，而後呢？曉群呷了口燕京，楊燁邀過大夥再舉杯乾盡，並領頭了結只剩隻淨透的杯子，徐徐悠悠的說：「說今兒不談政治的，結果還是談了。」眼神中帶點同理的望向沉思不語的群，桌上陷入短暫的靜默，沒人說，或等人說，都在等曉群開口，等他意識到這異常的氛圍。終於他呼了口氣，「臺灣···臺灣就是不夠極端，要嘛獨立，要嘛統一，但臺灣人選擇曖昧，並麻痹的認爲兩者可以兼行。」群。\n\n燁開口，語氣明顯與接待他時不同了。\n\n「這樣說就簡單多了，對共產黨也就明白，統就統，若是獨也知道該怎麼做。」燁。\n\n----\n\n在車上，往北京北，楊燁楊曉比肩坐着，聊天，時而笑出聲像在自家客廳那般，或許這就是楊燁所說的在故鄉待着較自由些，qq靠坐在滑鼓鼓的椅背上，雖沒說話但也在他們的氛圍中。不久前的像是永遠無法飽食的宴會，如飽滿卻漏洞的米袋，說不出少了什麼，卻不斷的在眼不見處流失，他極想再跟金對話，或許因爲他拼命就算結巴也得出口的話，和奮力捍衛自己的立場，爲自己的故鄉，再跟他對話，再說一次，或許他能懂這信念，甚至追隨，而臺灣將會對於曉群而言自卑且自豪，那戳破洞的米袋也會停止流逝白芒芒的米粒子。\n\n可能嗎？是說，再一次，即使結巴也必須說完。\n\n北京北，到站前，來時車上的飢餓氣息早消融在人飽食的肚子中，可還存在着隱諱的躁動，溫飽後還渴望。話又轉回至鄭曉群與楊曉倆口隔天的行程，漫不經心的談。楊燁得下車，整晚的夜車下南京，再過一天楊曉曉群得北上回她的故鄉，出聲的還是楊燁，把截至最後的空白填滿，就告訴倆口明天怎麼交通去長城。楊燁下車前與楊曉道別，並沒說何時再見，說了也多餘，未來無從得知，只求對方都好。「都是一家人。」燁說，並與曉群握手後擁了一下，即快步走出車廂內，那黑色蘇聯式大衣在人群中隱沒。\n\n都是一家人，他還再說，擁抱過y的餘味也還停留，今晚不談政治，但還談了，但一家人後就沒有政治問題，而家裏人缺錢，理當奧援，這晚餐的帳哥給買下，用不着操心，曉群無業人員的身份，臺胞證都寫着，進入大陸地區，這都明白的很，用不着操心，一家人以後，都明白的很；而金哥是正真的愛臺灣，他研究的也都是臺灣，攻博靠她、也瞭解她，愛她所孕育出的她們：身子迴繞着無法散去的香，而在耳邊不斷柔音低吟的細語，細如絲，不斷鑽進腦袋的溫柔之音，臺灣之聲。盤旋在曉群腦中的鷹成羣結夥，不攫取也不啄食，就那樣轉呀旋呀叫呀嚎呀，就這樣到了新街口，楊曉拉了曉群出車離站。\n\n從鬧街轉進胡同，空氣中煨燙的油辣味消散，只剩清楚的石瓦片味，那些嘈雜逗留在巷口，小巷內零星的行人低頭大步的咚咚走，天冷，得走得趕。\n民宿大院廳堂 裡的大夥正喝着白皮，吉它刷刷刷的響，烈酒入喉都嚇嚇嚇的喊叫，撥弄吉它又喝了些酒都哈哈大笑起來。楊曉與曉群避開他們的視線，從邊側廂房進入，往房間走 去。進了房，將燈打着，曉群將門帶上，檔住外頭的鬧，但還有個聲，室內除了暖氣重啓在嗡鳴，還有個聲，軟綿綿的訴說，低吟的真情的送入耳中，「我才是真正 愛臺灣啊！」聲還掛着眼，看着，善良真實樸素的凝視，那因閱讀過度而疲倦的眼，看着，說：「我是真心愛臺灣啊。」\n\n而後，曉群頭痛欲裂。\n\n他不爲今晚說過的話感到後悔，也不想着對她哥楊燁多所奉承，可這反噬的力量作何而來？已全然沒了方向，並感到自卑。無知、粗魯、民粹的走卒、臺巴子，他們會怎麼看待他？\n\n他拉住她，以需要的眼神勾結住她分心的眼，可憐巴巴的想要，要什麼？就不要這痛苦，還希望她寬容的給予安慰。楊曉從平躺坐臥起來問怎麼？曉群不知所云的隻字片語，吐出的言語像紙漿胡般黏滯，將出口的句子，又哽咽，所有的希望都寄予在那雙不解而關愛眼神中。\n\n大廳的歡愉止息了，他們在噤聲中做愛，楊曉就任他擺弄，感受曉群那不爲快意只爲排解苦痛的，反覆又反覆，直到他疲乏癱軟的倒在她懷裏，溫熱間顫抖的像在啜 泣，只是沒有眼淚。有那一瞬間她總覺今晚就停滯在這，苦痛將被消化，夜沉得那麼靜謐，戶外的北京城聲響這樣清楚，任何風吹瓦片的音息都在胡同裡流竄；睏了 也就睡去，享受這室內的溫暖，黑暗中意識曉群大概睡去，可總有些蠢動。楊曉夢見曉群開了門出去，好一陣才回來，她夢見他滿是菸草味的嘴喃吶得嗯嗯呀呀，不是說話但像被掐住咽喉的掙扎噎聲，過會兒完全止息，砰然倒在床上，單手扣住她豐滿的胸部。睡了吧，明早還要去長城，她說。\n\n臺中-臺北，二零一四六月七。\n"
+    },
+    "轉季_W5jpiCDqDz2X": {
+      "0DFcM2xou65vQhiK": "# 轉季\n## 賴佳聖\n",
+      "INFO": "# 轉季\n\nCopyright © 2015 賴佳聖 All rights reserved.\n\nTitle: 轉季\n\nAuthor: Lai Chia-Sheng\n\nAuthor Ch: 賴佳聖\n\nRelease Date: July, 2015\n\nEdition: 1\n\nLanguage: Chinese\n",
+      "1K7zTl57xE6Uj66P": "## 轉季\n\n### (二稿)\n\n早上，但天沒亮，就完全黑着，從新加坡準備去挪威啓程前的冒險興奮，靠上網發泄，她查過的永夜永晝的資料，終於用上，可或許毫無意義，該遇到本該不請自來————要敞開雙手歡迎或手一翻阻擋它，它就是來到，有自身的步調。白已經堆滿路旁，雪還持續下着，總得有人每日把宿舍前的狹道清開，才能勉強走出個路來。但在雪季裡，像是向山的路道，路旁的雪道，還有一切供人經過的地方，早已白雪堆積，還是過路人車一再踩踏碾壓，留下融化的殘雪泥污，才得以辨識出人們可走的地方。她也曾這樣走出去，幻覺一般的黑狐疑自己在夢境但腳下的軟爛雪泥是對現實的一種確認，她隨移動人羣走，低頭拖動着身體，腦袋全然麻痹，麻痹中還望着前方的腳們在雪地上沙沙響動，看着總有些安慰，這想像浪漫的永夜但實是夢魘的黑早晨，連自己的影子都吞噬，可至少還有人同她這般走着。\n\n她想這樣的上午，已經很遙遠了啊，自從和他同住在一起後，倆人一張長桌兩本筆記電腦分別把錯開的課全部退掉，僅留下零星的時間修取那必要的學分。他們會在清早城市的悲慘時光，半夢醒間不論誰沖泡咖啡擺在小臥房長方桌上，溫暖的四方格子瀰漫着豆香，那氣味就勾進即將甦醒的夢中，昨晚youtube還迴路着，像是喝了一夜咖啡伴着電視節目無聊而樂此不疲放送，而她或他深夜碰了對方再是撫摸喚醒後迷濛中所做的，就是電視中的秀，再播放到時會記憶起裏邊內容，一種不那麼明白但心頭發熱的悸動。\n\n窗外的世界，或明或暗，天花板上燈管照了整夜，不論時間的維持昏黃，至少閉眼前是這樣，睜眼也如此，仰望它還帶着夢的影子，其中幾個角色的夢影還映在閃着在暈黃的天花板上；這就是房間，不只是房間還是可以隔絕的，不想全然隔絕還有他在裏頭，有Bob Dylan在吟唱，聽着B在讚許女人的浪漫，是求愛？他也是這般，總可以從他突然凝視的眼神中得到這種求愛示的讚美，等不到他說，就先感受到，再就賴床要不就窩在床上啃麪包吸咖啡，再把youtube的迴路換一換，待到出了宿舍，在外抽菸凍着零星聊話，天已經亮的透徹。\n\n他抽菸的樣子，她望得出神。吸入的煙從外頭的冰冷，至於肺的膨脹，而後放出溫暖的白煙花，她喜歡透過這煙霧看，模糊從嘴逸散至鼻、眼、耳朵，就快要遮住整張臉時又是一片清楚，愣會兒她出了神，直到他說話的聲音從空白的咿咿響中回朔出來，熠熠的看着她且真動了情感在講述那些她認爲風花雪月的文學真實，其實不如他們倆在雪地中漫步來的深刻；而她，多半聽着，在吸啜時半開着貓一樣的眼神，迷漾卻專注，對於周遭的寒氣散發出抵抗不畏的野性，「北方來的人，不怕冷。」她總是說。故鄉的思念，轉化成對於自身的驕傲，完美了它的形象，但選擇離開，抓取機會，中學時期，還在中國的現實以外，奔走新加坡，讓自己陷入異鄉的陌生與寂寞，生於北方，在挪威思念它的冷，對於成長環境的厭斥，驅逐自己逃離至南洋的熱。\n\n她離開的那天，拎着半個人高的行李，手中僅有打印出來的宿舍地址、入學的通知單和紅皮護照，帶着自己的必需所有將踏上未知的土地。媽哭了，擁着她入懷，機場大廳四周的景物已不太清楚，只記得飛機起飛時那還滾燙的心在翻騰着驛動不止；機體轟然而起，所有的人、事、感情竟像是被埋葬在漸行漸遠的地平線：整座城市，整個國家。待到往向南的航道上，平靜穩定的在高空飛行，餘下只是一遍漠然。\n\n臺灣，他來自那，他拿着威士忌迷你酒瓶，喝後問她要不要來一口，很暖，那是他們認識的第一天，她並不覺得冷但就接過來喝，入喉後抗拒那辛辣的刺激，可隨着辛辣下沉涌上來的像是他呼出的暖息微醺着酒騷味，但覺得香了接着就又跟他要了口，接着倆人就一同抽菸。那晚一羣人買了酒，同行的伴子尋喝掛，但醉的說沒事想去去廁所，不久就傳來嘔吐的聲音，「子尋，你沒事吧。」他，笵承頁，在喊着關心。「沒事兒，嘔，你們先喝吧，我等等再把剛欠的補完。」\n\n她喝了些，她不在意那個在廁所吐的就是全然的不在意，就跟着他走，說去外面透透氣吧，輕巧的跟在他背後數着前頭一擺一擺的腳步，深棕色的皮革靴上還有削下的殘雪，什麼也沒多想就空轉着腦袋，就等他開話題，再絞盡腦汁與他對談就好，小心翼翼等着。\n\n「有男朋友嗎？」承頁幫她點菸。\n\n「沒。」\n\n青年旅店外頭冷，他們躲在屋側邊的木亭子中，裏頭完全沒人，時而可以聽到遠處哐啷哐啷的過路火車，可除此之外幾乎是寂靜的，只有風在耳邊鼓動。她大概可以知道也想要今晚剩下的時間都是他們的，聊些什麼或被問了任何問題她都以最貼近真實回答，多少帶點北方的灑脫、不扭擰。\n\n「之前有過？」\n\n「分了，他很不在意我，所以是我主動提的，而且爸媽也不喜歡他。」\n\n「在中國呢？有沒有青梅竹馬？」戲虐的笵承問。\n\n「當時暗戀一個人五年。」\n\n都不知道？不是的她說不是，男的就佯裝不懂、以結交哥兒們的姿態，讓她的需求變成荒謬但又怎麼能停止與他來往，還沉溺一些時間在猜測哪天的他說了那句是藏了什麼？終於超越友誼了嗎？\n\n「就五年吧，什麼時候開始已經忘了，結束在大一暑假。」\n\n她說着，呼口煙氣結成水珠子噴了一團，想些剛說出去的話得不得宜但檢視自己的念頭隨即就拋出腦中，就怔怔的望向遠方，她沒有瞄他，但她想應該他也是靜靜的朝遠邊處望着，此刻空白像是迴響般任由她在陌生的朋友邊遊蕩自己，就不想要用寒暄客套來應對這社會的複雜，在新加坡、特別是中國，如今她來了在挪威，這冷的晚上就望向遠方任由心擺盪感覺與他越是接近，大衣裏裹着團溫熱的暖氣————或許是酒的關係，或許等等就這樣一句不說會回旅館內找子尋、或許會說很多，可能他會？\n\n「之後呢？還有其他男朋友嗎？」\n\n「在新加坡，剛跟你說過那個，大學同學咯，多長時間記不上，但其實也沒那麼重要，撐不了多久就分手。」話說的有些醉了，她跟他要了支濃菸。\n\n「哈。」「笑什麼？」「妳還真奇怪，遠在天邊的戀了五年，就活在身邊的反而撐不久。」「是吧。」\n\n印度的臉龐衝擊上來，急於脫離溺斃似的浮出水面，卻是個笑臉再又是個漫不在乎臉再又是他穿了褲子離去的側臉。厭惡所有印度食物、那些聽不懂的印地語、他們身上瀰暈躲不了的濃味，還有那暗棕膚色胸膛上的毛髮，捲曲的坦露在他鬆弛的胸口，她作嘔，像是熱融化的奶巧克，拆開後決定不吃還黏手，而沾上身的顏色卻怎麼都洗不掉。可這厭惡感大部分都指向自己，無法忍受這麼輕率的與他一起，與他親熱，那些情人相愛做的事，她毫無選擇性的都給了他，而之後什麼都沒有，餘下的只剩那新加坡城，如此繁華、卻這樣渺小，生活在國大的陰影中，怎樣也撕裂不了沾上厭惡的肌膚，無容身自處之可能。\n\n「今天不去Lab，我們上山吧！」抽完菸後，在飯桌上，笵漱了口麵說。\n\n上山路就展開眼前，他們會沿宿舍邊的山坡路而下之後穿過工程館，流轉學生的圓形旋門是館內入口，書本在廉價的輕後背包沉着、知識在每個後腦勺中打圈圈，進了門隨主人穿梭在學術的網中，是教授與學生還有網外的社會相互交織，各個佔據在課堂、公式、論文、工程計劃、產學互惠，還有大量金源流入撒在其中，可墊起了高堂，裏邊青年瞪起精神而純粹的雙眼，熱切的要從知識的金礦中萃取精華解決一切問題；但這對她來說毫無生機，可她是工科生，可她高中時期最有興趣的是語文，可有時她也享受這枯燥的習題計劃完成後的踏實，可有那麼個無聲的聲音在告訴她，讀工科將來好找工作，她感到安全。\n\n但今天她感到興奮，輕飄飄的，跟着他轉上了山路，路不是那麼清楚，隱約可見積雪較少的小徑，沿途的植披只剩樹幹清晰可見，其餘的都送進一層或是又一層的白色覆蓋，或拔地而起搭成素白的龐然大物，途中唯一的色彩就是鬆散在山坡路邊的住宅，但走着越望高處也全然不見蹤影。這不是與世外隔絕的野嶺，透過林隙還可瞟見城市就坐落在山丘旁，而市區並沒有高樓，因而成爲此域的置高，同樣有俯瞰大地渺小的優越感。慢慢的隨路爬上海拔，蝴蝶的雙翅被解凍可太過幽微無人發現，注意到時已翩翩飛舞在透出綠意、綻放出色彩的野草叢花間，採蜜蜂甦醒後急熱切獵採花核心的那團甜蜜，針葉林舒展開了，在略沾土色的殘雪上挺拔，綠葉在寒冬後新生，青澀裏頭還襯着遠方白冉冉雪山爲底，看着顯得虛幻。她越是輕快的走着，靴子本踏着厚重的覆蓋，發出嘭嘭的悶響，現在所及之處都是碎石子，顆粒跟着腳步前進而滾動嘎喳嘎喳叫喚噢噢被踩着了，登山的路途不甚遠，不久他們到了頂端的臺地，整座Trondheim城都在視野裏，城外是一片淺藍的內灣，海藍在水平面上垂直堆高，淺藍後又迴旋至深藍，暈成整面海牆爲城市舞臺做景，出藍以外是更爲巨大的調色盤：裏邊有天的顏色、斑斕的細點有鷗、船、塔燈、再是介於天海間那無法言說的調和色彩、最後是海，被她望着，笑容中俯視，笵承頁從後邊看着她的側臉，陽光照穿了的肌膚透出血色，鼓在脣紅的邊側。她笑着說這好美，揮動雙手示意他快過去，趁着不久天就要暗下來之前。\n\n在曾經不分日夜的沉浸，不分她他的在臥房單人牀鋪上翻來覆去，沒有明天的到來，只有偶然注意到的光影轉換，時間迷漾也未知甚至毫無意義，她總算可以不在意時光流逝加以她的壓迫，不爲青春流失而掙扎；這小房間，裝不下那些嘶嘶耳語說結婚前不能做的事情，不時還要裂腦般的嘶吼，都裝不下也記不得了，就算清醒後這些做過事情是要揪心的，她總也能說服自己就像當初要離開中國往新加坡離開新加坡往挪威一樣，可這事如同夢魘擺脫不了，若是他又離開她，那無聲的聲音又將浮上來抨擊要攪碎心頭那塊肉，可她是非這麼做不可，沒有理由爲縛腳的停滯不前。所以赤條條的應接着他，直到最後一條溫熱的包覆都卸了下來，她放聲喊叫。\n\n二十七度的房間，接近新加坡的溫度，季節已入深冬，想必透出去的窗外是另一個世界了，當推開宿舍門出外，風嘩聲隆隆直逼她再劃過發出咻咻響是在懊悔什麼也沒能攫取走，但肌膚很快的與那沁涼氣圍打成一片，終不帶敵意的伴着兩人散漫在雪地，意大利食物來了要進入胃中了聽着菜單和霸肚在相互叫囂，更是激烈的調情，直到服務員在便條紙草草揮動幾下後就靜靜等着。\n\n「我們出去走走吧，我想要往更北邊。」她吞嚥後說話，感受到意大利麪條的溫厚。\n\n「別鬧了妳，現在冬天耶，還往更北吹冷風？」\n\n她說這不是臨時起意，是在新加坡就預劃好來這要去的，要笵承頁陪着，就往更北、更深山的自然走。\n\n偌大的曠野雪地寂涼一遍，列車漸漸緩，車長敲門後提醒即將到站，長程的移動讓人不知身在何方，睜眼後外頭寒光耀眼的瞬間，沒來得及捕捉，無止境的荒蕪就爲透明窗上了白簾，枯死生物是警示的幻燈片告訴她這已經接近極北儘管車廂內還暖的很可知道車外早已片冰天雪地，可她不畏寒，北方的孩子，是追求記憶中那股冰冷的暖流的。氧氧氧氣！風帶着凍住的氧隨車門蹦開而踹進車內，而裏邊積滯的氣體窒息般的向外奔求解脫，她幾乎被拉離開車外只是她甘願如此，渴望被往北的、與南漸行漸遠的列車拋出在陌生的小鎮還能感受到故鄉，甚至更爲興奮，同車廂的背包客K桑在透明的阻隔下揮舞着手，是K桑正在道別並移動但或許移動的是她？因她覺得身子特別的活躍，而從日本來的他窩窩在狹小且悶鬱的車廂內捲曲在邋遢的被褥裏撥弄電子產品。\n\n甩開了軌道上的交通聲響，周圍分外寧靜，很快的透過接待員知道這是個小鎮接待的大多是滑雪遊客，當然爲數不少是像他們一樣來看極光，都來自新加坡、臺灣、大陸南邊、馬來西亞等偏離極北的區域，大概接待的人會覺訝異有這麼羣土包子遠赴至此只爲了看極光，對在地人來說出現的次數僅下於陽光與月光。一片平原但這裏有個置高丘陵，頂頭是觀光取向的氣象小棧，也應景解說北極光的形成原理，白天小棧中只留守個僱員，交通靠得是不停歇的纜車來接上接下，載得都是零星的滑雪客，到了晚上才會有成羣的賞光遊客進駐。\n\n用晚餐時雪勢驟強，孟頻跟笵承頁提到飛行十六小時機上的夢，從新加坡到挪威，笵很有興趣的聽着因想要知道認識他以前的她是怎麼樣子，她說那夢很長，長到醒來時忘記什麼時候入夢，睜眼已經要到阿姆斯特丹再濛濛的待了陣子等轉機到Trondheim，她聽歌，印象中有音樂響着，響遍整個夢境或快或慢跟她一同穿梭，穿過森鬱的樹叢羣據山澗但不盤根錯節只是孤零零的佇立，直立在新加坡墓園滿佈的石碑在豔陽下閃耀，閃過印度的臉龐和與他身世相關的國家中貧童永遠骯髒的厚繭腳掌和拿着書本當聖經苦讀低頭像是禱告在祈求，卑微的求愛直到他再也不裝弄出和藹的臉冷冷看、冷冷聽，出國留學前聽着班上同學說祝福那種即將啓程遠行被送別、被妒忌不用參加大考，從講臺上望下去他人桌上堆積沾滿涕、屎、血、淚的參考書籍而自己的已空無一物，擁抱閨密哥兒們道別後明早便不進教室，她看見她家那棟樓煨着圈微光，光源來自她成長的那片天空，不，在空中穿梭現在她不那光來自那即將前去但灰暗不明的，像森林。\n\nAnd when I awoke, I was alone, this bird had flown.\n\nSo I lit a fire, isn't it good, norwegian wood.\n\n醒了，音樂還放，關了，準備降落。\n\n一幢一幢接續不止，纜車成串吊掛將被送往頂峯，看不着終點處也沒有光可引導只牽條線上去，披着殘雪的纜車在黑夜中且走且慢，慢時風尤其明顯的吹頌呼呼在耳邊叫囂，整座城鎮只有彈指可滅的燈火零散分佈，大明明的皎月懸在倆山巒間成了唯一可靠的光源，圓滾滾的它在兩巨大間撒滿白淨的沉澱，雪徑自白但並不耀眼，他們陷入彼此的沉靜之中，纜車嗡嗡哄哄的滑行要將他們送上天際，那片低噪音層層疊堆迴響在山野間是山底山峯間的傳聲隧道。天空透徹，雪停，風越是強，滿天星斗底下有燈火通明的木屋隔絕室外呼嘯的風而能夠庇護之中的人們得以在溫暖下寒暄，她就窩在角落沙發，與他對坐，沒說什麼就等待北極光的出現。成行前困在新加坡的日子，她着迷般上網搜尋，視窗中開滿那鏡頭咬住極光乍現的瞬間像是自己也即將出現在那時空中而感到滿足，只是看着蜿蜒的極光河流就可以陷入美麗的冥想，想象中的流域還帶點冷和愛情的勾引，在浪漫的包覆下藏着渦流，不聽使喚的就陷入，握住她手心一起看河的將是全然未知的人，不屬於過去任何他他或他就是個溫暖的人能給她溫暖還帶點冷的質量，他可以深入她的所有領着她探索當擁緊她時就像快要窒息的勒住呼吸都不重要了張嘴就讓他親吻兩隻舌就這樣打圈最後再一起活過來。他就是這樣，與她共同擁有彼此，也無須再加多了。\n\n一張挪威峽灣在夜中，天頂散漫着極地綠光的照片放在手機桌面，十一點整方正的數位數字說着，過去的往事滾滾而來，抑制不住的情感，過去的無從解決而糜爛至今，或不想面對的自己醜陋至極。極光！他們人羣隨着聲音來處衝出木屋，光線一暗純黑的夜空透着靛綠色的微光、連綿不止、無法盡收眼底的是整片視線可及之處都綻放光芒，圍成一圈天空的微弱光環卻如此神奇讓人詫異；人羣與激情將他們擠散，而孟頻並未在混亂中搜尋笵承頁，只是凝視着似乎在夜空中蠢動的極光，明明暗暗，像在天際中蜿蜒的河流，而自己的回憶浸淫，一點一滴的洗滌，過去所有的期待、不想面對的罪惡思想、和擺脫不了的厭惡，都在流淌，任由光線擾攘，如游絲、如縷輕漫的漂流，而長久的積鬱在迷幻中消失，肉眼模糊心頭溫熱酥麻的她突然想拉住笵承頁，牽着他手回到了住房，親吻、已經分不清縱橫南北東西的、他壓着或她壓、或上或下，赤裸的就快意、就放縱。\n\n----\n\n在飛機上，才剛起飛，就離開新加坡的國界，過去所掙扎的城市，竟如此容易消失，也算是暫時得以從紛擾中解脫。唉，終於能在窒息的氛圍裡透出氣來，回想不久前的混亂，依舊茫然，不解其中的忙碌是爲何，是爲了現在這一刻嗎？\n\n機體偌大平穩的滑翔，安全的警示燈解除，確實已經飛得很遠，也還有好長一段要走，而迷惘中，還得往全然的未知前進。她回憶起這些年的自己，或返回中國過節、或去香港遊玩、或在高三那年離家的：而那返鄉過年的機上，那樣期待、那樣希望，爸爸會在接機大廳笑着迎接她上車後一有機會就從駕駛座彎向後邊與她寒暄，熟悉不過的鄉景一一劃眼閃過，踏進家門嚴寒瞬間止息的而後晚餐時間，像是慶祝收割一年的辛勞他們舉杯撞擊在熱騰騰的菜餚上；那下了飛機在香港，中學閨蜜他領着她吃飽喝足後在城市中還飢餓的需求，回到房間後止不住她勾着他，引他與她接吻，而後他抓捧着她的胸部，吸允着乳頭，但僅此爲止，他說不能繼續的感覺被遺棄又忍不住嚮往渴求那房間的溫暖。\n\n如今她同樣拎着半個人高的行李，悸動着要起飛的心情頭也不回的進入海關，也無人送別————那年同樣的她帶着些許憎意離開中國，爸媽的臉隱沒在人羣中，伴着些許不捨還執意向未知的土地前去————而今她也一般，更堅決、無情感、無愛甚至談不上恨，這不是她的故鄉她就是要逃離也牽掛不了任何情緒，只出於單純的厭惡。\n\n還要漫長的飛行，機艙內仍在引擎龐大轟響的籠罩下，機上的她依舊漠然，只覺在高空奔馳，被帶領着，人生不斷的持續前進。\n\n臺中，二零一三八月。\n"
+    },
+    "退伍後_PeaBMt5vDyS7": {
+      "INFO": "# 退伍後\n\nCopyright © 2015 賴佳聖 All rights reserved.\n\nTitle: 退伍後\n\nAuthor: Lai Chia-Sheng\n\nauthorChinese: 賴佳聖\n\nRelease Date: July, 2015\n\nEdition: 1\n\nLanguage: Chinese\n",
+      "07rIUW9AdeIs9oSo": "# 退伍後\n## 賴佳聖\n",
+      "18GctnidP0eU9tDZ": "## 退伍後\n\n### draft\n\n頭一直痛著，退伍之前告訴自己是待在軍中的關係，待到休假還在痛，ㄧ定是恐懼回營，一定是沒有酒精，沒有，平躺之後的深鎖眉心，不能，那床，不能入睡的，一切無法安息；退伍後，還持續痛著，自由還你了，你恨的國家你離開了，來到的地方你不甚喜歡，但也說不上厭惡，怎麼頭痛欲裂，沒酒了嗎？有啊，威士忌還在胃裡滾燙著，人呢？這裡空無一人，寂寞，討厭嗎？說不上任何情緒，那明天人山人海的社團活動喜歡吧，不想去，得去，原因要問也說不上，可不想再獨處什麼都寫不出來和不能跟著她一起行動。頭還在撕扯，小說的構想不都ㄧ遍死灰、成不了型，不知怎麼寫不會寫，入伍時我寫不出來，快退伍時寫出來了不夠滿足而ㄧ再告訴自己還要，還要更好，退伍之後將ㄧ遍明朗，但未來卻是虛無，頭仍不停抽蓄著，我可將一無所有，我可只能在吸吮她的乳頭時，望著忘我的她，也才能忘了自己，漸漸麻醉了，頭已經不痛，甚至感到愉悅，就沉浸於此，人生也較快意。\n\n不斷的吶喊，我要，我要！但最有可能的你什麼也都不會是，留下幾篇不成熟、未成器的短篇也不會有人在意，所以你想人生還不如快意，酒來了酒我喝，可以到外頭上過多少個女人啊，那青年時女性不可得的高尚純真，正含著你的屌ㄧ直吸一直吸，妳知道它可是排尿的地方吧，時常腥臭著，ㄧ直咬，還用晚餐時兩人對望的素眼看著你咬，妳知道野外下基地時它五天沒洗，臭得那般腥臊的氣味，它排泄，而後悶著，它排泄，而後悶著，而妳還是一直吸、一直吸。\n\n我也朝著妳那深邃的，不間斷的一次又一次，才感受到生命，或許生命也該是虛假，只是為了溫暖，為了那情慾，為了她在床上翻來覆去，不得自己。而後，我還是頭痛欲裂，空氣挑著我的腦筋，越緊繃越是我無法入眠，軍中裡的我如此，如今在外脫離軍旅，也只是輾轉翻覆，不得好眠。\n\n意識上認為，離開了台灣，離開了軍隊，一切都將好轉，在嶄新的土地，小說的創作將會有不可抑止的開始，而踏上了她，還是難受，不能停止底層的不滿足，依舊頭痛欲裂。晚上她回來了，還好；而白天那面對凌亂的書桌，雜雜沓沓的寫作筆記，海明威、喬伊斯的文字堆積在牆角那邊的巨大，而我依然渺小、依舊茫然，筆記本上的新頁ㄧ片空白，過去的都過去的文字仍被新頁壓著，六十分鐘的太空人3夢之武器專輯，往復循環，播放完畢後頭裡被安眠的蛀蟲又開始蠢動，腦裡嗡嗡的樂曲殘音已經壓制不住即將頭痛的預兆，而讓音樂再放送下去，好一些了，又是新的開始，六十分鐘的漂流，而後我又頭痛。\n\n酒來了，啤酒能解渴，威士忌解寂寞。\n\n我拿起戰地春夢閱讀，又填滿了一杯威士忌，這瓶還能斟幾杯呢？不管了。\n\n我一口飲盡。\n\n整天鎖在室內我完成了春夢，憂傷了十秒鐘，這翻譯書名不能說不好，但譯者又過於任性，A Farewell To Arms與戰地春夢間，確實有著不可聯結的差距，他/她大概很喜歡海明威罷，翻譯之餘還解讀了原著的意圖，又把自己解讀的原著的意圖凝煉成自身母語的藝術結晶。戰地春夢這書名與其後所帶來的銷魂意象，甚至在為閱讀前就能造成莫大的漣漪，是非常好的書名。譯者要真是戰地春夢的作者就好了；或許也因為標題的聳動散佈的力量太強大，之後的人也都不寫書了，盡寫標題。你自己下註解說道。\n\n闔上書本，像是從另一個世界回來，但不甚喜悅，有一個世界是虛幻的，而有一個是現實，現實，頭又隱隱的作痛。我換上一身勁裝出門跑步。\n\n場上的跑者有兩位，下午四點的時間，都著專業減低風阻的跑者勁裝，都是女性。聽著The Strokes我跑得很快，節奏活潑的關係，振奮神經，一會兒我來到A女的後頭，準備狠尻她一圈，我將耳機的音量轉小，聽著我的呼吸，將它調勻，而我已經與她齊身，在她側邊聽了幾次的吸吐，之後超了過去，她的身材真好，雖然長跑比我差，但若以魅力而言她實在太迷人了，當然我沒正臉看過她，始終從她的背後超過去；B女，味道很顯著，應該不是賀爾蒙體味，運動香水吧，但很清淡而雅致，就像她天然的散發出來，被我超過一圈後從側邊繞走了。事實上我不很在意她們的長相，所以也沒特別去查看，但她們在場上奔跑的形象，讓我跑得很舒暢，盡興得有些精疲力竭。\n\n順著預先規劃的路我往女朋友家的方向回去，還在喘著，但感覺人活了過來，大量的換氣讓我很清醒，與密室內飲酒、閱讀的自己相比，我開始討厭他，而頭痛竟然完全好了，這是一個嶄新的自己，回到家要沖個涼快，一掃而淨那過去的，頭痛欲裂的。\n\n感覺好極了，在外面晃了一大圈後回家沖個涼快而後吃飯，她還沒回來，得自己吃，說會回來的挺晚，估計宵夜也得自己吃，索性不吃宵夜了，先吃晚餐再說。換上一身輕便，又出門。\n\n晚餐時間，回想今天的自己，埋在房間整天，只閱讀別人的小說，當初不是這樣預劃的。應該我來到這，一切歸零，但還擁有她，和小說，我會在她離開的時間全力書寫，而有她的房間，我只躺在床上，和她盡情的玩，一天的結束。\n\n可她回來後，一臉倦容，十一點了，明天必須早起，窩著在床上她仍與我親熱，但只是溫馨的，感受不到那股熱情，我知道不行，也沒讓自己太激情，但它就持續的繃緊在褲襠，不知道多久，晚上睡去前如此，早上醒仍在下半身股動，半夢半醒間我知道自己還持續吶喊著我要、我要，凝視著她，不久我即睡去。有她在的床上我不得安息，那底層的想要，而想要之後的頓悟，周而復始，我學不到教訓。\n\n她上班了，頭開始痛。\n\n筆記本擺好，筆擱上，卻遲遲不下筆，害怕下筆。\n\n----\n\n### 退伍後末段\n\n你隨口回答了幾個可能的答案，都依附在她的計劃之下，像是其中的子計劃。你也不知道說的幾為真、幾為假，無從得知，都是虛幻，但充滿希望。不一會兒她已經沉沉的睡去，臉上安謐，是因為深聊之後感到踏實？或是一天的疲累下班之後還不停歇的組織她的志工活動，而充實？再者可能終於如願以償，退伍后你能到這陪她過上一段時間。看著這樣的臉龐你不由得回想這一年多少個夜裡就寢時，還繼續在包覆的棉被中ㄣㄣㄚㄚ的敲擊注音，爭論著一些只因思念而起的苦痛，那揪心的事你全然忘了，或許也不重要。\n\n雨下著聲音清晰了起來，滴──答──滴──答──的灑在窗沿上。離開了軍隊以後，你想跟他說他是錯的，你走到了山的頂峰；但你也想說你是對的，這裡一無所有。\n"
     }
   }
 }

@@ -23,7 +23,7 @@ class BlockList extends Component {
             index={index}
             key={index}
             block={block}
-            isSelected={block.name === selectedBlockTitle}
+            isSelected={block.id === selectedBlockTitle}
             onClick={this._onThreadClick}
           />
         ))}

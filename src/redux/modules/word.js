@@ -116,10 +116,10 @@ export function loadGroup() {
 //   };
 // }
 
-export function loadThread(groupName) {
+export function loadThread(groupID) {
   return {
     types: [LOAD_THREAD, LOAD_THREAD_SUCCESS, LOAD_THREAD_FAIL],
-    promise: (client) => client.firebaseApi.get('threads/' + groupName + '/threadList'),
+    promise: (client) => client.firebaseApi.get('threads/' + groupID + '/threadList'),
   };
 }
 
