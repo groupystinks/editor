@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import CommonMark from 'commonmark';
+import CommonMark from 'helpers/commonmark.js';
 import ReactRenderer from '../commonmarkReactRenderer';
 
 describe('commonmarkReactRenderer', () => {

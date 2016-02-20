@@ -1,3 +1,5 @@
+import CommonMark from 'helpers/commonmark.js/lib/';
+
 const LOAD_GROUP = 'word/LOAD_GROUP';
 const LOAD_GROUP_SUCCESS = 'word/LOAD_GROUP_SUCCESS';
 const LOAD_GROUP_FAIL = 'word/LOAD_GROUP_FAIL';
@@ -65,12 +67,14 @@ export default function word(state = initalState, action = {}) {
         passageLoading: true
       };
     case LOAD_PASSAGE_SUCCESS:
+      const parser = new CommonMark.Parser();
+      const markedAst = parser.parse(action.result);
       return {
         ...state,
         passageLoading: false,
         passageLoaded: true,
         passages: {
-          content: action.result
+          content: markedAst
         }
       };
     case LOAD_PASSAGE_FAIL:
@@ -123,27 +127,43 @@ export function loadThread(groupID) {
   };
 }
 
-export function loadPassage(completeURL) {
+/* githubapi deprecated, now use firebaseApi*/
+// export function loadPassage(completeURL) {
+//   return {
+//     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
+//     promise: (client) => client.firebaseApi.get(completeURL, {
+//       options: {
+//         isCompleteURL: true
+//       }
+//     }),
+//   };
+// }
+
+export function loadPassage(ids) {
   return {
     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
-    promise: (client) => client.githubApi.get(completeURL, {
-      options: {
-        isCompleteURL: true
-      }
-    }),
+    promise: (client) => client.firebaseApi.get(`passages/${ids.groupID}/${ids.threadID}`),
   };
 }
 
+/* githubapi deprecated, now use firebaseApi*/
+// export function initPassage(ids) {
+//   // for github
+//   const completeURL = 'https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/'
+//     + ids.groupID + '/' + ids.threadID;
+//   return {
+//     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
+//     promise: (client) => client.githubApi.get(completeURL, {
+//       options: {
+//         isCompleteURL: true
+//       }
+//     }),
+//   };
+// }
+
 export function initPassage(ids) {
-  // for github
-  const completeURL = 'https://raw.githubusercontent.com/groupystinks/skrik-view/master/data/'
-    + ids.groupID + '/' + ids.threadID;
   return {
     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
-    promise: (client) => client.githubApi.get(completeURL, {
-      options: {
-        isCompleteURL: true
-      }
-    }),
+    promise: (client) => client.firebaseApi.get(`passages/${ids.groupID}/${ids.threadID}`),
   };
 }

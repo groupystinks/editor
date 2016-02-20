@@ -51,9 +51,11 @@ export default class ThreadView extends Component {
 
   _onThreadSelect = (thread) => {
     const {loadPassage, pushState, selectedGroup} = this.props; //eslint-disable-line
-    const passageDownloadURL = thread.download_url;
     pushState(null, `/group/${selectedGroup}/thread/${thread.name}`);
-    loadPassage(passageDownloadURL);
+    loadPassage({
+      groupID: selectedGroup,
+      threadID: thread.id
+    });
   };
 
   render() {
