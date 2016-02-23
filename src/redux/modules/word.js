@@ -67,8 +67,9 @@ export default function word(state = initalState, action = {}) {
         passageLoading: true
       };
     case LOAD_PASSAGE_SUCCESS:
-      const parser = new CommonMark.Parser();
+      const parser = new CommonMark.Parser({preserveRaw: true});
       const markedAst = parser.parse(action.result);
+
       return {
         ...state,
         passageLoading: false,

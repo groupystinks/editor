@@ -83,53 +83,53 @@ function renderNodes(block) {
 
     // entering new node
     switch (node.type) {
-      case 'Html':
-      case 'HtmlBlock':
+      case 'html':
+      case 'htmlBlock':
           // ignore html block
         break;
-      case 'Text':
+      case 'text':
         addAsChild(node, node.literal);
         break;
-      case 'Paragraph':
+      case 'paragraph':
         tag(node, 'p', attrs);
         break;
-      case 'Heading':
+      case 'heading':
         tag(node, 'h' + node.level, attrs);
         break;
-      case 'Softbreak':
+      case 'softbreak':
         addAsChild(node, softBreak);
         break;
-      case 'Hardbreak':
+      case 'hardbreak':
         addAsChild(node, softBreak);
         break;
-      case 'Strong':
+      case 'strong':
         tag(node, 'strong', attrs);
         break;
-      case 'Link':
+      case 'link':
         attrs.href = node.destination;
         if (node.title) {
           attrs.title = node.title;
         }
         tag(node, 'a', attrs);
         break;
-      case 'Image':
+      case 'image':
         attrs.src = node.destination;
         if (node.title) {
           attrs.title = node.title;
         }
         tag(node, 'img', attrs);
         break;
-      case 'Emph':
+      case 'emph':
         tag(node, 'em', attrs);
         break;
-      case 'Code':
+      case 'code':
         addAsChild(node, createReactElement(
           'code',
           attrs,
           [node.literal]
         ));
         break;
-      case 'CodeBlock':
+      case 'codeBlock':
         infoWords = node.info ? node.info.split(/ +/) : [];
         if (infoWords.length > 0 && infoWords[0].length > 0) {
           attrs.className = 'language-' + infoWords[0];
@@ -138,23 +138,26 @@ function renderNodes(block) {
         const code = createReactElement('code', attrs, [node.literal]);
         addAsChild(node, createReactElement('pre', {}, [code]));
         break;
-      case 'BlockQuote':
+      case 'blockQuote':
         tag(node, 'blockquote', attrs);
         break;
-      case 'List':
+      case 'list':
         const start = node.listStart;
         if (start !== null && start !== 1) {
           attrs.start = start.toString();
         }
         tag(node, node.listType === 'Bullet' ? 'ul' : 'ol', attrs);
         break;
-      case 'Item':
+      case 'item':
         tag(node, 'li', attrs);
         break;
-      case 'HorizontalRule':
+      case 'horizontalRule':
         addAsChild(node, createReactElement('hr', attrs));
         break;
-      case 'Document':
+      case 'thematic_break':
+        addAsChild(node, createReactElement('hr', attrs));
+        break;
+      case 'document':
         break;
       default:
         throw new Error('Unknown node type "' + node.type + '"');

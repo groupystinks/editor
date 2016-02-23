@@ -75,7 +75,6 @@
     "babel-plugin-typecheck": "2.0.0",
     "body-parser": "1.14.1",
     "classnames": "2.2.1",
-    "commonmark-react-renderer": "2.2.2",
     "compression": "1.6.0",
     "express": "4.13.3",
     "express-session": "1.12.1",

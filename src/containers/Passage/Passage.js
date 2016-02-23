@@ -1,7 +1,8 @@
 import React, { Component, PropTypes } from 'react';
-import {ContentEditable} from 'components';
+// import {ContentEditable} from 'components';
 import {connect} from 'react-redux';
 import {passageContentSelector} from 'utils/Selectors';
+import {ReactMarkdown} from 'components';
 
 const styles = require('./Passage.scss');
 
@@ -12,7 +13,7 @@ const styles = require('./Passage.scss');
 )
 export default class Passage extends Component {
   static propTypes = {
-    passage: PropTypes.string,
+    passage: PropTypes.object,
   }
   onChangeHandler = () => {
     // this.setState({passage})
@@ -24,10 +25,13 @@ export default class Passage extends Component {
         {passage ?
         <div className={styles.contentContainer}>
           <div className={styles.contentMarked}>
-            <ContentEditable
+            {/* <ContentEditable
               content={passage}
               changeHandler={this.onChangeHandler}
-              isEditable={true}/>
+              isEditable={true}/> */}
+            <ReactMarkdown
+              ast={passage}
+              />
           </div>
         </div>
         : null}
