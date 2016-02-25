@@ -7,29 +7,28 @@ import React, {Component, PropTypes} from 'react';
 
 export default class ContentEditable extends Component {
   static propTypes = {
-    content: PropTypes.string,
+    containerProps: PropTypes.object,
     changeHandler: PropTypes.func,
-    isEditable: PropTypes.bool,
     children: PropTypes.object,
+    listOfBlocks: PropTypes.array,
   }
   constructor() {
     super();
-    this._contentNode = null;
-    this._lastContentNode = null;
+    this._contentNode = {};
+    this._lastContentNode = {};
   }
-  shouldComponentUpdate(nextProps) {
-    return (
-      !this._contentNode ||
-      nextProps.content !== this._contentNode.innerHTML ||
-      this.props.isEditable !== nextProps.isEditable
-    );
-  }
-  componentDidUpdate() {
-    const {content} = this.props;
-    if (this._contentNode && content !== this._contentNode.innerHTML) {
-      this._contentNode.innerHTML = content;
-    }
-  }
+  // shouldComponentUpdate(nextProps) {
+  //   return (
+  //     !this._contentNode ||
+  //     nextProps.content !== this._contentNode.innerHTML
+  //   );
+  // }
+  // componentDidUpdate() {
+  //   const {content} = this.props;
+  //   if (this._contentNode && content !== this._contentNode.innerHTML) {
+  //     this._contentNode.innerHTML = content;
+  //   }
+  // }
   _emitChangeEvent = (event) => {
     if (!this._contentNode) return;
     const {changeHandler} = this.props;
@@ -41,16 +40,15 @@ export default class ContentEditable extends Component {
     this._lastContentNode = content;
   }
   render() {
-    const {children, content, isEditable} = this.props;
-    return (
-      <div
-        contentEditable={isEditable}
-        dangerouslySetInnerHTML={{__html: content}}
-        onInput={this._emitChangeEvent}
-        onBlur={this._emitChangeEvent}
-        ref={(node) => this._contentNode = node}>
-        {children}
-      </div>
+    const {containerProps, containerTagName, listOfBlocks} = this.props;
+    containerProps.onInput = this._emitChangeEvent;
+    containerProps.onBlur = this._emitChangeEvent;
+    containerProps.ref = (node) => this._contentNode = node;
+    containerProps.contentEditable = true;
+
+    return (React.createElement.apply(React,
+      [containerTagName, containerProps]
+      .concat(listOfBlocks))
     );
   }
 }

@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import {ContentEditable} from 'components';
 import ReactRenderer from 'helpers/commonmarkReactRenderer';
 
 export default class ReactMarkdown extends Component {
@@ -7,24 +8,32 @@ export default class ReactMarkdown extends Component {
   static propTypes = {
     ast: PropTypes.object.isRequired,
     className: PropTypes.string,
+    isEditable: PropTypes.bool,
     containerTagName: PropTypes.string,
   }
 
   static defaultProps = {
-    containerTagName: 'div'
+    containerTagName: 'div',
+    isEditable: false,
   }
 
   render() {
     const containerProps = {};
+    const {changeHandler, className, containerTagName, isEditable} = this.props;
     const renderer = new ReactRenderer();
+    const listOfBlocks = renderer.render(this.props.ast);
 
-    if (this.props.className) {
-      containerProps.className = this.props.className;
-    }
+    containerProps.className = className;
 
-    return React.createElement.apply(React,
-        [this.props.containerTagName, containerProps]
-            .concat(renderer.render(this.props.ast))
+    return (isEditable ?
+      <ContentEditable
+        changeHandler={changeHandler}
+        containerProps={containerProps}
+        containerTagName={containerTagName}
+        listOfBlocks={listOfBlocks}/> :
+      React.createElement.apply(React,
+        [containerTagName, containerProps]
+            .concat(listOfBlocks))
     );
   }
 }
