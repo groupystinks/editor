@@ -129,7 +129,7 @@ function renderNodes(block) {
           [node.literal]
         ));
         break;
-      case 'codeBlock':
+      case 'code_block':
         infoWords = node.info ? node.info.split(/ +/) : [];
         if (infoWords.length > 0 && infoWords[0].length > 0) {
           attrs.className = 'language-' + infoWords[0];
@@ -138,7 +138,7 @@ function renderNodes(block) {
         const code = createReactElement('code', attrs, [node.literal]);
         addAsChild(node, createReactElement('pre', {}, [code]));
         break;
-      case 'blockQuote':
+      case 'block_quote':
         tag(node, 'blockquote', attrs);
         break;
       case 'list':
@@ -151,7 +151,7 @@ function renderNodes(block) {
       case 'item':
         tag(node, 'li', attrs);
         break;
-      case 'horizontalRule':
+      case 'horizontal_rule':
         addAsChild(node, createReactElement('hr', attrs));
         break;
       case 'thematic_break':
