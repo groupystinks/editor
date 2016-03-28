@@ -1,46 +1,29 @@
-/*
- * copyright 2014-2016 Ophir LOJKINE
- * https://github.com/lovasoa/react-contenteditable
-*/
-
 import React, {Component, PropTypes} from 'react';
+import findAncestorSourcepos from '../Selection/findAncestorSourcepos';
+import findDOMSelectionTextByTag from '../Selection/findDOMSelectionTextByTag';
+import nullthrows from 'utils/nullthrows';
 
 export default class ContentEditable extends Component {
   static propTypes = {
     containerProps: PropTypes.object,
     changeHandler: PropTypes.func,
     children: PropTypes.object,
-    listOfBlocks: PropTypes.array,
+    reactBlocksArr: PropTypes.array,
   }
-  constructor() {
-    super();
-    this._contentNode = {};
-    this._lastContentNode = {};
-  }
-  // shouldComponentUpdate(nextProps) {
-  //   return (
-  //     !this._contentNode ||
-  //     nextProps.content !== this._contentNode.innerHTML
-  //   );
-  // }
-  // componentDidUpdate() {
-  //   const {content} = this.props;
-  //   if (this._contentNode && content !== this._contentNode.innerHTML) {
-  //     this._contentNode.innerHTML = content;
-  //   }
-  // }
   _emitChangeEvent = (event) => {
-    if (!this._contentNode) return;
+    event.preventDefault();
+    const domSelection = document.getSelection();
+    if (!domSelection) return;
+    const domText = findDOMSelectionTextByTag(domSelection, 'div');
+    // isCollapsed: whether or not there is currently any text selected
+    const {anchorNode, isCollapsed} = domSelection;
+    const sourcepos = nullthrows(findAncestorSourcepos(anchorNode));
     const {changeHandler} = this.props;
-    const content = this._contentNode.innerHTML;
-    if (changeHandler && content !== this._lastContentNode) {
-      event.target = {value: content};
-      changeHandler(event);
-    }
-    this._lastContentNode = content;
+
+    changeHandler(sourcepos, domText);
   }
   render() {
-    const {containerProps, containerTagName, listOfBlocks} = this.props;
+    const {containerProps, containerTagName, reactBlocksArr} = this.props;
     containerProps.onInput = this._emitChangeEvent;
     containerProps.onBlur = this._emitChangeEvent;
     containerProps.ref = (node) => this._contentNode = node;
@@ -48,7 +31,7 @@ export default class ContentEditable extends Component {
 
     return (React.createElement.apply(React,
       [containerTagName, containerProps]
-      .concat(listOfBlocks))
+      .concat(reactBlocksArr))
     );
   }
 }

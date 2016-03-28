@@ -1,4 +1,6 @@
+import React from 'react';
 import CommonMark from 'helpers/commonmark.js/lib/';
+import parseAndRender from 'helpers/parseAndRender';
 
 const LOAD_GROUP = 'word/LOAD_GROUP';
 const LOAD_GROUP_SUCCESS = 'word/LOAD_GROUP_SUCCESS';
@@ -11,6 +13,10 @@ const LOAD_THREAD_FAIL = 'word/LOAD_THREAD_FAIL';
 const LOAD_PASSAGE = 'word/LOAD_PASSAGE';
 const LOAD_PASSAGE_SUCCESS = 'word/LOAD_PASSAGE_SUCCESS';
 const LOAD_PASSAGE_FAIL = 'word/LOAD_PASSAGE_FAIL';
+
+const ON_EDIT_PASSAGE = 'word/ON_EDIT_PASSAGE';
+// const ON_EDIT_PASSAGE_SUCCESS = 'word/ON_EDIT_PASSAGE_SUCCESS';
+// const ON_EDIT_PASSAGE_FAIL = 'word/ON_EDIT_PASSAGE_FAIL';
 
 const initalState = {
   groupLoaded: false,
@@ -67,16 +73,24 @@ export default function word(state = initalState, action = {}) {
         passageLoading: true
       };
     case LOAD_PASSAGE_SUCCESS:
-      const parser = new CommonMark.Parser({preserveRaw: true});
-      const markedAst = parser.parse(action.result);
+      // const parser = new CommonMark.Parser({preserveRaw: true});
+      // const markedAst = parser.parse(action.result);
+      // const renderer = new ReactRenderer();
+      const reactBlocksArr = parseAndRender(action.result);
+      const reactBlockObj = reactBlocksArr.reduce((acc, prev) => {
+        if (prev && prev.props) {
+          const sourcepos = prev.props['data-sourcepos'];
+          acc[sourcepos] = prev;
+          return acc;
+        }
+        return acc;
+      }, {});
 
       return {
         ...state,
         passageLoading: false,
         passageLoaded: true,
-        passages: {
-          content: markedAst
-        }
+        passages: reactBlockObj
       };
     case LOAD_PASSAGE_FAIL:
       return {
@@ -84,6 +98,17 @@ export default function word(state = initalState, action = {}) {
         passageLoading: false,
         passageLoaded: false,
         error: action.error
+      };
+    case ON_EDIT_PASSAGE:
+      const {sourcepos, domText} = action.payload;
+      const reactBlockArr = parseAndRender(domText);
+      const passages = {
+        ...state.passages,
+        [sourcepos]: reactBlockArr
+      };
+      return {
+        ...state,
+        passages
       };
     default:
       return state;
@@ -96,6 +121,10 @@ export function isGroupLoaded(globalState) {
 
 export function isThreadLoaded(globalState) {
   return globalState.word && globalState.word.threadLoaded;
+}
+
+export function isPassageLoaded(globalState) {
+  return globalState.word && globalState.word.passageLoaded;
 }
 
 /* githubapi deprecated, now use firebaseApi*/
@@ -166,5 +195,15 @@ export function initPassage(ids) {
   return {
     types: [LOAD_PASSAGE, LOAD_PASSAGE_SUCCESS, LOAD_PASSAGE_FAIL],
     promise: (client) => client.firebaseApi.get(`passages/${ids.groupID}/${ids.threadID}`),
+  };
+}
+
+export function onEditPassage(sourcepos, domText) {
+  return {
+    type: ON_EDIT_PASSAGE,
+    payload: {
+      sourcepos,
+      domText
+    }
   };
 }

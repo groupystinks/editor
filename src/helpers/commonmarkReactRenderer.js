@@ -85,7 +85,7 @@ function renderNodes(block) {
     switch (node.type) {
       case 'html':
       case 'htmlBlock':
-          // ignore html block
+        // ignore html block
         break;
       case 'text':
         addAsChild(node, node.literal);
